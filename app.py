@@ -2,7 +2,7 @@ import SimpleHTTPServer
 import SocketServer
 import os
 
-os.chdir(os.environ['$OPENSHIFT_REPO_DIR'])
+os.chdir(os.environ['OPENSHIFT_REPO_DIR'])
 
 PORT = 8080
 
