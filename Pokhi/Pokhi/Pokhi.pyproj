@@ -32,41 +32,49 @@
     <InterpreterReference Include="{3319d6e9-7cb7-4163-83ad-12ab55317195}\2.7" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Js\" />
-    <Folder Include="Js\Controllers\" />
-    <Folder Include="Js\vendor\" />
-    <Folder Include="Views\" />
+    <Folder Include="static\Js\" />
+    <Folder Include="static\Js\Controllers\" />
+    <Folder Include="static\Js\vendor\" />
+    <Folder Include="templates\" />
+    <Folder Include="static\" />
+    <Folder Include="templates\Views\" />
     <Folder Include="Rest\" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Rest\api.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="Rest\eveServer.py">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="Rest\settings.py">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="__init__.py">
+      <SubType>Code</SubType>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Js\app.js" />
-    <Content Include="Js\Controllers\HomeController.js" />
-    <Content Include="Js\Controllers\LandingController.js" />
-    <Content Include="Js\vendor\angular-route.js" />
-    <Content Include="Js\vendor\angular.min.js" />
-    <Content Include="Js\vendor\angularjs-ui-router.js" />
-    <Content Include="Js\vendor\bootstrap.js" />
-    <Content Include="Js\vendor\bootstrap.min.js" />
-    <Content Include="Js\vendor\d3.js" />
-    <Content Include="Js\vendor\d3.min.js" />
-    <Content Include="Js\vendor\handlebars-v4.0.5.js" />
-    <Content Include="Js\vendor\jquery-2.2.0.min.js" />
-    <Content Include="Js\vendor\LAB-debug.min.js" />
-    <Content Include="Js\vendor\LAB.js" />
-    <Content Include="Js\vendor\LAB.min.js" />
-    <Content Include="Js\vendor\LAB.src.js" />
-    <Content Include="Js\vendor\npm.js" />
-    <Content Include="Js\vendor\parse-1.6.14.min.js" />
-    <Content Include="Views\Home.html" />
-    <Content Include="Views\Index.html" />
+    <Content Include="static\Js\app.js" />
+    <Content Include="static\Js\Controllers\HomeController.js" />
+    <Content Include="static\Js\Controllers\LandingController.js" />
+    <Content Include="static\Js\vendor\angular-route.js" />
+    <Content Include="static\Js\vendor\angular.min.js" />
+    <Content Include="static\Js\vendor\angularjs-ui-router.js" />
+    <Content Include="static\Js\vendor\bootstrap.js" />
+    <Content Include="static\Js\vendor\bootstrap.min.js" />
+    <Content Include="static\Js\vendor\d3.js" />
+    <Content Include="static\Js\vendor\d3.min.js" />
+    <Content Include="static\Js\vendor\handlebars-v4.0.5.js" />
+    <Content Include="static\Js\vendor\jquery-2.2.0.min.js" />
+    <Content Include="static\Js\vendor\LAB-debug.min.js" />
+    <Content Include="static\Js\vendor\LAB.js" />
+    <Content Include="static\Js\vendor\LAB.min.js" />
+    <Content Include="static\Js\vendor\LAB.src.js" />
+    <Content Include="static\Js\vendor\npm.js" />
+    <Content Include="static\Js\vendor\parse-1.6.14.min.js" />
+    <Content Include="templates\Views\Home.html" />
+    <Content Include="templates\Views\Index.html" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.Web.targets" />
   <!-- Specify pre- and post-build commands in the BeforeBuild and 

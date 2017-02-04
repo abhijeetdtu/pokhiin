@@ -6,4 +6,4 @@ CPtr object (DL::DLError)
 C:\Ruby23\bin\rhc port-forward -a python
 
 
-e `pip --no-cache-dir --disable-pip-version-check install django-flat-theme
+pip --no-cache-dir --disable-pip-version-check install django-flat-theme
