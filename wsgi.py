@@ -41,7 +41,7 @@ def application(environ, start_response):
 # Below for testing only
 #
 if __name__ == '__main__':
-    PORT = 8000
+    PORT = 8080
     Handler = SimpleHTTPServer.SimpleHTTPRequestHandler
     httpd = SocketServer.TCPServer(("", PORT), Handler)
     print("serving at port", PORT)
