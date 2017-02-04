@@ -5,7 +5,7 @@ var app = angular.module('Pokhi', ['ui.router']);
         $stateProvider
         .state('home', {
             url : '/',
-            templateUrl: 'Views/Home.html',
+            templateUrl: '/Views/Home.html',
             controller: 'HomeController'
         })
     });
