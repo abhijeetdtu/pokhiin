@@ -1,5 +1,8 @@
 #!/usr/bin/python
 import os
+import SimpleHTTPServer
+import SocketServer
+
 
 try:
     virtenv = os.environ['OPENSHIFT_PYTHON_DIR'] + '/virtenv/'
@@ -14,9 +17,7 @@ except Exception:
 
 def application(environ, start_response):
 
-
     script_dir = os.path.dirname(__file__) #<-- absolute dir the script is in
-
     rel_path = "Pokhi/Pokhi/Views/Index.html"
     abs_file_path = os.path.join(script_dir, rel_path)
     ctype = 'text/plain'
@@ -40,7 +41,8 @@ def application(environ, start_response):
 # Below for testing only
 #
 if __name__ == '__main__':
-    from wsgiref.simple_server import make_server
-    httpd = make_server('localhost', 8051, application)
-    # Wait for a single request, serve it and quit.
-    httpd.handle_request()
+    PORT = 8000
+    Handler = SimpleHTTPServer.SimpleHTTPRequestHandler
+    httpd = SocketServer.TCPServer(("", PORT), Handler)
+    print("serving at port", PORT)
+    httpd.serve_forever()
