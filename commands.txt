@@ -4,3 +4,6 @@ ssh://589592d10c1e66be700000ba@python-pok.rhcloud.com/~/git/python.git/
 CPtr object (DL::DLError)
 
 C:\Ruby23\bin\rhc port-forward -a python
+
+
+e `pip --no-cache-dir --disable-pip-version-check install django-flat-theme

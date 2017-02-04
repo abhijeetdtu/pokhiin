@@ -16,7 +16,8 @@ def application(environ, start_response):
 
 
     script_dir = os.path.dirname(__file__) #<-- absolute dir the script is in
-    rel_path = "Pokhi\\Pokhi\\Views\\Index.html"
+
+    rel_path = "Pokhi/Pokhi/Views/Index.html"
     abs_file_path = os.path.join(script_dir, rel_path)
     ctype = 'text/plain'
     if environ['PATH_INFO'] == '/health':
