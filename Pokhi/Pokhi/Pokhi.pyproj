@@ -41,13 +41,22 @@
     <Folder Include="Rest\" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Rest\api.py">
+    <Compile Include="Rest\dbConnect.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Rest\Helpers.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Rest\starAPI.py">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="Rest\eveServer.py">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="Rest\settings.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Rest\__init__.py">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="__init__.py">
