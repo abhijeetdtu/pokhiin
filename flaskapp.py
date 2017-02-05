@@ -19,7 +19,7 @@ def Index():
 
 @app.route('/Views/<path:path>', methods=['GET', 'POST'])
 def Views(path):
-    print(path ,"/Views/%s".format(path) ) 
+    print(path ,"/Views/{}".format(path) ) 
     return render_template("/Views/{}".format(path))
 
 @app.route('/api/star', methods=['POST'])
@@ -29,7 +29,7 @@ def add_star():
   distance = request.json['distance']
   print(request.json['name'] , request.json['distance'] , star)
   try:
-    star_id = star.insert({'name': name, 'distance': distance})
+      star_id = star.insert({'name': name, 'distance': distance})
   except Exception as e:
       print(e)
   print("inserted")
@@ -38,6 +38,35 @@ def add_star():
   output = {'name' : new_star['name'], 'distance' : new_star['distance']}
   print("returning")
   return jsonify({'result' : output})
+
+
+@app.route('/api/star', methods=['GET'])
+def GetStar():
+    star = mongo.db.stars
+    print(star)
+    try:
+        results =  star.find()
+        results = [GetProperties(x) for x in results]
+        print(results)
+    except Exception as e:
+        print(e)
+    return jsonify({'result' :results})
+
+
+def  GetProperties(obj , propArray = None):
+    retobj = {}
+    
+    retobj["_id"] = str(obj["_id"])
+    print(retobj)
+    if(propArray == None):
+        for x in obj:
+            if(x != '_id'):
+                retobj[x] = obj[x]
+    else:
+        for x in propArray:
+            if(x != '_id'):
+                retobj[x] = obj[x]
+    return retobj
 
 if __name__ == '__main__':
     app.run()
