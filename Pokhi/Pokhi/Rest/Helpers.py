@@ -16,3 +16,7 @@ class Helpers:
                 if(x != '_id'):
                     retobj[x] = obj[x]
         return retobj
+    
+    @staticmethod
+    def CollectionToArray(collection):
+        return [Helpers.GetProperties(x) for x in collection]

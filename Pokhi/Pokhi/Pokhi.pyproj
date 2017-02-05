@@ -34,6 +34,7 @@
   <ItemGroup>
     <Folder Include="static\Js\" />
     <Folder Include="static\Js\Controllers\" />
+    <Folder Include="static\Js\Services\" />
     <Folder Include="static\Js\vendor\" />
     <Folder Include="templates\" />
     <Folder Include="static\" />
@@ -41,10 +42,16 @@
     <Folder Include="Rest\" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Rest\authAPI.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="Rest\dbConnect.py">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="Rest\Helpers.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Rest\loginAPI.py">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="Rest\starAPI.py">
@@ -67,6 +74,7 @@
     <Content Include="static\Js\app.js" />
     <Content Include="static\Js\Controllers\HomeController.js" />
     <Content Include="static\Js\Controllers\LandingController.js" />
+    <Content Include="static\Js\Services\loginService.js" />
     <Content Include="static\Js\vendor\angular-route.js" />
     <Content Include="static\Js\vendor\angular.min.js" />
     <Content Include="static\Js\vendor\angularjs-ui-router.js" />
