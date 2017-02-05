@@ -34,8 +34,11 @@
   <ItemGroup>
     <Folder Include="static\Js\" />
     <Folder Include="static\Js\Controllers\" />
+    <Folder Include="static\Js\ViewJs\" />
     <Folder Include="static\Js\Services\" />
     <Folder Include="static\Js\vendor\" />
+    <Folder Include="static\Images\" />
+    <Folder Include="static\Css\" />
     <Folder Include="templates\" />
     <Folder Include="static\" />
     <Folder Include="templates\Views\" />
@@ -74,6 +77,16 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="static\Css\bootstrap-theme.css" />
+    <Content Include="static\Css\bootstrap-theme.css.map" />
+    <Content Include="static\Css\bootstrap-theme.min.css" />
+    <Content Include="static\Css\bootstrap-theme.min.css.map" />
+    <Content Include="static\Css\bootstrap.css" />
+    <Content Include="static\Css\bootstrap.css.map" />
+    <Content Include="static\Css\bootstrap.min.css" />
+    <Content Include="static\Css\bootstrap.min.css.map" />
+    <Content Include="static\Css\index.css" />
+    <Content Include="static\Css\style.css" />
     <Content Include="static\Js\app.js" />
     <Content Include="static\Js\Controllers\HomeController.js" />
     <Content Include="static\Js\Controllers\LandingController.js" />
@@ -85,6 +98,7 @@
     <Content Include="static\Js\vendor\bootstrap.min.js" />
     <Content Include="static\Js\vendor\d3.js" />
     <Content Include="static\Js\vendor\d3.min.js" />
+    <Content Include="static\Js\vendor\easeljs-0.8.2.min.js" />
     <Content Include="static\Js\vendor\handlebars-v4.0.5.js" />
     <Content Include="static\Js\vendor\jquery-2.2.0.min.js" />
     <Content Include="static\Js\vendor\LAB-debug.min.js" />
@@ -93,6 +107,7 @@
     <Content Include="static\Js\vendor\LAB.src.js" />
     <Content Include="static\Js\vendor\npm.js" />
     <Content Include="static\Js\vendor\parse-1.6.14.min.js" />
+    <Content Include="static\Js\ViewJs\Home.js" />
     <Content Include="templates\Views\Home.html" />
     <Content Include="templates\Views\Index.html" />
   </ItemGroup>
