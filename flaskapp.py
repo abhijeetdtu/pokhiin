@@ -6,7 +6,6 @@ from flask_pymongo import PyMongo
 app = Flask(__name__ , template_folder="Pokhi/Pokhi/templates" , static_folder="Pokhi/Pokhi/static")
 
 app.config['MONGO_DBNAME'] = 'python'
-app.config['MONGO_URI'] = 'mongodb://admin:DJ7FltP4ZWLY@localhost:27017/python'
 app.config['MONGO_USERNAME'] = 'admin'
 app.config['MONGO_PASSWORD'] = 'DJ7FltP4ZWLY'
 
