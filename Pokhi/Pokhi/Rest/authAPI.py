@@ -3,7 +3,7 @@ from flask import jsonify
 from flask import request, url_for
 from flask.ext.login import login_user
 
-from passlib.hash import pbkdf2_sha256
+from sha256 import sha256
 
 from Helpers import Helpers
 from dbConnect import mongo , login_manager
@@ -24,9 +24,15 @@ class AuthHelpers:
     @staticmethod
     def getEncryptedPassword(raw_password):
         print("Getting hashed password")
-        return pbkdf2_sha256.hash(raw_password)
+        try:
+            password = raw_password.encode("utf-16")
+            print(password , sha256(password).hexdigest())
+            return sha256(password).hexdigest()
+        except Exception as e:
+            print(e)
+            raise Exception("e")
     
     @staticmethod
     def checkPassword(raw_password, enc_password):
        print("Compare passwords")
-       return pbkdf2_sha256.verify(raw_password,enc_password)
+       return sha256(raw_password.encode("utf-16")).hexdigest() == enc_password

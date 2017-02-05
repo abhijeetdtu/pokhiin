@@ -19,8 +19,12 @@ def GetUserForFlaskLoadManager(username , isAuthenticated = False , isActive = T
 
 def GetUserFromCredentials(username , password):
     user = {}
-    user["username"] = username
-    user["password"] = AuthHelpers.getEncryptedPassword(password)
+    try:
+        user["username"] = username
+        user["password"] = AuthHelpers.getEncryptedPassword(password)
+    except Exception as e:
+        print(e)
+        raise Exception("error")
     return user
 
 
@@ -52,15 +56,15 @@ def logout():
         logout_user()
     except Exception as e:
         print(e)
-        return jsonify({"result" , False})
+        return jsonify({"result" : False})
 
-    return jsonify({"result" , True})
+    return jsonify({"result" : True})
 
 
 @loginAPI.route('/api/users/register' , methods=['POST'])
 def Register():
     print("try login" , request.json)
-    msg = ""
+    msg = "registerd"
     try:
         username = request.json['username']
         password =  request.json['password']
@@ -70,9 +74,11 @@ def Register():
             success = mongo.db.pokhiusers.insert(GetUserFromCredentials(username, password))
         else:
             msg = "User already exists . Try a different username"
+
+        print("Registered" , str(success))
     except Exception as e:
         print(e)
-    return jsonify({'success' : success})
+    return jsonify({'success' : str(success) , 'msg':msg})
 
 @loginAPI.route('/api/users/getall' , methods=['GET'])
 def Users():

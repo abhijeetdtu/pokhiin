@@ -54,6 +54,9 @@
     <Compile Include="Rest\loginAPI.py">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="Rest\sha256.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="Rest\starAPI.py">
       <SubType>Code</SubType>
     </Compile>
