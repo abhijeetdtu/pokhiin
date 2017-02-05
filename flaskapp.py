@@ -2,11 +2,19 @@ from flask import Flask, request, send_from_directory ,render_template
 from flask import jsonify
 from flask import request
 from flask_pymongo import PyMongo
+import os
+
 
 app = Flask(__name__ , template_folder="Pokhi/Pokhi/templates" , static_folder="Pokhi/Pokhi/static")
 
 app.config['MONGO_DBNAME'] = 'python'
-app.config['MONGO_URI'] = 'mongodb://admin:DJ7FltP4ZWLY@localhost:27017/python'
+
+
+app.config['MONGO_URI'] =  'mongodb://admin:DJ7FltP4ZWLY@localhost:27017/python'
+
+if('OPENSHIFT_MONGODB_DB_UR' in  os.environ):
+    app.config['MONGO_URI'] = os.environ['OPENSHIFT_MONGODB_DB_UR']
+
 app.config['MONGO_USERNAME'] = 'admin'
 app.config['MONGO_PASSWORD'] = 'DJ7FltP4ZWLY'
 
