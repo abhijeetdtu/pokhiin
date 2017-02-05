@@ -12,14 +12,15 @@ app.config['MONGO_DBNAME'] = 'python'
 
 app.config['MONGO_URI'] =  'mongodb://admin:DJ7FltP4ZWLY@localhost:27017/python'
 
-if('OPENSHIFT_MONGODB_DB_UR' in  os.environ):
-    app.config['MONGO_URI'] = os.environ['OPENSHIFT_MONGODB_DB_UR']
+if('OPENSHIFT_MONGODB_DB_URL' in  os.environ):
+    app.config['MONGO_URI'] = os.environ['OPENSHIFT_MONGODB_DB_URL']
 
 app.config['MONGO_USERNAME'] = 'admin'
 app.config['MONGO_PASSWORD'] = 'DJ7FltP4ZWLY'
 
 mongo = PyMongo(app)
 
+print(app.config["MONGO_URI"])
 
 @app.route('/')
 def Index():
