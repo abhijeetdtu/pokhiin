@@ -96,6 +96,20 @@
     <Content Include="templates\Views\Home.html" />
     <Content Include="templates\Views\Index.html" />
   </ItemGroup>
+  <ItemGroup>
+    <Interpreter Include="venv\">
+      <Id>{720c65ae-262e-4a3d-bdcb-616f67d91320}</Id>
+      <BaseInterpreter>{3319d6e9-7cb7-4163-83ad-12ab55317195}</BaseInterpreter>
+      <Version>2.7</Version>
+      <Description>venv (My2.7z)</Description>
+      <InterpreterPath>Scripts\python27.exe</InterpreterPath>
+      <WindowsInterpreterPath>Scripts\python27.exe</WindowsInterpreterPath>
+      <LibraryPath>Lib\</LibraryPath>
+      <PathEnvironmentVariable>
+      </PathEnvironmentVariable>
+      <Architecture>X86</Architecture>
+    </Interpreter>
+  </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.Web.targets" />
   <!-- Specify pre- and post-build commands in the BeforeBuild and 
        AfterBuild targets below. -->

@@ -1,0 +1,1501 @@
+﻿
+2017-02-05T23:41:02: Start analysis
+2017-02-05T23:41:03: [WARNING] Library was set explicitly - skipping path detection
+2017-02-05T23:41:03: IncludeModulesFromModulePath = win32com
+2017-02-05T23:41:03: Deleting 0 files
+2017-02-05T23:41:03: Scraping builtin modules
+2017-02-05T23:41:03: Command: "C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Scripts\python27.exe" "E:\Program Files (x86)\Microsoft Visual Studio 14.0\Common7\IDE\Extensions\Microsoft\Python Tools for Visual Studio\2.2\PythonScraper.py" "C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\.ptvs\\" "E:\Program Files (x86)\Microsoft Visual Studio 14.0\Common7\IDE\Extensions\Microsoft\Python Tools for Visual Studio\2.2\CompletionDB\\"
+2017-02-05T23:41:07: Output
+E:\Program Files (x86)\Microsoft Visual Studio 14.0\Common7\IDE\Extensions\Microsoft\Python Tools for Visual Studio\2.2\CompletionDB\__builtin__.idb
+E:\Program Files (x86)\Microsoft Visual Studio 14.0\Common7\IDE\Extensions\Microsoft\Python Tools for Visual Studio\2.2\CompletionDB\_codecs.idb
+E:\Program Files (x86)\Microsoft Visual Studio 14.0\Common7\IDE\Extensions\Microsoft\Python Tools for Visual Studio\2.2\CompletionDB\_collections.idb
+E:\Program Files (x86)\Microsoft Visual Studio 14.0\Common7\IDE\Extensions\Microsoft\Python Tools for Visual Studio\2.2\CompletionDB\_functools.idb
+E:\Program Files (x86)\Microsoft Visual Studio 14.0\Common7\IDE\Extensions\Microsoft\Python Tools for Visual Studio\2.2\CompletionDB\_heapq.idb
+E:\Program Files (x86)\Microsoft Visual Studio 14.0\Common7\IDE\Extensions\Microsoft\Python Tools for Visual Studio\2.2\CompletionDB\_io.idb
+E:\Program Files (x86)\Microsoft Visual Studio 14.0\Common7\IDE\Extensions\Microsoft\Python Tools for Visual Studio\2.2\CompletionDB\_locale.idb
+E:\Program Files (x86)\Microsoft Visual Studio 14.0\Common7\IDE\Extensions\Microsoft\Python Tools for Visual Studio\2.2\CompletionDB\_md5.idb
+E:\Program Files (x86)\Microsoft Visual Studio 14.0\Common7\IDE\Extensions\Microsoft\Python Tools for Visual Studio\2.2\CompletionDB\_random.idb
+E:\Program Files (x86)\Microsoft Visual Studio 14.0\Common7\IDE\Extensions\Microsoft\Python Tools for Visual Studio\2.2\CompletionDB\_sha.idb
+E:\Program Files (x86)\Microsoft Visual Studio 14.0\Common7\IDE\Extensions\Microsoft\Python Tools for Visual Studio\2.2\CompletionDB\_sha256.idb
+E:\Program Files (x86)\Microsoft Visual Studio 14.0\Common7\IDE\Extensions\Microsoft\Python Tools for Visual Studio\2.2\CompletionDB\_sha512.idb
+E:\Program Files (x86)\Microsoft Visual Studio 14.0\Common7\IDE\Extensions\Microsoft\Python Tools for Visual Studio\2.2\CompletionDB\_sre.idb
+E:\Program Files (x86)\Microsoft Visual Studio 14.0\Common7\IDE\Extensions\Microsoft\Python Tools for Visual Studio\2.2\CompletionDB\_struct.idb
+E:\Program Files (x86)\Microsoft Visual Studio 14.0\Common7\IDE\Extensions\Microsoft\Python Tools for Visual Studio\2.2\CompletionDB\_subprocess.idb
+E:\Program Files (x86)\Microsoft Visual Studio 14.0\Common7\IDE\Extensions\Microsoft\Python Tools for Visual Studio\2.2\CompletionDB\_warnings.idb
+E:\Program Files (x86)\Microsoft Visual Studio 14.0\Common7\IDE\Extensions\Microsoft\Python Tools for Visual Studio\2.2\CompletionDB\_weakref.idb
+E:\Program Files (x86)\Microsoft Visual Studio 14.0\Common7\IDE\Extensions\Microsoft\Python Tools for Visual Studio\2.2\CompletionDB\_winreg.idb
+E:\Program Files (x86)\Microsoft Visual Studio 14.0\Common7\IDE\Extensions\Microsoft\Python Tools for Visual Studio\2.2\CompletionDB\array.idb
+E:\Program Files (x86)\Microsoft Visual Studio 14.0\Common7\IDE\Extensions\Microsoft\Python Tools for Visual Studio\2.2\CompletionDB\binascii.idb
+E:\Program Files (x86)\Microsoft Visual Studio 14.0\Common7\IDE\Extensions\Microsoft\Python Tools for Visual Studio\2.2\CompletionDB\cPickle.idb
+E:\Program Files (x86)\Microsoft Visual Studio 14.0\Common7\IDE\Extensions\Microsoft\Python Tools for Visual Studio\2.2\CompletionDB\cStringIO.idb
+E:\Program Files (x86)\Microsoft Visual Studio 14.0\Common7\IDE\Extensions\Microsoft\Python Tools for Visual Studio\2.2\CompletionDB\cmath.idb
+E:\Program Files (x86)\Microsoft Visual Studio 14.0\Common7\IDE\Extensions\Microsoft\Python Tools for Visual Studio\2.2\CompletionDB\datetime.idb
+E:\Program Files (x86)\Microsoft Visual Studio 14.0\Common7\IDE\Extensions\Microsoft\Python Tools for Visual Studio\2.2\CompletionDB\errno.idb
+E:\Program Files (x86)\Microsoft Visual Studio 14.0\Common7\IDE\Extensions\Microsoft\Python Tools for Visual Studio\2.2\CompletionDB\exceptions.idb
+E:\Program Files (x86)\Microsoft Visual Studio 14.0\Common7\IDE\Extensions\Microsoft\Python Tools for Visual Studio\2.2\CompletionDB\future_builtins.idb
+E:\Program Files (x86)\Microsoft Visual Studio 14.0\Common7\IDE\Extensions\Microsoft\Python Tools for Visual Studio\2.2\CompletionDB\gc.idb
+E:\Program Files (x86)\Microsoft Visual Studio 14.0\Common7\IDE\Extensions\Microsoft\Python Tools for Visual Studio\2.2\CompletionDB\imp.idb
+E:\Program Files (x86)\Microsoft Visual Studio 14.0\Common7\IDE\Extensions\Microsoft\Python Tools for Visual Studio\2.2\CompletionDB\itertools.idb
+E:\Program Files (x86)\Microsoft Visual Studio 14.0\Common7\IDE\Extensions\Microsoft\Python Tools for Visual Studio\2.2\CompletionDB\marshal.idb
+E:\Program Files (x86)\Microsoft Visual Studio 14.0\Common7\IDE\Extensions\Microsoft\Python Tools for Visual Studio\2.2\CompletionDB\math.idb
+E:\Program Files (x86)\Microsoft Visual Studio 14.0\Common7\IDE\Extensions\Microsoft\Python Tools for Visual Studio\2.2\CompletionDB\mmap.idb
+E:\Program Files (x86)\Microsoft Visual Studio 14.0\Common7\IDE\Extensions\Microsoft\Python Tools for Visual Studio\2.2\CompletionDB\msvcrt.idb
+E:\Program Files (x86)\Microsoft Visual Studio 14.0\Common7\IDE\Extensions\Microsoft\Python Tools for Visual Studio\2.2\CompletionDB\nt.idb
+E:\Program Files (x86)\Microsoft Visual Studio 14.0\Common7\IDE\Extensions\Microsoft\Python Tools for Visual Studio\2.2\CompletionDB\operator.idb
+E:\Program Files (x86)\Microsoft Visual Studio 14.0\Common7\IDE\Extensions\Microsoft\Python Tools for Visual Studio\2.2\CompletionDB\signal.idb
+E:\Program Files (x86)\Microsoft Visual Studio 14.0\Common7\IDE\Extensions\Microsoft\Python Tools for Visual Studio\2.2\CompletionDB\sys.idb
+E:\Program Files (x86)\Microsoft Visual Studio 14.0\Common7\IDE\Extensions\Microsoft\Python Tools for Visual Studio\2.2\CompletionDB\thread.idb
+E:\Program Files (x86)\Microsoft Visual Studio 14.0\Common7\IDE\Extensions\Microsoft\Python Tools for Visual Studio\2.2\CompletionDB\time.idb
+E:\Program Files (x86)\Microsoft Visual Studio 14.0\Common7\IDE\Extensions\Microsoft\Python Tools for Visual Studio\2.2\CompletionDB\xxsubtype.idb
+2017-02-05T23:41:07: Scraped builtin modules
+2017-02-05T23:41:07: astropy.CallDepth = 0
+2017-02-05T23:41:07: matplotlib.CallDepth = 3
+2017-02-05T23:41:07: pandas.CallDepth = 0
+2017-02-05T23:41:07: sympy.CallDepth = 0
+2017-02-05T23:41:07: Start group "C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib" with 143 files
+2017-02-05T23:41:22: Parsing "abc" ("C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\abc.py")
+2017-02-05T23:41:22: Parsing "codecs" ("C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\codecs.py")
+2017-02-05T23:41:22: Parsing "copy_reg" ("C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\copy_reg.py")
+2017-02-05T23:41:22: Parsing "fnmatch" ("C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\fnmatch.py")
+2017-02-05T23:41:22: Parsing "genericpath" ("C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\genericpath.py")
+2017-02-05T23:41:22: Parsing "linecache" ("C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\linecache.py")
+2017-02-05T23:41:22: Parsing "locale" ("C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\locale.py")
+2017-02-05T23:41:22: Parsing "ntpath" ("C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\ntpath.py")
+2017-02-05T23:41:22: Parsing "os" ("C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\os.py")
+2017-02-05T23:41:22: Parsing "posixpath" ("C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\posixpath.py")
+2017-02-05T23:41:22: Parsing "re" ("C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\re.py")
+2017-02-05T23:41:22: Parsing "site" ("C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\site.py")
+2017-02-05T23:41:22: Parsing "sre" ("C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\sre.py")
+2017-02-05T23:41:22: Parsing "sre_compile" ("C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\sre_compile.py")
+2017-02-05T23:41:22: Parsing "sre_constants" ("C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\sre_constants.py")
+2017-02-05T23:41:22: Parsing "sre_parse" ("C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\sre_parse.py")
+2017-02-05T23:41:22: Parsing "stat" ("C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\stat.py")
+2017-02-05T23:41:22: Parsing "types" ("C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\types.py")
+2017-02-05T23:41:22: Parsing "UserDict" ("C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\UserDict.py")
+2017-02-05T23:41:22: Parsing "warnings" ("C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\warnings.py")
+2017-02-05T23:41:22: Parsing "_abcoll" ("C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\_abcoll.py")
+2017-02-05T23:41:22: Parsing "_weakrefset" ("C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\_weakrefset.py")
+2017-02-05T23:41:22: Parsing "distutils" ("C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\distutils\__init__.py")
+2017-02-05T23:41:22: Parsing "encodings.aliases" ("C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\encodings\aliases.py")
+2017-02-05T23:41:22: Parsing "encodings.ascii" ("C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\encodings\ascii.py")
+2017-02-05T23:41:22: Parsing "encodings.base64_codec" ("C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\encodings\base64_codec.py")
+2017-02-05T23:41:22: Parsing "encodings.big5" ("C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\encodings\big5.py")
+2017-02-05T23:41:22: Parsing "encodings.big5hkscs" ("C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\encodings\big5hkscs.py")
+2017-02-05T23:41:22: Parsing "encodings.bz2_codec" ("C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\encodings\bz2_codec.py")
+2017-02-05T23:41:22: Parsing "encodings.charmap" ("C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\encodings\charmap.py")
+2017-02-05T23:41:22: Parsing "encodings.cp037" ("C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\encodings\cp037.py")
+2017-02-05T23:41:22: Parsing "encodings.cp1006" ("C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\encodings\cp1006.py")
+2017-02-05T23:41:22: Parsing "encodings.cp1026" ("C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\encodings\cp1026.py")
+2017-02-05T23:41:22: Parsing "encodings.cp1140" ("C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\encodings\cp1140.py")
+2017-02-05T23:41:22: Parsing "encodings.cp1250" ("C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\encodings\cp1250.py")
+2017-02-05T23:41:22: Parsing "encodings.cp1251" ("C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\encodings\cp1251.py")
+2017-02-05T23:41:22: Parsing "encodings.cp1252" ("C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\encodings\cp1252.py")
+2017-02-05T23:41:22: Parsing "encodings.cp1253" ("C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\encodings\cp1253.py")
+2017-02-05T23:41:22: Parsing "encodings.cp1254" ("C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\encodings\cp1254.py")
+2017-02-05T23:41:22: Parsing "encodings.cp1255" ("C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\encodings\cp1255.py")
+2017-02-05T23:41:22: Parsing "encodings.cp1256" ("C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\encodings\cp1256.py")
+2017-02-05T23:41:22: Parsing "encodings.cp1257" ("C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\encodings\cp1257.py")
+2017-02-05T23:41:22: Parsing "encodings.cp1258" ("C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\encodings\cp1258.py")
+2017-02-05T23:41:22: Parsing "encodings.cp424" ("C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\encodings\cp424.py")
+2017-02-05T23:41:22: Parsing "encodings.cp437" ("C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\encodings\cp437.py")
+2017-02-05T23:41:22: Parsing "encodings.cp500" ("C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\encodings\cp500.py")
+2017-02-05T23:41:22: Parsing "encodings.cp720" ("C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\encodings\cp720.py")
+2017-02-05T23:41:22: Parsing "encodings.cp737" ("C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\encodings\cp737.py")
+2017-02-05T23:41:22: Parsing "encodings.cp775" ("C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\encodings\cp775.py")
+2017-02-05T23:41:22: Parsing "encodings.cp850" ("C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\encodings\cp850.py")
+2017-02-05T23:41:22: Parsing "encodings.cp852" ("C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\encodings\cp852.py")
+2017-02-05T23:41:22: Parsing "encodings.cp855" ("C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\encodings\cp855.py")
+2017-02-05T23:41:22: Parsing "encodings.cp856" ("C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\encodings\cp856.py")
+2017-02-05T23:41:22: Parsing "encodings.cp857" ("C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\encodings\cp857.py")
+2017-02-05T23:41:22: Parsing "encodings.cp858" ("C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\encodings\cp858.py")
+2017-02-05T23:41:22: Parsing "encodings.cp860" ("C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\encodings\cp860.py")
+2017-02-05T23:41:22: Parsing "encodings.cp861" ("C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\encodings\cp861.py")
+2017-02-05T23:41:22: Parsing "encodings.cp862" ("C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\encodings\cp862.py")
+2017-02-05T23:41:22: Parsing "encodings.cp863" ("C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\encodings\cp863.py")
+2017-02-05T23:41:22: Parsing "encodings.cp864" ("C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\encodings\cp864.py")
+2017-02-05T23:41:22: Parsing "encodings.cp865" ("C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\encodings\cp865.py")
+2017-02-05T23:41:22: Parsing "encodings.cp866" ("C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\encodings\cp866.py")
+2017-02-05T23:41:22: Parsing "encodings.cp869" ("C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\encodings\cp869.py")
+2017-02-05T23:41:22: Parsing "encodings.cp874" ("C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\encodings\cp874.py")
+2017-02-05T23:41:22: Parsing "encodings.cp875" ("C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\encodings\cp875.py")
+2017-02-05T23:41:22: Parsing "encodings.cp932" ("C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\encodings\cp932.py")
+2017-02-05T23:41:22: Parsing "encodings.cp949" ("C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\encodings\cp949.py")
+2017-02-05T23:41:22: Parsing "encodings.cp950" ("C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\encodings\cp950.py")
+2017-02-05T23:41:22: Parsing "encodings.euc_jisx0213" ("C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\encodings\euc_jisx0213.py")
+2017-02-05T23:41:22: Parsing "encodings.euc_jis_2004" ("C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\encodings\euc_jis_2004.py")
+2017-02-05T23:41:22: Parsing "encodings.euc_jp" ("C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\encodings\euc_jp.py")
+2017-02-05T23:41:22: Parsing "encodings.euc_kr" ("C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\encodings\euc_kr.py")
+2017-02-05T23:41:22: Parsing "encodings.gb18030" ("C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\encodings\gb18030.py")
+2017-02-05T23:41:22: Parsing "encodings.gb2312" ("C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\encodings\gb2312.py")
+2017-02-05T23:41:22: Parsing "encodings.gbk" ("C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\encodings\gbk.py")
+2017-02-05T23:41:22: Parsing "encodings.hex_codec" ("C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\encodings\hex_codec.py")
+2017-02-05T23:41:22: Parsing "encodings.hp_roman8" ("C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\encodings\hp_roman8.py")
+2017-02-05T23:41:22: Parsing "encodings.hz" ("C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\encodings\hz.py")
+2017-02-05T23:41:22: Parsing "encodings.idna" ("C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\encodings\idna.py")
+2017-02-05T23:41:22: Parsing "encodings.iso2022_jp" ("C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\encodings\iso2022_jp.py")
+2017-02-05T23:41:22: Parsing "encodings.iso2022_jp_1" ("C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\encodings\iso2022_jp_1.py")
+2017-02-05T23:41:22: Parsing "encodings.iso2022_jp_2" ("C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\encodings\iso2022_jp_2.py")
+2017-02-05T23:41:22: Parsing "encodings.iso2022_jp_2004" ("C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\encodings\iso2022_jp_2004.py")
+2017-02-05T23:41:22: Parsing "encodings.iso2022_jp_3" ("C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\encodings\iso2022_jp_3.py")
+2017-02-05T23:41:22: Parsing "encodings.iso2022_jp_ext" ("C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\encodings\iso2022_jp_ext.py")
+2017-02-05T23:41:22: Parsing "encodings.iso2022_kr" ("C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\encodings\iso2022_kr.py")
+2017-02-05T23:41:22: Parsing "encodings.iso8859_1" ("C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\encodings\iso8859_1.py")
+2017-02-05T23:41:22: Parsing "encodings.iso8859_10" ("C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\encodings\iso8859_10.py")
+2017-02-05T23:41:22: Parsing "encodings.iso8859_11" ("C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\encodings\iso8859_11.py")
+2017-02-05T23:41:22: Parsing "encodings.iso8859_13" ("C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\encodings\iso8859_13.py")
+2017-02-05T23:41:22: Parsing "encodings.iso8859_14" ("C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\encodings\iso8859_14.py")
+2017-02-05T23:41:22: Parsing "encodings.iso8859_15" ("C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\encodings\iso8859_15.py")
+2017-02-05T23:41:22: Parsing "encodings.iso8859_16" ("C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\encodings\iso8859_16.py")
+2017-02-05T23:41:22: Parsing "encodings.iso8859_2" ("C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\encodings\iso8859_2.py")
+2017-02-05T23:41:22: Parsing "encodings.iso8859_3" ("C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\encodings\iso8859_3.py")
+2017-02-05T23:41:22: Parsing "encodings.iso8859_4" ("C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\encodings\iso8859_4.py")
+2017-02-05T23:41:22: Parsing "encodings.iso8859_5" ("C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\encodings\iso8859_5.py")
+2017-02-05T23:41:22: Parsing "encodings.iso8859_6" ("C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\encodings\iso8859_6.py")
+2017-02-05T23:41:22: Parsing "encodings.iso8859_7" ("C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\encodings\iso8859_7.py")
+2017-02-05T23:41:22: Parsing "encodings.iso8859_8" ("C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\encodings\iso8859_8.py")
+2017-02-05T23:41:22: Parsing "encodings.iso8859_9" ("C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\encodings\iso8859_9.py")
+2017-02-05T23:41:22: Parsing "encodings.johab" ("C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\encodings\johab.py")
+2017-02-05T23:41:22: Parsing "encodings.koi8_r" ("C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\encodings\koi8_r.py")
+2017-02-05T23:41:22: Parsing "encodings.koi8_u" ("C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\encodings\koi8_u.py")
+2017-02-05T23:41:22: Parsing "encodings.latin_1" ("C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\encodings\latin_1.py")
+2017-02-05T23:41:22: Parsing "encodings.mac_arabic" ("C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\encodings\mac_arabic.py")
+2017-02-05T23:41:22: Parsing "encodings.mac_centeuro" ("C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\encodings\mac_centeuro.py")
+2017-02-05T23:41:22: Parsing "encodings.mac_croatian" ("C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\encodings\mac_croatian.py")
+2017-02-05T23:41:22: Parsing "encodings.mac_cyrillic" ("C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\encodings\mac_cyrillic.py")
+2017-02-05T23:41:22: Parsing "encodings.mac_farsi" ("C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\encodings\mac_farsi.py")
+2017-02-05T23:41:22: Parsing "encodings.mac_greek" ("C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\encodings\mac_greek.py")
+2017-02-05T23:41:22: Parsing "encodings.mac_iceland" ("C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\encodings\mac_iceland.py")
+2017-02-05T23:41:22: Parsing "encodings.mac_latin2" ("C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\encodings\mac_latin2.py")
+2017-02-05T23:41:22: Parsing "encodings.mac_roman" ("C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\encodings\mac_roman.py")
+2017-02-05T23:41:22: Parsing "encodings.mac_romanian" ("C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\encodings\mac_romanian.py")
+2017-02-05T23:41:22: Parsing "encodings.mac_turkish" ("C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\encodings\mac_turkish.py")
+2017-02-05T23:41:22: Parsing "encodings.mbcs" ("C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\encodings\mbcs.py")
+2017-02-05T23:41:22: Parsing "encodings.palmos" ("C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\encodings\palmos.py")
+2017-02-05T23:41:22: Parsing "encodings.ptcp154" ("C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\encodings\ptcp154.py")
+2017-02-05T23:41:22: Parsing "encodings.punycode" ("C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\encodings\punycode.py")
+2017-02-05T23:41:23: Parsing "encodings.quopri_codec" ("C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\encodings\quopri_codec.py")
+2017-02-05T23:41:23: Parsing "encodings.raw_unicode_escape" ("C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\encodings\raw_unicode_escape.py")
+2017-02-05T23:41:23: Parsing "encodings.rot_13" ("C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\encodings\rot_13.py")
+2017-02-05T23:41:23: Parsing "encodings.shift_jis" ("C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\encodings\shift_jis.py")
+2017-02-05T23:41:23: Parsing "encodings.shift_jisx0213" ("C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\encodings\shift_jisx0213.py")
+2017-02-05T23:41:23: Parsing "encodings.shift_jis_2004" ("C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\encodings\shift_jis_2004.py")
+2017-02-05T23:41:23: Parsing "encodings.string_escape" ("C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\encodings\string_escape.py")
+2017-02-05T23:41:23: Parsing "encodings.tis_620" ("C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\encodings\tis_620.py")
+2017-02-05T23:41:23: Parsing "encodings.undefined" ("C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\encodings\undefined.py")
+2017-02-05T23:41:23: Parsing "encodings.unicode_escape" ("C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\encodings\unicode_escape.py")
+2017-02-05T23:41:23: Parsing "encodings.unicode_internal" ("C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\encodings\unicode_internal.py")
+2017-02-05T23:41:23: Parsing "encodings.utf_16" ("C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\encodings\utf_16.py")
+2017-02-05T23:41:23: Parsing "encodings.utf_16_be" ("C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\encodings\utf_16_be.py")
+2017-02-05T23:41:23: Parsing "encodings.utf_16_le" ("C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\encodings\utf_16_le.py")
+2017-02-05T23:41:23: Parsing "encodings.utf_32" ("C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\encodings\utf_32.py")
+2017-02-05T23:41:23: Parsing "encodings.utf_32_be" ("C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\encodings\utf_32_be.py")
+2017-02-05T23:41:23: Parsing "encodings.utf_32_le" ("C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\encodings\utf_32_le.py")
+2017-02-05T23:41:23: Parsing "encodings.utf_7" ("C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\encodings\utf_7.py")
+2017-02-05T23:41:23: Parsing "encodings.utf_8" ("C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\encodings\utf_8.py")
+2017-02-05T23:41:23: Parsing "encodings.utf_8_sig" ("C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\encodings\utf_8_sig.py")
+2017-02-05T23:41:23: Parsing "encodings.uu_codec" ("C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\encodings\uu_codec.py")
+2017-02-05T23:41:23: Parsing "encodings.zlib_codec" ("C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\encodings\zlib_codec.py")
+2017-02-05T23:41:23: Parsing "encodings" ("C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\encodings\__init__.py")
+2017-02-05T23:41:23: Parsing complete
+2017-02-05T23:41:23: Analyzing "abc"
+2017-02-05T23:41:23: Analyzing "codecs"
+2017-02-05T23:41:23: Analyzing "copy_reg"
+2017-02-05T23:41:23: Analyzing "fnmatch"
+2017-02-05T23:41:23: Analyzing "genericpath"
+2017-02-05T23:41:23: Analyzing "linecache"
+2017-02-05T23:41:23: Analyzing "locale"
+2017-02-05T23:41:23: Analyzing "ntpath"
+2017-02-05T23:41:23: Analyzing "os"
+2017-02-05T23:41:23: Analyzing "posixpath"
+2017-02-05T23:41:23: Analyzing "re"
+2017-02-05T23:41:23: Analyzing "site"
+2017-02-05T23:41:23: Analyzing "sre"
+2017-02-05T23:41:23: Analyzing "sre_compile"
+2017-02-05T23:41:23: Analyzing "sre_constants"
+2017-02-05T23:41:23: Analyzing "sre_parse"
+2017-02-05T23:41:23: Analyzing "stat"
+2017-02-05T23:41:23: Analyzing "types"
+2017-02-05T23:41:23: Analyzing "UserDict"
+2017-02-05T23:41:23: Analyzing "warnings"
+2017-02-05T23:41:23: Analyzing "_abcoll"
+2017-02-05T23:41:23: Analyzing "_weakrefset"
+2017-02-05T23:41:23: Analyzing "distutils"
+2017-02-05T23:41:23: Analyzing "encodings.aliases"
+2017-02-05T23:41:23: Analyzing "encodings.ascii"
+2017-02-05T23:41:23: Analyzing "encodings.base64_codec"
+2017-02-05T23:41:23: Analyzing "encodings.big5"
+2017-02-05T23:41:23: Analyzing "encodings.big5hkscs"
+2017-02-05T23:41:23: Analyzing "encodings.bz2_codec"
+2017-02-05T23:41:23: Analyzing "encodings.charmap"
+2017-02-05T23:41:23: Analyzing "encodings.cp037"
+2017-02-05T23:41:23: Analyzing "encodings.cp1006"
+2017-02-05T23:41:23: Analyzing "encodings.cp1026"
+2017-02-05T23:41:23: Analyzing "encodings.cp1140"
+2017-02-05T23:41:23: Analyzing "encodings.cp1250"
+2017-02-05T23:41:23: Analyzing "encodings.cp1251"
+2017-02-05T23:41:23: Analyzing "encodings.cp1252"
+2017-02-05T23:41:23: Analyzing "encodings.cp1253"
+2017-02-05T23:41:23: Analyzing "encodings.cp1254"
+2017-02-05T23:41:23: Analyzing "encodings.cp1255"
+2017-02-05T23:41:23: Analyzing "encodings.cp1256"
+2017-02-05T23:41:23: Analyzing "encodings.cp1257"
+2017-02-05T23:41:23: Analyzing "encodings.cp1258"
+2017-02-05T23:41:23: Analyzing "encodings.cp424"
+2017-02-05T23:41:23: Analyzing "encodings.cp437"
+2017-02-05T23:41:23: Analyzing "encodings.cp500"
+2017-02-05T23:41:23: Analyzing "encodings.cp720"
+2017-02-05T23:41:23: Analyzing "encodings.cp737"
+2017-02-05T23:41:23: Analyzing "encodings.cp775"
+2017-02-05T23:41:23: Analyzing "encodings.cp850"
+2017-02-05T23:41:23: Analyzing "encodings.cp852"
+2017-02-05T23:41:23: Analyzing "encodings.cp855"
+2017-02-05T23:41:23: Analyzing "encodings.cp856"
+2017-02-05T23:41:23: Analyzing "encodings.cp857"
+2017-02-05T23:41:23: Analyzing "encodings.cp858"
+2017-02-05T23:41:23: Analyzing "encodings.cp860"
+2017-02-05T23:41:23: Analyzing "encodings.cp861"
+2017-02-05T23:41:23: Analyzing "encodings.cp862"
+2017-02-05T23:41:23: Analyzing "encodings.cp863"
+2017-02-05T23:41:23: Analyzing "encodings.cp864"
+2017-02-05T23:41:23: Analyzing "encodings.cp865"
+2017-02-05T23:41:23: Analyzing "encodings.cp866"
+2017-02-05T23:41:23: Analyzing "encodings.cp869"
+2017-02-05T23:41:23: Analyzing "encodings.cp874"
+2017-02-05T23:41:23: Analyzing "encodings.cp875"
+2017-02-05T23:41:23: Analyzing "encodings.cp932"
+2017-02-05T23:41:23: Analyzing "encodings.cp949"
+2017-02-05T23:41:23: Analyzing "encodings.cp950"
+2017-02-05T23:41:23: Analyzing "encodings.euc_jisx0213"
+2017-02-05T23:41:23: Analyzing "encodings.euc_jis_2004"
+2017-02-05T23:41:23: Analyzing "encodings.euc_jp"
+2017-02-05T23:41:23: Analyzing "encodings.euc_kr"
+2017-02-05T23:41:23: Analyzing "encodings.gb18030"
+2017-02-05T23:41:23: Analyzing "encodings.gb2312"
+2017-02-05T23:41:23: Analyzing "encodings.gbk"
+2017-02-05T23:41:23: Analyzing "encodings.hex_codec"
+2017-02-05T23:41:23: Analyzing "encodings.hp_roman8"
+2017-02-05T23:41:23: Analyzing "encodings.hz"
+2017-02-05T23:41:23: Analyzing "encodings.idna"
+2017-02-05T23:41:23: Analyzing "encodings.iso2022_jp"
+2017-02-05T23:41:23: Analyzing "encodings.iso2022_jp_1"
+2017-02-05T23:41:23: Analyzing "encodings.iso2022_jp_2"
+2017-02-05T23:41:23: Analyzing "encodings.iso2022_jp_2004"
+2017-02-05T23:41:23: Analyzing "encodings.iso2022_jp_3"
+2017-02-05T23:41:23: Analyzing "encodings.iso2022_jp_ext"
+2017-02-05T23:41:23: Analyzing "encodings.iso2022_kr"
+2017-02-05T23:41:23: Analyzing "encodings.iso8859_1"
+2017-02-05T23:41:23: Analyzing "encodings.iso8859_10"
+2017-02-05T23:41:23: Analyzing "encodings.iso8859_11"
+2017-02-05T23:41:23: Analyzing "encodings.iso8859_13"
+2017-02-05T23:41:23: Analyzing "encodings.iso8859_14"
+2017-02-05T23:41:23: Analyzing "encodings.iso8859_15"
+2017-02-05T23:41:23: Analyzing "encodings.iso8859_16"
+2017-02-05T23:41:23: Analyzing "encodings.iso8859_2"
+2017-02-05T23:41:23: Analyzing "encodings.iso8859_3"
+2017-02-05T23:41:23: Analyzing "encodings.iso8859_4"
+2017-02-05T23:41:23: Analyzing "encodings.iso8859_5"
+2017-02-05T23:41:23: Analyzing "encodings.iso8859_6"
+2017-02-05T23:41:23: Analyzing "encodings.iso8859_7"
+2017-02-05T23:41:23: Analyzing "encodings.iso8859_8"
+2017-02-05T23:41:23: Analyzing "encodings.iso8859_9"
+2017-02-05T23:41:23: Analyzing "encodings.johab"
+2017-02-05T23:41:23: Analyzing "encodings.koi8_r"
+2017-02-05T23:41:23: Analyzing "encodings.koi8_u"
+2017-02-05T23:41:23: Analyzing "encodings.latin_1"
+2017-02-05T23:41:23: Analyzing "encodings.mac_arabic"
+2017-02-05T23:41:23: Analyzing "encodings.mac_centeuro"
+2017-02-05T23:41:23: Analyzing "encodings.mac_croatian"
+2017-02-05T23:41:23: Analyzing "encodings.mac_cyrillic"
+2017-02-05T23:41:23: Analyzing "encodings.mac_farsi"
+2017-02-05T23:41:23: Analyzing "encodings.mac_greek"
+2017-02-05T23:41:23: Analyzing "encodings.mac_iceland"
+2017-02-05T23:41:23: Analyzing "encodings.mac_latin2"
+2017-02-05T23:41:23: Analyzing "encodings.mac_roman"
+2017-02-05T23:41:23: Analyzing "encodings.mac_romanian"
+2017-02-05T23:41:23: Analyzing "encodings.mac_turkish"
+2017-02-05T23:41:23: Analyzing "encodings.mbcs"
+2017-02-05T23:41:23: Analyzing "encodings.palmos"
+2017-02-05T23:41:23: Analyzing "encodings.ptcp154"
+2017-02-05T23:41:23: Analyzing "encodings.punycode"
+2017-02-05T23:41:23: Analyzing "encodings.quopri_codec"
+2017-02-05T23:41:23: Analyzing "encodings.raw_unicode_escape"
+2017-02-05T23:41:23: Analyzing "encodings.rot_13"
+2017-02-05T23:41:23: Analyzing "encodings.shift_jis"
+2017-02-05T23:41:23: Analyzing "encodings.shift_jisx0213"
+2017-02-05T23:41:23: Analyzing "encodings.shift_jis_2004"
+2017-02-05T23:41:23: Analyzing "encodings.string_escape"
+2017-02-05T23:41:23: Analyzing "encodings.tis_620"
+2017-02-05T23:41:23: Analyzing "encodings.undefined"
+2017-02-05T23:41:23: Analyzing "encodings.unicode_escape"
+2017-02-05T23:41:23: Analyzing "encodings.unicode_internal"
+2017-02-05T23:41:23: Analyzing "encodings.utf_16"
+2017-02-05T23:41:23: Analyzing "encodings.utf_16_be"
+2017-02-05T23:41:23: Analyzing "encodings.utf_16_le"
+2017-02-05T23:41:23: Analyzing "encodings.utf_32"
+2017-02-05T23:41:23: Analyzing "encodings.utf_32_be"
+2017-02-05T23:41:23: Analyzing "encodings.utf_32_le"
+2017-02-05T23:41:23: Analyzing "encodings.utf_7"
+2017-02-05T23:41:23: Analyzing "encodings.utf_8"
+2017-02-05T23:41:23: Analyzing "encodings.utf_8_sig"
+2017-02-05T23:41:23: Analyzing "encodings.uu_codec"
+2017-02-05T23:41:23: Analyzing "encodings.zlib_codec"
+2017-02-05T23:41:23: Analyzing "encodings"
+2017-02-05T23:41:23: Starting analysis of 143 modules
+2017-02-05T23:41:24: Analysis complete
+2017-02-05T23:41:24: Saving group "C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib"
+2017-02-05T23:41:26: End of group "C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib"
+2017-02-05T23:41:26: Start group "C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\site-packages" with 2 files
+2017-02-05T23:41:37: Parsing "easy_install" ("C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\site-packages\easy_install.py")
+2017-02-05T23:41:37: Parsing "itsdangerous" ("C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\site-packages\itsdangerous.py")
+2017-02-05T23:41:37: Parsing complete
+2017-02-05T23:41:37: Analyzing "easy_install"
+2017-02-05T23:41:37: Analyzing "itsdangerous"
+2017-02-05T23:41:37: Starting analysis of 2 modules
+2017-02-05T23:41:37: Analysis complete
+2017-02-05T23:41:37: Saving group "C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\site-packages"
+2017-02-05T23:41:37: End of group "C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\site-packages"
+2017-02-05T23:41:37: Start group "C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\site-packages\click" with 17 files
+2017-02-05T23:42:14: Parsing "click.core" ("C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\site-packages\click\core.py")
+2017-02-05T23:42:15: Parsing "click.decorators" ("C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\site-packages\click\decorators.py")
+2017-02-05T23:42:15: Parsing "click.exceptions" ("C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\site-packages\click\exceptions.py")
+2017-02-05T23:42:15: Parsing "click.formatting" ("C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\site-packages\click\formatting.py")
+2017-02-05T23:42:15: Parsing "click.globals" ("C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\site-packages\click\globals.py")
+2017-02-05T23:42:15: Parsing "click.parser" ("C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\site-packages\click\parser.py")
+2017-02-05T23:42:15: Parsing "click.termui" ("C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\site-packages\click\termui.py")
+2017-02-05T23:42:15: Parsing "click.testing" ("C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\site-packages\click\testing.py")
+2017-02-05T23:42:15: Parsing "click.types" ("C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\site-packages\click\types.py")
+2017-02-05T23:42:15: Parsing "click.utils" ("C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\site-packages\click\utils.py")
+2017-02-05T23:42:15: Parsing "click._bashcomplete" ("C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\site-packages\click\_bashcomplete.py")
+2017-02-05T23:42:15: Parsing "click._compat" ("C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\site-packages\click\_compat.py")
+2017-02-05T23:42:15: Parsing "click._termui_impl" ("C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\site-packages\click\_termui_impl.py")
+2017-02-05T23:42:15: Parsing "click._textwrap" ("C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\site-packages\click\_textwrap.py")
+2017-02-05T23:42:15: Parsing "click._unicodefun" ("C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\site-packages\click\_unicodefun.py")
+2017-02-05T23:42:15: Parsing "click._winconsole" ("C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\site-packages\click\_winconsole.py")
+2017-02-05T23:42:15: Parsing "click" ("C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\site-packages\click\__init__.py")
+2017-02-05T23:42:15: Parsing complete
+2017-02-05T23:42:15: Analyzing "click.core"
+2017-02-05T23:42:15: Analyzing "click.decorators"
+2017-02-05T23:42:15: Analyzing "click.exceptions"
+2017-02-05T23:42:15: Analyzing "click.formatting"
+2017-02-05T23:42:15: Analyzing "click.globals"
+2017-02-05T23:42:15: Analyzing "click.parser"
+2017-02-05T23:42:15: Analyzing "click.termui"
+2017-02-05T23:42:15: Analyzing "click.testing"
+2017-02-05T23:42:15: Analyzing "click.types"
+2017-02-05T23:42:15: Analyzing "click.utils"
+2017-02-05T23:42:15: Analyzing "click._bashcomplete"
+2017-02-05T23:42:15: Analyzing "click._compat"
+2017-02-05T23:42:15: Analyzing "click._termui_impl"
+2017-02-05T23:42:15: Analyzing "click._textwrap"
+2017-02-05T23:42:15: Analyzing "click._unicodefun"
+2017-02-05T23:42:15: Analyzing "click._winconsole"
+2017-02-05T23:42:15: Analyzing "click"
+2017-02-05T23:42:15: Starting analysis of 17 modules
+2017-02-05T23:42:15: Analysis complete
+2017-02-05T23:42:15: Saving group "C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\site-packages\click"
+2017-02-05T23:42:16: End of group "C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\site-packages\click"
+2017-02-05T23:42:16: Start group "C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\site-packages\flask" with 21 files
+2017-02-05T23:42:29: Parsing "flask.app" ("C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\site-packages\flask\app.py")
+2017-02-05T23:42:29: Parsing "flask.blueprints" ("C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\site-packages\flask\blueprints.py")
+2017-02-05T23:42:29: Parsing "flask.cli" ("C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\site-packages\flask\cli.py")
+2017-02-05T23:42:29: Parsing "flask.config" ("C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\site-packages\flask\config.py")
+2017-02-05T23:42:29: Parsing "flask.ctx" ("C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\site-packages\flask\ctx.py")
+2017-02-05T23:42:29: Parsing "flask.debughelpers" ("C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\site-packages\flask\debughelpers.py")
+2017-02-05T23:42:29: Parsing "flask.exthook" ("C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\site-packages\flask\exthook.py")
+2017-02-05T23:42:29: Parsing "flask.globals" ("C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\site-packages\flask\globals.py")
+2017-02-05T23:42:29: Parsing "flask.helpers" ("C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\site-packages\flask\helpers.py")
+2017-02-05T23:42:29: Parsing "flask.json" ("C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\site-packages\flask\json.py")
+2017-02-05T23:42:29: Parsing "flask.logging" ("C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\site-packages\flask\logging.py")
+2017-02-05T23:42:29: Parsing "flask.sessions" ("C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\site-packages\flask\sessions.py")
+2017-02-05T23:42:29: Parsing "flask.signals" ("C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\site-packages\flask\signals.py")
+2017-02-05T23:42:29: Parsing "flask.templating" ("C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\site-packages\flask\templating.py")
+2017-02-05T23:42:29: Parsing "flask.testing" ("C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\site-packages\flask\testing.py")
+2017-02-05T23:42:29: Parsing "flask.views" ("C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\site-packages\flask\views.py")
+2017-02-05T23:42:29: Parsing "flask.wrappers" ("C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\site-packages\flask\wrappers.py")
+2017-02-05T23:42:29: Parsing "flask._compat" ("C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\site-packages\flask\_compat.py")
+2017-02-05T23:42:29: Parsing "flask" ("C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\site-packages\flask\__init__.py")
+2017-02-05T23:42:29: Parsing "flask.__main__" ("C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\site-packages\flask\__main__.py")
+2017-02-05T23:42:29: Parsing "flask.ext" ("C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\site-packages\flask\ext\__init__.py")
+2017-02-05T23:42:29: Parsing complete
+2017-02-05T23:42:29: Analyzing "flask.app"
+2017-02-05T23:42:29: Analyzing "flask.blueprints"
+2017-02-05T23:42:29: Analyzing "flask.cli"
+2017-02-05T23:42:29: Analyzing "flask.config"
+2017-02-05T23:42:29: Analyzing "flask.ctx"
+2017-02-05T23:42:29: Analyzing "flask.debughelpers"
+2017-02-05T23:42:29: Analyzing "flask.exthook"
+2017-02-05T23:42:29: Analyzing "flask.globals"
+2017-02-05T23:42:29: Analyzing "flask.helpers"
+2017-02-05T23:42:29: Analyzing "flask.json"
+2017-02-05T23:42:29: Analyzing "flask.logging"
+2017-02-05T23:42:29: Analyzing "flask.sessions"
+2017-02-05T23:42:29: Analyzing "flask.signals"
+2017-02-05T23:42:29: Analyzing "flask.templating"
+2017-02-05T23:42:29: Analyzing "flask.testing"
+2017-02-05T23:42:29: Analyzing "flask.views"
+2017-02-05T23:42:29: Analyzing "flask.wrappers"
+2017-02-05T23:42:29: Analyzing "flask._compat"
+2017-02-05T23:42:29: Analyzing "flask"
+2017-02-05T23:42:29: Analyzing "flask.__main__"
+2017-02-05T23:42:29: Analyzing "flask.ext"
+2017-02-05T23:42:29: Starting analysis of 21 modules
+2017-02-05T23:42:29: Analysis complete
+2017-02-05T23:42:29: Saving group "C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\site-packages\flask"
+2017-02-05T23:42:30: End of group "C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\site-packages\flask"
+2017-02-05T23:42:30: Start group "C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\site-packages\jinja2" with 26 files
+2017-02-05T23:42:32: Parsing "jinja2.asyncfilters" ("C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\site-packages\jinja2\asyncfilters.py")
+2017-02-05T23:42:32: [WARNING] File "C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\site-packages\jinja2\asyncfilters.py" contained parse errors
+2017-02-05T23:42:32: [ERROR] Error parsing "jinja2.asyncfilters" "C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\site-packages\jinja2\asyncfilters.py"
+System.FormatException: Input string was not in a correct format.
+   at System.Text.StringBuilder.AppendFormatHelper(IFormatProvider provider, String format, ParamsArray args)
+   at System.String.FormatHelper(IFormatProvider provider, String format, ParamsArray args)
+   at System.String.Format(String format, Object[] args)
+   at Microsoft.PythonTools.Analysis.PyLibAnalyzer.TraceInformation(String message, Object[] args)
+   at Microsoft.PythonTools.Analysis.PyLibAnalyzer.Analyze()
+2017-02-05T23:42:32: Parsing "jinja2.asyncsupport" ("C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\site-packages\jinja2\asyncsupport.py")
+2017-02-05T23:42:32: [WARNING] File "C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\site-packages\jinja2\asyncsupport.py" contained parse errors
+2017-02-05T23:42:32: (22,7) - (22,10) unexpected token 'def'
+(22,34) - (22,35) unexpected token ':'
+(23,5) - (23,7) unexpected indent
+(23,5) - (23,7) can't assign to ErrorExpression
+(24,11) - (24,14) unexpected token 'def'
+(24,24) - (24,25) unexpected token ':'
+(25,9) - (25,14) unexpected indent
+(25,15) - (25,18) unexpected token 'for'
+(25,37) - (25,38) unexpected token ':'
+(26,13) - (26,15) unexpected indent
+(26,15) - (26,16) unexpected token '.'
+(26,29) - (27,5) unexpected token '<dedent>'
+(26,29) - (27,5) unexpected token '<dedent>'
+(27,11) - (27,18) unexpected token 'collect'
+(28,5) - (28,11) 'return' outside function
+(30,1) - (31,1) unexpected token '<dedent>'
+(31,1) - (31,6) unexpected token 'async'
+(34,15) - (34,18) unexpected token 'for'
+(34,73) - (34,74) unexpected token ':'
+(34,74) - (35,13) unexpected token '<newline>'
+(34,74) - (35,13) unexpected token '<indent>'
+(36,5) - (36,11) unexpected token 'except'
+(36,12) - (36,21) unexpected token 'Exception'
+(36,21) - (36,22) unexpected token ':'
+(37,9) - (37,17) unexpected indent
+(37,9) - (37,17) can't assign to ErrorExpression
+(37,34) - (38,5) unexpected token '<dedent>'
+(38,5) - (38,9) unexpected token 'else'
+(38,9) - (38,10) unexpected token ':'
+(39,9) - (39,15) unexpected indent
+(39,15) - (40,5) unexpected token '<dedent>'
+(40,5) - (40,10) unexpected token 'yield'
+(42,1) - (43,1) unexpected token '<dedent>'
+(43,1) - (43,4) unexpected token 'def'
+(43,42) - (43,43) unexpected token ':'
+(44,5) - (44,8) unexpected indent
+(44,9) - (44,27) unexpected token '_convert_generator'
+(44,53) - (44,54) unexpected token ':'
+(45,9) - (45,18) unexpected indent
+(45,9) - (45,18) can't assign to ErrorExpression
+(48,17) - (48,22) misplaced yield
+(28,5) - (28,22) 'return' with argument inside generator
+(50,17) - (51,5) unexpected token '<dedent>'
+(51,5) - (51,8) unexpected token 'def'
+(51,40) - (51,41) unexpected token ':'
+(52,9) - (52,11) unexpected indent
+(52,12) - (52,15) unexpected token 'not'
+(52,41) - (52,42) unexpected token ':'
+(53,13) - (53,19) unexpected indent
+(53,20) - (53,37) unexpected token 'original_generate'
+(53,45) - (53,49) invalid syntax
+(53,51) - (53,53) unexpected token '**'
+(53,53) - (53,59) unexpected token 'kwargs'
+(53,53) - (53,59) unexpected token 'kwargs'
+(53,59) - (53,60) unexpected token ')'
+(53,60) - (54,9) unexpected token '<dedent>'
+(54,9) - (54,15) unexpected token 'return'
+(54,80) - (55,5) unexpected token '<dedent>'
+(55,5) - (55,11) unexpected token 'return'
+(57,1) - (58,1) unexpected token '<dedent>'
+(58,1) - (58,6) unexpected token 'async'
+(67,22) - (67,34) unexpected token 'concat_async'
+(84,5) - (84,10) unexpected token 'async'
+(84,11) - (84,14) unexpected token 'def'
+(84,31) - (84,32) unexpected token ':'
+(84,32) - (85,9) unexpected token '<newline>'
+(84,32) - (85,9) unexpected token '<indent>'
+(85,20) - (85,32) unexpected token 'concat_async'
+(96,5) - (96,11) 'return' outside function
+(96,5) - (96,51) 'return' with argument inside generator
+(98,1) - (99,1) unexpected token '<dedent>'
+(99,1) - (99,4) unexpected token 'def'
+(99,39) - (99,40) unexpected token ':'
+(100,5) - (100,6) unexpected indent
+(100,6) - (100,18) unexpected token 'internalcode'
+(101,11) - (101,14) unexpected token 'def'
+(101,56) - (101,57) unexpected token ':'
+(102,9) - (102,11) unexpected indent
+(102,9) - (102,11) can't assign to ErrorExpression
+(102,20) - (102,24) unexpected token 'self'
+(102,24) - (102,25) unexpected token '.'
+(102,25) - (102,30) unexpected token '_func'
+(102,32) - (102,41) invalid syntax
+(105,9) - (105,15) 'return' outside function
+(105,9) - (105,18) 'return' with argument inside generator
+(106,1) - (107,5) unexpected token '<dedent>'
+(107,5) - (107,6) unexpected token '@'
+(112,5) - (112,11) 'return' outside function
+(112,5) - (112,52) 'return' with argument inside generator
+(114,1) - (115,1) unexpected token '<dedent>'
+(115,1) - (115,2) unexpected token '@'
+(116,7) - (116,10) unexpected token 'def'
+(116,41) - (116,42) unexpected token ':'
+(117,5) - (117,7) unexpected indent
+(117,8) - (117,12) unexpected token 'self'
+(117,12) - (117,13) unexpected token '.'
+(117,13) - (117,20) unexpected token '_module'
+(117,21) - (117,23) unexpected token 'is'
+(117,28) - (117,32) unexpected token 'None'
+(117,32) - (117,33) unexpected token ':'
+(118,9) - (118,15) unexpected indent
+(118,16) - (118,20) unexpected token 'self'
+(118,20) - (118,21) unexpected token '.'
+(118,21) - (118,28) unexpected token '_module'
+(118,28) - (119,5) unexpected token '<dedent>'
+(119,5) - (119,9) unexpected token 'self'
+(119,9) - (119,10) unexpected token '.'
+(119,10) - (119,17) unexpected token '_module'
+(119,18) - (119,19) unexpected token '='
+(119,20) - (119,22) unexpected token 'rv'
+(119,23) - (119,24) unexpected token '='
+(119,25) - (119,30) unexpected token 'await'
+(120,5) - (120,11) 'return' outside function
+(120,5) - (120,14) 'return' with argument inside generator
+(122,1) - (123,1) unexpected token '<dedent>'
+(123,1) - (123,4) unexpected token 'def'
+(123,49) - (123,50) unexpected token ':'
+(124,5) - (124,6) unexpected indent
+(124,6) - (124,18) unexpected token 'internalcode'
+(130,5) - (130,11) 'return' outside function
+(130,5) - (130,31) 'return' with argument inside generator
+(132,1) - (133,1) unexpected token '<dedent>'
+(133,1) - (133,6) unexpected token 'async'
+(136,11) - (136,14) unexpected token 'for'
+(136,53) - (136,54) unexpected token ':'
+(136,54) - (137,9) unexpected token '<newline>'
+(136,54) - (137,9) unexpected token '<indent>'
+(138,5) - (138,11) 'return' outside function
+(138,5) - (138,54) 'return' with argument inside generator
+(140,1) - (141,1) unexpected token '<dedent>'
+(141,1) - (141,4) unexpected token 'def'
+(141,21) - (141,22) unexpected token ':'
+(142,5) - (142,9) unexpected indent
+(142,10) - (142,16) unexpected token 'jinja2'
+(155,1) - (156,1) unexpected token '<dedent>'
+(156,1) - (156,4) unexpected token 'def'
+(156,20) - (156,21) unexpected token ':'
+(157,5) - (157,9) unexpected indent
+(157,10) - (157,16) unexpected token 'jinja2'
+(157,16) - (157,17) unexpected token '.'
+(157,17) - (157,24) unexpected token 'runtime'
+(162,1) - (163,1) unexpected token '<dedent>'
+(163,1) - (163,4) unexpected token 'def'
+(163,20) - (163,21) unexpected token ':'
+(164,5) - (164,9) unexpected indent
+(164,10) - (164,16) unexpected token 'jinja2'
+(164,16) - (164,17) unexpected token '.'
+(164,17) - (164,24) unexpected token 'filters'
+(168,1) - (169,1) unexpected token '<dedent>'
+(169,1) - (169,4) unexpected token 'def'
+(169,16) - (169,17) unexpected token ':'
+(170,5) - (170,19) unexpected indent
+(170,19) - (170,20) unexpected token '('
+(170,20) - (170,21) unexpected token ')'
+(174,1) - (175,1) unexpected token '<dedent>'
+(175,1) - (175,6) unexpected token 'async'
+(177,22) - (177,27) unexpected token 'value'
+(177,27) - (178,5) unexpected token '<newline>'
+(177,27) - (178,5) unexpected token '<dedent>'
+(181,7) - (181,10) unexpected token 'def'
+(181,31) - (181,32) unexpected token ':'
+(181,32) - (182,5) unexpected token '<newline>'
+(181,32) - (182,5) unexpected token '<indent>'
+(183,15) - (183,18) unexpected token 'for'
+(183,35) - (183,36) unexpected token ':'
+(183,36) - (184,13) unexpected token '<newline>'
+(183,36) - (184,13) unexpected token '<indent>'
+(177,9) - (177,21) 'return' with argument inside generator
+(178,5) - (178,17) 'return' with argument inside generator
+(187,9) - (187,14) misplaced yield
+(28,5) - (28,22) 'return' with argument inside generator
+(189,1) - (190,1) unexpected token '<dedent>'
+(190,1) - (190,6) unexpected token 'class'
+(190,40) - (190,41) unexpected token ':'
+(192,5) - (192,8) unexpected indent
+(192,9) - (192,17) unexpected token '__init__'
+(192,62) - (192,63) unexpected token '='
+(192,63) - (193,24) can't assign to literal
+(193,26) - (193,27) unexpected token ')'
+(193,27) - (193,28) unexpected token ':'
+(194,9) - (194,24) unexpected indent
+(194,24) - (194,25) unexpected token '.'
+(198,1) - (199,5) unexpected token '<dedent>'
+(199,5) - (199,6) unexpected token '@'
+(209,1) - (210,1) unexpected token '<dedent>'
+(210,1) - (210,6) unexpected token 'class'
+(210,39) - (210,40) unexpected token ':'
+(211,5) - (211,14) unexpected indent
+(211,5) - (211,14) can't assign to ErrorExpression
+(219,11) - (219,14) unexpected token 'def'
+(219,30) - (219,31) unexpected token ':'
+(220,9) - (220,12) unexpected indent
+(220,9) - (220,12) can't assign to ErrorExpression
+(226,32) - (226,35) unexpected token 'ctx'
+(226,35) - (226,36) unexpected token '.'
+(226,36) - (226,51) unexpected token '_async_iterator'
+(226,51) - (226,52) unexpected token '.'
+(226,52) - (226,61) unexpected token '__anext__'
+(229,9) - (229,15) 'return' outside function
+(229,9) - (229,30) 'return' with argument inside generator
+(231,1) - (232,1) unexpected token '<dedent>'
+(231,1) - (232,1) unexpected token '<dedent>'
+(232,7) - (232,10) unexpected token 'def'
+(232,68) - (232,69) unexpected token ':'
+(241,5) - (241,8) unexpected indent
+(241,8) - (241,9) unexpected token ':'
+(242,9) - (242,15) unexpected indent
+(242,9) - (242,15) can't assign to ErrorExpression
+(242,31) - (243,5) unexpected token '<dedent>'
+(243,5) - (243,11) unexpected token 'except'
+(243,39) - (243,40) unexpected token ':'
+(244,9) - (244,11) unexpected indent
+(244,12) - (244,15) unexpected token 'not'
+(244,46) - (244,47) unexpected token ':'
+(245,13) - (245,21) unexpected indent
+(245,13) - (245,21) can't assign to ErrorExpression
+(246,35) - (247,9) unexpected token '<dedent>'
+(247,9) - (247,13) unexpected token 'else'
+(247,13) - (247,14) unexpected token ':'
+(248,13) - (248,19) unexpected indent
+(248,13) - (248,19) can't assign to ErrorExpression
+(248,26) - (249,5) unexpected token '<dedent>'
+(248,26) - (249,5) unexpected token '<dedent>'
+(251,23) - (251,37) unexpected token 'async_iterator'
+(251,37) - (251,38) unexpected token '.'
+(251,38) - (251,47) unexpected token '__anext__'
+(254,5) - (254,11) 'return' outside function
+(254,5) - (254,76) 'return' with argument inside generator
+(254,76) - (255,1) unexpected token '<dedent>'
+2017-02-05T23:42:32: Parsing "jinja2.bccache" ("C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\site-packages\jinja2\bccache.py")
+2017-02-05T23:42:32: Parsing "jinja2.compiler" ("C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\site-packages\jinja2\compiler.py")
+2017-02-05T23:42:32: Parsing "jinja2.constants" ("C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\site-packages\jinja2\constants.py")
+2017-02-05T23:42:32: Parsing "jinja2.debug" ("C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\site-packages\jinja2\debug.py")
+2017-02-05T23:42:32: Parsing "jinja2.defaults" ("C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\site-packages\jinja2\defaults.py")
+2017-02-05T23:42:32: Parsing "jinja2.environment" ("C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\site-packages\jinja2\environment.py")
+2017-02-05T23:42:32: Parsing "jinja2.exceptions" ("C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\site-packages\jinja2\exceptions.py")
+2017-02-05T23:42:32: Parsing "jinja2.ext" ("C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\site-packages\jinja2\ext.py")
+2017-02-05T23:42:32: Parsing "jinja2.filters" ("C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\site-packages\jinja2\filters.py")
+2017-02-05T23:42:32: Parsing "jinja2.idtracking" ("C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\site-packages\jinja2\idtracking.py")
+2017-02-05T23:42:32: Parsing "jinja2.lexer" ("C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\site-packages\jinja2\lexer.py")
+2017-02-05T23:42:32: Parsing "jinja2.loaders" ("C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\site-packages\jinja2\loaders.py")
+2017-02-05T23:42:32: Parsing "jinja2.meta" ("C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\site-packages\jinja2\meta.py")
+2017-02-05T23:42:32: Parsing "jinja2.nodes" ("C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\site-packages\jinja2\nodes.py")
+2017-02-05T23:42:32: Parsing "jinja2.optimizer" ("C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\site-packages\jinja2\optimizer.py")
+2017-02-05T23:42:32: Parsing "jinja2.parser" ("C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\site-packages\jinja2\parser.py")
+2017-02-05T23:42:32: Parsing "jinja2.runtime" ("C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\site-packages\jinja2\runtime.py")
+2017-02-05T23:42:32: Parsing "jinja2.sandbox" ("C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\site-packages\jinja2\sandbox.py")
+2017-02-05T23:42:32: Parsing "jinja2.tests" ("C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\site-packages\jinja2\tests.py")
+2017-02-05T23:42:32: Parsing "jinja2.utils" ("C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\site-packages\jinja2\utils.py")
+2017-02-05T23:42:32: Parsing "jinja2.visitor" ("C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\site-packages\jinja2\visitor.py")
+2017-02-05T23:42:32: Parsing "jinja2._compat" ("C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\site-packages\jinja2\_compat.py")
+2017-02-05T23:42:32: Parsing "jinja2._stringdefs" ("C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\site-packages\jinja2\_stringdefs.py")
+2017-02-05T23:42:32: Parsing "jinja2" ("C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\site-packages\jinja2\__init__.py")
+2017-02-05T23:42:32: Parsing complete
+2017-02-05T23:42:32: Analyzing "jinja2.asyncfilters"
+2017-02-05T23:42:32: Analyzing "jinja2.asyncsupport"
+2017-02-05T23:42:32: Analyzing "jinja2.bccache"
+2017-02-05T23:42:32: Analyzing "jinja2.compiler"
+2017-02-05T23:42:32: Analyzing "jinja2.constants"
+2017-02-05T23:42:32: Analyzing "jinja2.debug"
+2017-02-05T23:42:32: Analyzing "jinja2.defaults"
+2017-02-05T23:42:32: Analyzing "jinja2.environment"
+2017-02-05T23:42:32: Analyzing "jinja2.exceptions"
+2017-02-05T23:42:32: Analyzing "jinja2.ext"
+2017-02-05T23:42:32: Analyzing "jinja2.filters"
+2017-02-05T23:42:32: Analyzing "jinja2.idtracking"
+2017-02-05T23:42:32: Analyzing "jinja2.lexer"
+2017-02-05T23:42:32: Analyzing "jinja2.loaders"
+2017-02-05T23:42:32: Analyzing "jinja2.meta"
+2017-02-05T23:42:32: Analyzing "jinja2.nodes"
+2017-02-05T23:42:32: Analyzing "jinja2.optimizer"
+2017-02-05T23:42:32: Analyzing "jinja2.parser"
+2017-02-05T23:42:32: Analyzing "jinja2.runtime"
+2017-02-05T23:42:32: Analyzing "jinja2.sandbox"
+2017-02-05T23:42:32: Analyzing "jinja2.tests"
+2017-02-05T23:42:32: Analyzing "jinja2.utils"
+2017-02-05T23:42:32: Analyzing "jinja2.visitor"
+2017-02-05T23:42:32: Analyzing "jinja2._compat"
+2017-02-05T23:42:32: Analyzing "jinja2._stringdefs"
+2017-02-05T23:42:32: Analyzing "jinja2"
+2017-02-05T23:42:32: Starting analysis of 26 modules
+2017-02-05T23:42:34: Analysis complete
+2017-02-05T23:42:34: Saving group "C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\site-packages\jinja2"
+2017-02-05T23:42:34: End of group "C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\site-packages\jinja2"
+2017-02-05T23:42:34: Start group "C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\site-packages\markupsafe" with 5 files
+2017-02-05T23:42:36: Parsing "markupsafe.tests" ("C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\site-packages\markupsafe\tests.py")
+2017-02-05T23:42:36: Parsing "markupsafe._compat" ("C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\site-packages\markupsafe\_compat.py")
+2017-02-05T23:42:36: Parsing "markupsafe._constants" ("C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\site-packages\markupsafe\_constants.py")
+2017-02-05T23:42:36: Parsing "markupsafe._native" ("C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\site-packages\markupsafe\_native.py")
+2017-02-05T23:42:36: Parsing "markupsafe" ("C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\site-packages\markupsafe\__init__.py")
+2017-02-05T23:42:36: Parsing complete
+2017-02-05T23:42:36: Analyzing "markupsafe.tests"
+2017-02-05T23:42:36: Analyzing "markupsafe._compat"
+2017-02-05T23:42:36: Analyzing "markupsafe._constants"
+2017-02-05T23:42:36: Analyzing "markupsafe._native"
+2017-02-05T23:42:36: Analyzing "markupsafe"
+2017-02-05T23:42:36: Starting analysis of 5 modules
+2017-02-05T23:42:36: Analysis complete
+2017-02-05T23:42:36: Saving group "C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\site-packages\markupsafe"
+2017-02-05T23:42:36: End of group "C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\site-packages\markupsafe"
+2017-02-05T23:42:36: Start group "C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\site-packages\pip" with 227 files
+2017-02-05T23:42:39: Parsing "pip.basecommand" ("C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\site-packages\pip\basecommand.py")
+2017-02-05T23:42:39: Parsing "pip.baseparser" ("C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\site-packages\pip\baseparser.py")
+2017-02-05T23:42:39: Parsing "pip.cmdoptions" ("C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\site-packages\pip\cmdoptions.py")
+2017-02-05T23:42:39: Parsing "pip.download" ("C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\site-packages\pip\download.py")
+2017-02-05T23:42:39: Parsing "pip.exceptions" ("C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\site-packages\pip\exceptions.py")
+2017-02-05T23:42:39: Parsing "pip.index" ("C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\site-packages\pip\index.py")
+2017-02-05T23:42:39: Parsing "pip.locations" ("C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\site-packages\pip\locations.py")
+2017-02-05T23:42:39: Parsing "pip.pep425tags" ("C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\site-packages\pip\pep425tags.py")
+2017-02-05T23:42:39: Parsing "pip.status_codes" ("C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\site-packages\pip\status_codes.py")
+2017-02-05T23:42:39: Parsing "pip.wheel" ("C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\site-packages\pip\wheel.py")
+2017-02-05T23:42:39: Parsing "pip" ("C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\site-packages\pip\__init__.py")
+2017-02-05T23:42:39: Parsing "pip.__main__" ("C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\site-packages\pip\__main__.py")
+2017-02-05T23:42:39: Parsing "pip.commands.completion" ("C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\site-packages\pip\commands\completion.py")
+2017-02-05T23:42:39: Parsing "pip.commands.freeze" ("C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\site-packages\pip\commands\freeze.py")
+2017-02-05T23:42:39: Parsing "pip.commands.help" ("C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\site-packages\pip\commands\help.py")
+2017-02-05T23:42:39: Parsing "pip.commands.install" ("C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\site-packages\pip\commands\install.py")
+2017-02-05T23:42:39: Parsing "pip.commands.list" ("C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\site-packages\pip\commands\list.py")
+2017-02-05T23:42:39: Parsing "pip.commands.search" ("C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\site-packages\pip\commands\search.py")
+2017-02-05T23:42:39: Parsing "pip.commands.show" ("C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\site-packages\pip\commands\show.py")
+2017-02-05T23:42:39: Parsing "pip.commands.uninstall" ("C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\site-packages\pip\commands\uninstall.py")
+2017-02-05T23:42:39: Parsing "pip.commands.unzip" ("C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\site-packages\pip\commands\unzip.py")
+2017-02-05T23:42:39: Parsing "pip.commands.wheel" ("C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\site-packages\pip\commands\wheel.py")
+2017-02-05T23:42:39: Parsing "pip.commands.zip" ("C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\site-packages\pip\commands\zip.py")
+2017-02-05T23:42:39: Parsing "pip.commands" ("C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\site-packages\pip\commands\__init__.py")
+2017-02-05T23:42:39: Parsing "pip.compat.dictconfig" ("C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\site-packages\pip\compat\dictconfig.py")
+2017-02-05T23:42:39: Parsing "pip.compat" ("C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\site-packages\pip\compat\__init__.py")
+2017-02-05T23:42:39: Parsing "pip.models.index" ("C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\site-packages\pip\models\index.py")
+2017-02-05T23:42:39: Parsing "pip.models" ("C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\site-packages\pip\models\__init__.py")
+2017-02-05T23:42:39: Parsing "pip.operations.freeze" ("C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\site-packages\pip\operations\freeze.py")
+2017-02-05T23:42:39: Parsing "pip.operations" ("C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\site-packages\pip\operations\__init__.py")
+2017-02-05T23:42:39: Parsing "pip.req.req_file" ("C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\site-packages\pip\req\req_file.py")
+2017-02-05T23:42:39: Parsing "pip.req.req_install" ("C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\site-packages\pip\req\req_install.py")
+2017-02-05T23:42:39: Parsing "pip.req.req_requirement" ("C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\site-packages\pip\req\req_requirement.py")
+2017-02-05T23:42:39: Parsing "pip.req.req_set" ("C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\site-packages\pip\req\req_set.py")
+2017-02-05T23:42:39: Parsing "pip.req.req_uninstall" ("C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\site-packages\pip\req\req_uninstall.py")
+2017-02-05T23:42:39: Parsing "pip.req" ("C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\site-packages\pip\req\__init__.py")
+2017-02-05T23:42:39: Parsing "pip.utils.appdirs" ("C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\site-packages\pip\utils\appdirs.py")
+2017-02-05T23:42:39: Parsing "pip.utils.build" ("C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\site-packages\pip\utils\build.py")
+2017-02-05T23:42:39: Parsing "pip.utils.deprecation" ("C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\site-packages\pip\utils\deprecation.py")
+2017-02-05T23:42:39: Parsing "pip.utils.filesystem" ("C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\site-packages\pip\utils\filesystem.py")
+2017-02-05T23:42:39: Parsing "pip.utils.logging" ("C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\site-packages\pip\utils\logging.py")
+2017-02-05T23:42:39: Parsing "pip.utils.outdated" ("C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\site-packages\pip\utils\outdated.py")
+2017-02-05T23:42:39: Parsing "pip.utils.ui" ("C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\site-packages\pip\utils\ui.py")
+2017-02-05T23:42:39: Parsing "pip.utils" ("C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\site-packages\pip\utils\__init__.py")
+2017-02-05T23:42:39: Parsing "pip.vcs.bazaar" ("C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\site-packages\pip\vcs\bazaar.py")
+2017-02-05T23:42:39: Parsing "pip.vcs.git" ("C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\site-packages\pip\vcs\git.py")
+2017-02-05T23:42:39: Parsing "pip.vcs.mercurial" ("C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\site-packages\pip\vcs\mercurial.py")
+2017-02-05T23:42:39: Parsing "pip.vcs.subversion" ("C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\site-packages\pip\vcs\subversion.py")
+2017-02-05T23:42:39: Parsing "pip.vcs" ("C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\site-packages\pip\vcs\__init__.py")
+2017-02-05T23:42:39: Parsing "pip._vendor.ipaddress" ("C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\site-packages\pip\_vendor\ipaddress.py")
+2017-02-05T23:42:39: Parsing "pip._vendor.retrying" ("C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\site-packages\pip\_vendor\retrying.py")
+2017-02-05T23:42:39: Parsing "pip._vendor.six" ("C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\site-packages\pip\_vendor\six.py")
+2017-02-05T23:42:39: Parsing "pip._vendor" ("C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\site-packages\pip\_vendor\__init__.py")
+2017-02-05T23:42:39: Parsing "pip._vendor.cachecontrol.adapter" ("C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\site-packages\pip\_vendor\cachecontrol\adapter.py")
+2017-02-05T23:42:39: Parsing "pip._vendor.cachecontrol.cache" ("C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\site-packages\pip\_vendor\cachecontrol\cache.py")
+2017-02-05T23:42:39: Parsing "pip._vendor.cachecontrol.compat" ("C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\site-packages\pip\_vendor\cachecontrol\compat.py")
+2017-02-05T23:42:39: Parsing "pip._vendor.cachecontrol.controller" ("C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\site-packages\pip\_vendor\cachecontrol\controller.py")
+2017-02-05T23:42:39: Parsing "pip._vendor.cachecontrol.filewrapper" ("C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\site-packages\pip\_vendor\cachecontrol\filewrapper.py")
+2017-02-05T23:42:39: Parsing "pip._vendor.cachecontrol.heuristics" ("C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\site-packages\pip\_vendor\cachecontrol\heuristics.py")
+2017-02-05T23:42:39: Parsing "pip._vendor.cachecontrol.serialize" ("C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\site-packages\pip\_vendor\cachecontrol\serialize.py")
+2017-02-05T23:42:39: Parsing "pip._vendor.cachecontrol.wrapper" ("C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\site-packages\pip\_vendor\cachecontrol\wrapper.py")
+2017-02-05T23:42:39: Parsing "pip._vendor.cachecontrol" ("C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\site-packages\pip\_vendor\cachecontrol\__init__.py")
+2017-02-05T23:42:39: Parsing "pip._vendor.cachecontrol.caches.file_cache" ("C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\site-packages\pip\_vendor\cachecontrol\caches\file_cache.py")
+2017-02-05T23:42:39: Parsing "pip._vendor.cachecontrol.caches.redis_cache" ("C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\site-packages\pip\_vendor\cachecontrol\caches\redis_cache.py")
+2017-02-05T23:42:39: Parsing "pip._vendor.cachecontrol.caches" ("C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\site-packages\pip\_vendor\cachecontrol\caches\__init__.py")
+2017-02-05T23:42:39: Parsing "pip._vendor.colorama.ansi" ("C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\site-packages\pip\_vendor\colorama\ansi.py")
+2017-02-05T23:42:39: Parsing "pip._vendor.colorama.ansitowin32" ("C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\site-packages\pip\_vendor\colorama\ansitowin32.py")
+2017-02-05T23:42:39: Parsing "pip._vendor.colorama.initialise" ("C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\site-packages\pip\_vendor\colorama\initialise.py")
+2017-02-05T23:42:39: Parsing "pip._vendor.colorama.win32" ("C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\site-packages\pip\_vendor\colorama\win32.py")
+2017-02-05T23:42:39: Parsing "pip._vendor.colorama.winterm" ("C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\site-packages\pip\_vendor\colorama\winterm.py")
+2017-02-05T23:42:39: Parsing "pip._vendor.colorama" ("C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\site-packages\pip\_vendor\colorama\__init__.py")
+2017-02-05T23:42:39: Parsing "pip._vendor.distlib.compat" ("C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\site-packages\pip\_vendor\distlib\compat.py")
+2017-02-05T23:42:39: Parsing "pip._vendor.distlib.database" ("C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\site-packages\pip\_vendor\distlib\database.py")
+2017-02-05T23:42:39: Parsing "pip._vendor.distlib.index" ("C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\site-packages\pip\_vendor\distlib\index.py")
+2017-02-05T23:42:39: Parsing "pip._vendor.distlib.locators" ("C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\site-packages\pip\_vendor\distlib\locators.py")
+2017-02-05T23:42:39: Parsing "pip._vendor.distlib.manifest" ("C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\site-packages\pip\_vendor\distlib\manifest.py")
+2017-02-05T23:42:39: Parsing "pip._vendor.distlib.markers" ("C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\site-packages\pip\_vendor\distlib\markers.py")
+2017-02-05T23:42:39: Parsing "pip._vendor.distlib.metadata" ("C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\site-packages\pip\_vendor\distlib\metadata.py")
+2017-02-05T23:42:39: Parsing "pip._vendor.distlib.resources" ("C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\site-packages\pip\_vendor\distlib\resources.py")
+2017-02-05T23:42:39: Parsing "pip._vendor.distlib.scripts" ("C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\site-packages\pip\_vendor\distlib\scripts.py")
+2017-02-05T23:42:39: Parsing "pip._vendor.distlib.util" ("C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\site-packages\pip\_vendor\distlib\util.py")
+2017-02-05T23:42:39: Parsing "pip._vendor.distlib.version" ("C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\site-packages\pip\_vendor\distlib\version.py")
+2017-02-05T23:42:39: Parsing "pip._vendor.distlib.wheel" ("C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\site-packages\pip\_vendor\distlib\wheel.py")
+2017-02-05T23:42:39: Parsing "pip._vendor.distlib" ("C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\site-packages\pip\_vendor\distlib\__init__.py")
+2017-02-05T23:42:39: Parsing "pip._vendor.distlib._backport.misc" ("C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\site-packages\pip\_vendor\distlib\_backport\misc.py")
+2017-02-05T23:42:39: Parsing "pip._vendor.distlib._backport.shutil" ("C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\site-packages\pip\_vendor\distlib\_backport\shutil.py")
+2017-02-05T23:42:39: Parsing "pip._vendor.distlib._backport.sysconfig" ("C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\site-packages\pip\_vendor\distlib\_backport\sysconfig.py")
+2017-02-05T23:42:39: Parsing "pip._vendor.distlib._backport.tarfile" ("C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\site-packages\pip\_vendor\distlib\_backport\tarfile.py")
+2017-02-05T23:42:39: Parsing "pip._vendor.distlib._backport" ("C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\site-packages\pip\_vendor\distlib\_backport\__init__.py")
+2017-02-05T23:42:39: Parsing "pip._vendor.html5lib.constants" ("C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\site-packages\pip\_vendor\html5lib\constants.py")
+2017-02-05T23:42:39: Parsing "pip._vendor.html5lib.html5parser" ("C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\site-packages\pip\_vendor\html5lib\html5parser.py")
+2017-02-05T23:42:39: Parsing "pip._vendor.html5lib.ihatexml" ("C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\site-packages\pip\_vendor\html5lib\ihatexml.py")
+2017-02-05T23:42:39: Parsing "pip._vendor.html5lib.inputstream" ("C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\site-packages\pip\_vendor\html5lib\inputstream.py")
+2017-02-05T23:42:39: Parsing "pip._vendor.html5lib.sanitizer" ("C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\site-packages\pip\_vendor\html5lib\sanitizer.py")
+2017-02-05T23:42:39: Parsing "pip._vendor.html5lib.tokenizer" ("C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\site-packages\pip\_vendor\html5lib\tokenizer.py")
+2017-02-05T23:42:39: Parsing "pip._vendor.html5lib.utils" ("C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\site-packages\pip\_vendor\html5lib\utils.py")
+2017-02-05T23:42:39: Parsing "pip._vendor.html5lib" ("C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\site-packages\pip\_vendor\html5lib\__init__.py")
+2017-02-05T23:42:39: Parsing "pip._vendor.html5lib.filters.alphabeticalattributes" ("C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\site-packages\pip\_vendor\html5lib\filters\alphabeticalattributes.py")
+2017-02-05T23:42:39: Parsing "pip._vendor.html5lib.filters.inject_meta_charset" ("C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\site-packages\pip\_vendor\html5lib\filters\inject_meta_charset.py")
+2017-02-05T23:42:39: Parsing "pip._vendor.html5lib.filters.lint" ("C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\site-packages\pip\_vendor\html5lib\filters\lint.py")
+2017-02-05T23:42:39: Parsing "pip._vendor.html5lib.filters.optionaltags" ("C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\site-packages\pip\_vendor\html5lib\filters\optionaltags.py")
+2017-02-05T23:42:39: Parsing "pip._vendor.html5lib.filters.sanitizer" ("C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\site-packages\pip\_vendor\html5lib\filters\sanitizer.py")
+2017-02-05T23:42:39: Parsing "pip._vendor.html5lib.filters.whitespace" ("C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\site-packages\pip\_vendor\html5lib\filters\whitespace.py")
+2017-02-05T23:42:39: Parsing "pip._vendor.html5lib.filters._base" ("C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\site-packages\pip\_vendor\html5lib\filters\_base.py")
+2017-02-05T23:42:39: Parsing "pip._vendor.html5lib.filters" ("C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\site-packages\pip\_vendor\html5lib\filters\__init__.py")
+2017-02-05T23:42:39: Parsing "pip._vendor.html5lib.serializer.htmlserializer" ("C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\site-packages\pip\_vendor\html5lib\serializer\htmlserializer.py")
+2017-02-05T23:42:39: Parsing "pip._vendor.html5lib.serializer" ("C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\site-packages\pip\_vendor\html5lib\serializer\__init__.py")
+2017-02-05T23:42:39: Parsing "pip._vendor.html5lib.treeadapters.sax" ("C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\site-packages\pip\_vendor\html5lib\treeadapters\sax.py")
+2017-02-05T23:42:39: Parsing "pip._vendor.html5lib.treeadapters" ("C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\site-packages\pip\_vendor\html5lib\treeadapters\__init__.py")
+2017-02-05T23:42:39: Parsing "pip._vendor.html5lib.treebuilders.dom" ("C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\site-packages\pip\_vendor\html5lib\treebuilders\dom.py")
+2017-02-05T23:42:39: Parsing "pip._vendor.html5lib.treebuilders.etree" ("C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\site-packages\pip\_vendor\html5lib\treebuilders\etree.py")
+2017-02-05T23:42:39: Parsing "pip._vendor.html5lib.treebuilders.etree_lxml" ("C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\site-packages\pip\_vendor\html5lib\treebuilders\etree_lxml.py")
+2017-02-05T23:42:39: Parsing "pip._vendor.html5lib.treebuilders._base" ("C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\site-packages\pip\_vendor\html5lib\treebuilders\_base.py")
+2017-02-05T23:42:39: Parsing "pip._vendor.html5lib.treebuilders" ("C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\site-packages\pip\_vendor\html5lib\treebuilders\__init__.py")
+2017-02-05T23:42:39: Parsing "pip._vendor.html5lib.treewalkers.dom" ("C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\site-packages\pip\_vendor\html5lib\treewalkers\dom.py")
+2017-02-05T23:42:39: Parsing "pip._vendor.html5lib.treewalkers.etree" ("C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\site-packages\pip\_vendor\html5lib\treewalkers\etree.py")
+2017-02-05T23:42:39: Parsing "pip._vendor.html5lib.treewalkers.genshistream" ("C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\site-packages\pip\_vendor\html5lib\treewalkers\genshistream.py")
+2017-02-05T23:42:39: Parsing "pip._vendor.html5lib.treewalkers.lxmletree" ("C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\site-packages\pip\_vendor\html5lib\treewalkers\lxmletree.py")
+2017-02-05T23:42:39: Parsing "pip._vendor.html5lib.treewalkers.pulldom" ("C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\site-packages\pip\_vendor\html5lib\treewalkers\pulldom.py")
+2017-02-05T23:42:39: Parsing "pip._vendor.html5lib.treewalkers._base" ("C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\site-packages\pip\_vendor\html5lib\treewalkers\_base.py")
+2017-02-05T23:42:39: Parsing "pip._vendor.html5lib.treewalkers" ("C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\site-packages\pip\_vendor\html5lib\treewalkers\__init__.py")
+2017-02-05T23:42:39: Parsing "pip._vendor.html5lib.trie.datrie" ("C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\site-packages\pip\_vendor\html5lib\trie\datrie.py")
+2017-02-05T23:42:39: Parsing "pip._vendor.html5lib.trie.py" ("C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\site-packages\pip\_vendor\html5lib\trie\py.py")
+2017-02-05T23:42:39: Parsing "pip._vendor.html5lib.trie._base" ("C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\site-packages\pip\_vendor\html5lib\trie\_base.py")
+2017-02-05T23:42:39: Parsing "pip._vendor.html5lib.trie" ("C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\site-packages\pip\_vendor\html5lib\trie\__init__.py")
+2017-02-05T23:42:39: Parsing "pip._vendor.lockfile.linklockfile" ("C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\site-packages\pip\_vendor\lockfile\linklockfile.py")
+2017-02-05T23:42:39: Parsing "pip._vendor.lockfile.mkdirlockfile" ("C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\site-packages\pip\_vendor\lockfile\mkdirlockfile.py")
+2017-02-05T23:42:39: Parsing "pip._vendor.lockfile.pidlockfile" ("C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\site-packages\pip\_vendor\lockfile\pidlockfile.py")
+2017-02-05T23:42:39: Parsing "pip._vendor.lockfile.sqlitelockfile" ("C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\site-packages\pip\_vendor\lockfile\sqlitelockfile.py")
+2017-02-05T23:42:39: Parsing "pip._vendor.lockfile.symlinklockfile" ("C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\site-packages\pip\_vendor\lockfile\symlinklockfile.py")
+2017-02-05T23:42:39: Parsing "pip._vendor.lockfile" ("C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\site-packages\pip\_vendor\lockfile\__init__.py")
+2017-02-05T23:42:39: Parsing "pip._vendor.packaging.specifiers" ("C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\site-packages\pip\_vendor\packaging\specifiers.py")
+2017-02-05T23:42:39: Parsing "pip._vendor.packaging.version" ("C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\site-packages\pip\_vendor\packaging\version.py")
+2017-02-05T23:42:39: Parsing "pip._vendor.packaging._compat" ("C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\site-packages\pip\_vendor\packaging\_compat.py")
+2017-02-05T23:42:39: Parsing "pip._vendor.packaging._structures" ("C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\site-packages\pip\_vendor\packaging\_structures.py")
+2017-02-05T23:42:39: Parsing "pip._vendor.packaging.__about__" ("C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\site-packages\pip\_vendor\packaging\__about__.py")
+2017-02-05T23:42:39: Parsing "pip._vendor.packaging" ("C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\site-packages\pip\_vendor\packaging\__init__.py")
+2017-02-05T23:42:39: Parsing "pip._vendor.pkg_resources" ("C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\site-packages\pip\_vendor\pkg_resources\__init__.py")
+2017-02-05T23:42:39: Parsing "pip._vendor.pkg_resources.tests.test_pkg_resources" ("C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\site-packages\pip\_vendor\pkg_resources\tests\test_pkg_resources.py")
+2017-02-05T23:42:39: Parsing "pip._vendor.pkg_resources.tests.test_resources" ("C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\site-packages\pip\_vendor\pkg_resources\tests\test_resources.py")
+2017-02-05T23:42:39: Parsing "pip._vendor.pkg_resources.tests" ("C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\site-packages\pip\_vendor\pkg_resources\tests\__init__.py")
+2017-02-05T23:42:39: Parsing "pip._vendor.progress.bar" ("C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\site-packages\pip\_vendor\progress\bar.py")
+2017-02-05T23:42:39: Parsing "pip._vendor.progress.counter" ("C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\site-packages\pip\_vendor\progress\counter.py")
+2017-02-05T23:42:39: Parsing "pip._vendor.progress.helpers" ("C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\site-packages\pip\_vendor\progress\helpers.py")
+2017-02-05T23:42:39: Parsing "pip._vendor.progress.spinner" ("C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\site-packages\pip\_vendor\progress\spinner.py")
+2017-02-05T23:42:39: Parsing "pip._vendor.progress" ("C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\site-packages\pip\_vendor\progress\__init__.py")
+2017-02-05T23:42:39: Parsing "pip._vendor.requests.adapters" ("C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\site-packages\pip\_vendor\requests\adapters.py")
+2017-02-05T23:42:39: Parsing "pip._vendor.requests.api" ("C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\site-packages\pip\_vendor\requests\api.py")
+2017-02-05T23:42:39: Parsing "pip._vendor.requests.auth" ("C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\site-packages\pip\_vendor\requests\auth.py")
+2017-02-05T23:42:39: Parsing "pip._vendor.requests.certs" ("C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\site-packages\pip\_vendor\requests\certs.py")
+2017-02-05T23:42:39: Parsing "pip._vendor.requests.compat" ("C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\site-packages\pip\_vendor\requests\compat.py")
+2017-02-05T23:42:39: Parsing "pip._vendor.requests.cookies" ("C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\site-packages\pip\_vendor\requests\cookies.py")
+2017-02-05T23:42:39: Parsing "pip._vendor.requests.exceptions" ("C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\site-packages\pip\_vendor\requests\exceptions.py")
+2017-02-05T23:42:39: Parsing "pip._vendor.requests.hooks" ("C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\site-packages\pip\_vendor\requests\hooks.py")
+2017-02-05T23:42:39: Parsing "pip._vendor.requests.models" ("C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\site-packages\pip\_vendor\requests\models.py")
+2017-02-05T23:42:39: Parsing "pip._vendor.requests.sessions" ("C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\site-packages\pip\_vendor\requests\sessions.py")
+2017-02-05T23:42:39: Parsing "pip._vendor.requests.status_codes" ("C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\site-packages\pip\_vendor\requests\status_codes.py")
+2017-02-05T23:42:39: Parsing "pip._vendor.requests.structures" ("C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\site-packages\pip\_vendor\requests\structures.py")
+2017-02-05T23:42:39: Parsing "pip._vendor.requests.utils" ("C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\site-packages\pip\_vendor\requests\utils.py")
+2017-02-05T23:42:39: Parsing "pip._vendor.requests" ("C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\site-packages\pip\_vendor\requests\__init__.py")
+2017-02-05T23:42:39: Parsing "pip._vendor.requests.packages" ("C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\site-packages\pip\_vendor\requests\packages\__init__.py")
+2017-02-05T23:42:39: Parsing "pip._vendor.requests.packages.chardet.big5freq" ("C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\site-packages\pip\_vendor\requests\packages\chardet\big5freq.py")
+2017-02-05T23:42:39: Parsing "pip._vendor.requests.packages.chardet.big5prober" ("C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\site-packages\pip\_vendor\requests\packages\chardet\big5prober.py")
+2017-02-05T23:42:39: Parsing "pip._vendor.requests.packages.chardet.chardetect" ("C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\site-packages\pip\_vendor\requests\packages\chardet\chardetect.py")
+2017-02-05T23:42:39: Parsing "pip._vendor.requests.packages.chardet.chardistribution" ("C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\site-packages\pip\_vendor\requests\packages\chardet\chardistribution.py")
+2017-02-05T23:42:39: Parsing "pip._vendor.requests.packages.chardet.charsetgroupprober" ("C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\site-packages\pip\_vendor\requests\packages\chardet\charsetgroupprober.py")
+2017-02-05T23:42:39: Parsing "pip._vendor.requests.packages.chardet.charsetprober" ("C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\site-packages\pip\_vendor\requests\packages\chardet\charsetprober.py")
+2017-02-05T23:42:39: Parsing "pip._vendor.requests.packages.chardet.codingstatemachine" ("C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\site-packages\pip\_vendor\requests\packages\chardet\codingstatemachine.py")
+2017-02-05T23:42:39: Parsing "pip._vendor.requests.packages.chardet.compat" ("C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\site-packages\pip\_vendor\requests\packages\chardet\compat.py")
+2017-02-05T23:42:39: Parsing "pip._vendor.requests.packages.chardet.constants" ("C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\site-packages\pip\_vendor\requests\packages\chardet\constants.py")
+2017-02-05T23:42:39: Parsing "pip._vendor.requests.packages.chardet.cp949prober" ("C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\site-packages\pip\_vendor\requests\packages\chardet\cp949prober.py")
+2017-02-05T23:42:39: Parsing "pip._vendor.requests.packages.chardet.escprober" ("C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\site-packages\pip\_vendor\requests\packages\chardet\escprober.py")
+2017-02-05T23:42:39: Parsing "pip._vendor.requests.packages.chardet.escsm" ("C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\site-packages\pip\_vendor\requests\packages\chardet\escsm.py")
+2017-02-05T23:42:39: Parsing "pip._vendor.requests.packages.chardet.eucjpprober" ("C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\site-packages\pip\_vendor\requests\packages\chardet\eucjpprober.py")
+2017-02-05T23:42:39: Parsing "pip._vendor.requests.packages.chardet.euckrfreq" ("C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\site-packages\pip\_vendor\requests\packages\chardet\euckrfreq.py")
+2017-02-05T23:42:39: Parsing "pip._vendor.requests.packages.chardet.euckrprober" ("C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\site-packages\pip\_vendor\requests\packages\chardet\euckrprober.py")
+2017-02-05T23:42:39: Parsing "pip._vendor.requests.packages.chardet.euctwfreq" ("C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\site-packages\pip\_vendor\requests\packages\chardet\euctwfreq.py")
+2017-02-05T23:42:39: Parsing "pip._vendor.requests.packages.chardet.euctwprober" ("C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\site-packages\pip\_vendor\requests\packages\chardet\euctwprober.py")
+2017-02-05T23:42:39: Parsing "pip._vendor.requests.packages.chardet.gb2312freq" ("C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\site-packages\pip\_vendor\requests\packages\chardet\gb2312freq.py")
+2017-02-05T23:42:39: Parsing "pip._vendor.requests.packages.chardet.gb2312prober" ("C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\site-packages\pip\_vendor\requests\packages\chardet\gb2312prober.py")
+2017-02-05T23:42:39: Parsing "pip._vendor.requests.packages.chardet.hebrewprober" ("C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\site-packages\pip\_vendor\requests\packages\chardet\hebrewprober.py")
+2017-02-05T23:42:39: Parsing "pip._vendor.requests.packages.chardet.jisfreq" ("C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\site-packages\pip\_vendor\requests\packages\chardet\jisfreq.py")
+2017-02-05T23:42:39: Parsing "pip._vendor.requests.packages.chardet.jpcntx" ("C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\site-packages\pip\_vendor\requests\packages\chardet\jpcntx.py")
+2017-02-05T23:42:39: Parsing "pip._vendor.requests.packages.chardet.langbulgarianmodel" ("C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\site-packages\pip\_vendor\requests\packages\chardet\langbulgarianmodel.py")
+2017-02-05T23:42:39: Parsing "pip._vendor.requests.packages.chardet.langcyrillicmodel" ("C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\site-packages\pip\_vendor\requests\packages\chardet\langcyrillicmodel.py")
+2017-02-05T23:42:39: Parsing "pip._vendor.requests.packages.chardet.langgreekmodel" ("C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\site-packages\pip\_vendor\requests\packages\chardet\langgreekmodel.py")
+2017-02-05T23:42:39: Parsing "pip._vendor.requests.packages.chardet.langhebrewmodel" ("C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\site-packages\pip\_vendor\requests\packages\chardet\langhebrewmodel.py")
+2017-02-05T23:42:39: Parsing "pip._vendor.requests.packages.chardet.langhungarianmodel" ("C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\site-packages\pip\_vendor\requests\packages\chardet\langhungarianmodel.py")
+2017-02-05T23:42:39: Parsing "pip._vendor.requests.packages.chardet.langthaimodel" ("C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\site-packages\pip\_vendor\requests\packages\chardet\langthaimodel.py")
+2017-02-05T23:42:39: Parsing "pip._vendor.requests.packages.chardet.latin1prober" ("C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\site-packages\pip\_vendor\requests\packages\chardet\latin1prober.py")
+2017-02-05T23:42:39: Parsing "pip._vendor.requests.packages.chardet.mbcharsetprober" ("C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\site-packages\pip\_vendor\requests\packages\chardet\mbcharsetprober.py")
+2017-02-05T23:42:39: Parsing "pip._vendor.requests.packages.chardet.mbcsgroupprober" ("C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\site-packages\pip\_vendor\requests\packages\chardet\mbcsgroupprober.py")
+2017-02-05T23:42:39: Parsing "pip._vendor.requests.packages.chardet.mbcssm" ("C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\site-packages\pip\_vendor\requests\packages\chardet\mbcssm.py")
+2017-02-05T23:42:39: Parsing "pip._vendor.requests.packages.chardet.sbcharsetprober" ("C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\site-packages\pip\_vendor\requests\packages\chardet\sbcharsetprober.py")
+2017-02-05T23:42:39: Parsing "pip._vendor.requests.packages.chardet.sbcsgroupprober" ("C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\site-packages\pip\_vendor\requests\packages\chardet\sbcsgroupprober.py")
+2017-02-05T23:42:39: Parsing "pip._vendor.requests.packages.chardet.sjisprober" ("C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\site-packages\pip\_vendor\requests\packages\chardet\sjisprober.py")
+2017-02-05T23:42:39: Parsing "pip._vendor.requests.packages.chardet.universaldetector" ("C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\site-packages\pip\_vendor\requests\packages\chardet\universaldetector.py")
+2017-02-05T23:42:39: Parsing "pip._vendor.requests.packages.chardet.utf8prober" ("C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\site-packages\pip\_vendor\requests\packages\chardet\utf8prober.py")
+2017-02-05T23:42:39: Parsing "pip._vendor.requests.packages.chardet" ("C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\site-packages\pip\_vendor\requests\packages\chardet\__init__.py")
+2017-02-05T23:42:39: Parsing "pip._vendor.requests.packages.urllib3.connection" ("C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\site-packages\pip\_vendor\requests\packages\urllib3\connection.py")
+2017-02-05T23:42:39: Parsing "pip._vendor.requests.packages.urllib3.connectionpool" ("C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\site-packages\pip\_vendor\requests\packages\urllib3\connectionpool.py")
+2017-02-05T23:42:39: Parsing "pip._vendor.requests.packages.urllib3.exceptions" ("C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\site-packages\pip\_vendor\requests\packages\urllib3\exceptions.py")
+2017-02-05T23:42:39: Parsing "pip._vendor.requests.packages.urllib3.fields" ("C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\site-packages\pip\_vendor\requests\packages\urllib3\fields.py")
+2017-02-05T23:42:39: Parsing "pip._vendor.requests.packages.urllib3.filepost" ("C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\site-packages\pip\_vendor\requests\packages\urllib3\filepost.py")
+2017-02-05T23:42:39: Parsing "pip._vendor.requests.packages.urllib3.poolmanager" ("C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\site-packages\pip\_vendor\requests\packages\urllib3\poolmanager.py")
+2017-02-05T23:42:39: Parsing "pip._vendor.requests.packages.urllib3.request" ("C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\site-packages\pip\_vendor\requests\packages\urllib3\request.py")
+2017-02-05T23:42:39: Parsing "pip._vendor.requests.packages.urllib3.response" ("C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\site-packages\pip\_vendor\requests\packages\urllib3\response.py")
+2017-02-05T23:42:39: Parsing "pip._vendor.requests.packages.urllib3._collections" ("C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\site-packages\pip\_vendor\requests\packages\urllib3\_collections.py")
+2017-02-05T23:42:39: Parsing "pip._vendor.requests.packages.urllib3" ("C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\site-packages\pip\_vendor\requests\packages\urllib3\__init__.py")
+2017-02-05T23:42:39: Parsing "pip._vendor.requests.packages.urllib3.contrib.ntlmpool" ("C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\site-packages\pip\_vendor\requests\packages\urllib3\contrib\ntlmpool.py")
+2017-02-05T23:42:39: Parsing "pip._vendor.requests.packages.urllib3.contrib.pyopenssl" ("C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\site-packages\pip\_vendor\requests\packages\urllib3\contrib\pyopenssl.py")
+2017-02-05T23:42:39: Parsing "pip._vendor.requests.packages.urllib3.contrib" ("C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\site-packages\pip\_vendor\requests\packages\urllib3\contrib\__init__.py")
+2017-02-05T23:42:39: Parsing "pip._vendor.requests.packages.urllib3.packages.ordered_dict" ("C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\site-packages\pip\_vendor\requests\packages\urllib3\packages\ordered_dict.py")
+2017-02-05T23:42:39: Parsing "pip._vendor.requests.packages.urllib3.packages.six" ("C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\site-packages\pip\_vendor\requests\packages\urllib3\packages\six.py")
+2017-02-05T23:42:39: Parsing "pip._vendor.requests.packages.urllib3.packages" ("C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\site-packages\pip\_vendor\requests\packages\urllib3\packages\__init__.py")
+2017-02-05T23:42:39: Parsing "pip._vendor.requests.packages.urllib3.packages.ssl_match_hostname._implementation" ("C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\site-packages\pip\_vendor\requests\packages\urllib3\packages\ssl_match_hostname\_implementation.py")
+2017-02-05T23:42:39: Parsing "pip._vendor.requests.packages.urllib3.packages.ssl_match_hostname" ("C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\site-packages\pip\_vendor\requests\packages\urllib3\packages\ssl_match_hostname\__init__.py")
+2017-02-05T23:42:39: Parsing "pip._vendor.requests.packages.urllib3.util.connection" ("C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\site-packages\pip\_vendor\requests\packages\urllib3\util\connection.py")
+2017-02-05T23:42:39: Parsing "pip._vendor.requests.packages.urllib3.util.request" ("C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\site-packages\pip\_vendor\requests\packages\urllib3\util\request.py")
+2017-02-05T23:42:39: Parsing "pip._vendor.requests.packages.urllib3.util.response" ("C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\site-packages\pip\_vendor\requests\packages\urllib3\util\response.py")
+2017-02-05T23:42:39: Parsing "pip._vendor.requests.packages.urllib3.util.retry" ("C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\site-packages\pip\_vendor\requests\packages\urllib3\util\retry.py")
+2017-02-05T23:42:39: Parsing "pip._vendor.requests.packages.urllib3.util.ssl_" ("C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\site-packages\pip\_vendor\requests\packages\urllib3\util\ssl_.py")
+2017-02-05T23:42:39: Parsing "pip._vendor.requests.packages.urllib3.util.timeout" ("C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\site-packages\pip\_vendor\requests\packages\urllib3\util\timeout.py")
+2017-02-05T23:42:39: Parsing "pip._vendor.requests.packages.urllib3.util.url" ("C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\site-packages\pip\_vendor\requests\packages\urllib3\util\url.py")
+2017-02-05T23:42:39: Parsing "pip._vendor.requests.packages.urllib3.util" ("C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\site-packages\pip\_vendor\requests\packages\urllib3\util\__init__.py")
+2017-02-05T23:42:39: Parsing "pip._vendor._markerlib.markers" ("C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\site-packages\pip\_vendor\_markerlib\markers.py")
+2017-02-05T23:42:39: Parsing "pip._vendor._markerlib" ("C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\site-packages\pip\_vendor\_markerlib\__init__.py")
+2017-02-05T23:42:39: Parsing complete
+2017-02-05T23:42:39: Analyzing "pip.basecommand"
+2017-02-05T23:42:39: Analyzing "pip.baseparser"
+2017-02-05T23:42:39: Analyzing "pip.cmdoptions"
+2017-02-05T23:42:39: Analyzing "pip.download"
+2017-02-05T23:42:39: Analyzing "pip.exceptions"
+2017-02-05T23:42:39: Analyzing "pip.index"
+2017-02-05T23:42:39: Analyzing "pip.locations"
+2017-02-05T23:42:39: Analyzing "pip.pep425tags"
+2017-02-05T23:42:39: Analyzing "pip.status_codes"
+2017-02-05T23:42:39: Analyzing "pip.wheel"
+2017-02-05T23:42:39: Analyzing "pip"
+2017-02-05T23:42:39: Analyzing "pip.__main__"
+2017-02-05T23:42:39: Analyzing "pip.commands.completion"
+2017-02-05T23:42:39: Analyzing "pip.commands.freeze"
+2017-02-05T23:42:39: Analyzing "pip.commands.help"
+2017-02-05T23:42:39: Analyzing "pip.commands.install"
+2017-02-05T23:42:39: Analyzing "pip.commands.list"
+2017-02-05T23:42:39: Analyzing "pip.commands.search"
+2017-02-05T23:42:39: Analyzing "pip.commands.show"
+2017-02-05T23:42:39: Analyzing "pip.commands.uninstall"
+2017-02-05T23:42:39: Analyzing "pip.commands.unzip"
+2017-02-05T23:42:39: Analyzing "pip.commands.wheel"
+2017-02-05T23:42:39: Analyzing "pip.commands.zip"
+2017-02-05T23:42:39: Analyzing "pip.commands"
+2017-02-05T23:42:39: Analyzing "pip.compat.dictconfig"
+2017-02-05T23:42:39: Analyzing "pip.compat"
+2017-02-05T23:42:39: Analyzing "pip.models.index"
+2017-02-05T23:42:39: Analyzing "pip.models"
+2017-02-05T23:42:39: Analyzing "pip.operations.freeze"
+2017-02-05T23:42:39: Analyzing "pip.operations"
+2017-02-05T23:42:39: Analyzing "pip.req.req_file"
+2017-02-05T23:42:39: Analyzing "pip.req.req_install"
+2017-02-05T23:42:39: Analyzing "pip.req.req_requirement"
+2017-02-05T23:42:39: Analyzing "pip.req.req_set"
+2017-02-05T23:42:39: Analyzing "pip.req.req_uninstall"
+2017-02-05T23:42:39: Analyzing "pip.req"
+2017-02-05T23:42:39: Analyzing "pip.utils.appdirs"
+2017-02-05T23:42:39: Analyzing "pip.utils.build"
+2017-02-05T23:42:39: Analyzing "pip.utils.deprecation"
+2017-02-05T23:42:39: Analyzing "pip.utils.filesystem"
+2017-02-05T23:42:39: Analyzing "pip.utils.logging"
+2017-02-05T23:42:39: Analyzing "pip.utils.outdated"
+2017-02-05T23:42:39: Analyzing "pip.utils.ui"
+2017-02-05T23:42:39: Analyzing "pip.utils"
+2017-02-05T23:42:39: Analyzing "pip.vcs.bazaar"
+2017-02-05T23:42:39: Analyzing "pip.vcs.git"
+2017-02-05T23:42:39: Analyzing "pip.vcs.mercurial"
+2017-02-05T23:42:39: Analyzing "pip.vcs.subversion"
+2017-02-05T23:42:39: Analyzing "pip.vcs"
+2017-02-05T23:42:39: Analyzing "pip._vendor.ipaddress"
+2017-02-05T23:42:39: Analyzing "pip._vendor.retrying"
+2017-02-05T23:42:39: Analyzing "pip._vendor.six"
+2017-02-05T23:42:39: Analyzing "pip._vendor"
+2017-02-05T23:42:39: Analyzing "pip._vendor.cachecontrol.adapter"
+2017-02-05T23:42:39: Analyzing "pip._vendor.cachecontrol.cache"
+2017-02-05T23:42:39: Analyzing "pip._vendor.cachecontrol.compat"
+2017-02-05T23:42:39: Analyzing "pip._vendor.cachecontrol.controller"
+2017-02-05T23:42:39: Analyzing "pip._vendor.cachecontrol.filewrapper"
+2017-02-05T23:42:39: Analyzing "pip._vendor.cachecontrol.heuristics"
+2017-02-05T23:42:39: Analyzing "pip._vendor.cachecontrol.serialize"
+2017-02-05T23:42:39: Analyzing "pip._vendor.cachecontrol.wrapper"
+2017-02-05T23:42:39: Analyzing "pip._vendor.cachecontrol"
+2017-02-05T23:42:39: Analyzing "pip._vendor.cachecontrol.caches.file_cache"
+2017-02-05T23:42:39: Analyzing "pip._vendor.cachecontrol.caches.redis_cache"
+2017-02-05T23:42:39: Analyzing "pip._vendor.cachecontrol.caches"
+2017-02-05T23:42:39: Analyzing "pip._vendor.colorama.ansi"
+2017-02-05T23:42:39: Analyzing "pip._vendor.colorama.ansitowin32"
+2017-02-05T23:42:39: Analyzing "pip._vendor.colorama.initialise"
+2017-02-05T23:42:39: Analyzing "pip._vendor.colorama.win32"
+2017-02-05T23:42:39: Analyzing "pip._vendor.colorama.winterm"
+2017-02-05T23:42:39: Analyzing "pip._vendor.colorama"
+2017-02-05T23:42:39: Analyzing "pip._vendor.distlib.compat"
+2017-02-05T23:42:39: Analyzing "pip._vendor.distlib.database"
+2017-02-05T23:42:39: Analyzing "pip._vendor.distlib.index"
+2017-02-05T23:42:39: Analyzing "pip._vendor.distlib.locators"
+2017-02-05T23:42:39: Analyzing "pip._vendor.distlib.manifest"
+2017-02-05T23:42:39: Analyzing "pip._vendor.distlib.markers"
+2017-02-05T23:42:39: Analyzing "pip._vendor.distlib.metadata"
+2017-02-05T23:42:39: Analyzing "pip._vendor.distlib.resources"
+2017-02-05T23:42:39: Analyzing "pip._vendor.distlib.scripts"
+2017-02-05T23:42:39: Analyzing "pip._vendor.distlib.util"
+2017-02-05T23:42:39: Analyzing "pip._vendor.distlib.version"
+2017-02-05T23:42:39: Analyzing "pip._vendor.distlib.wheel"
+2017-02-05T23:42:39: Analyzing "pip._vendor.distlib"
+2017-02-05T23:42:39: Analyzing "pip._vendor.distlib._backport.misc"
+2017-02-05T23:42:39: Analyzing "pip._vendor.distlib._backport.shutil"
+2017-02-05T23:42:39: Analyzing "pip._vendor.distlib._backport.sysconfig"
+2017-02-05T23:42:39: Analyzing "pip._vendor.distlib._backport.tarfile"
+2017-02-05T23:42:39: Analyzing "pip._vendor.distlib._backport"
+2017-02-05T23:42:39: Analyzing "pip._vendor.html5lib.constants"
+2017-02-05T23:42:39: Analyzing "pip._vendor.html5lib.html5parser"
+2017-02-05T23:42:39: Analyzing "pip._vendor.html5lib.ihatexml"
+2017-02-05T23:42:39: Analyzing "pip._vendor.html5lib.inputstream"
+2017-02-05T23:42:39: Analyzing "pip._vendor.html5lib.sanitizer"
+2017-02-05T23:42:39: Analyzing "pip._vendor.html5lib.tokenizer"
+2017-02-05T23:42:39: Analyzing "pip._vendor.html5lib.utils"
+2017-02-05T23:42:39: Analyzing "pip._vendor.html5lib"
+2017-02-05T23:42:39: Analyzing "pip._vendor.html5lib.filters.alphabeticalattributes"
+2017-02-05T23:42:39: Analyzing "pip._vendor.html5lib.filters.inject_meta_charset"
+2017-02-05T23:42:39: Analyzing "pip._vendor.html5lib.filters.lint"
+2017-02-05T23:42:39: Analyzing "pip._vendor.html5lib.filters.optionaltags"
+2017-02-05T23:42:39: Analyzing "pip._vendor.html5lib.filters.sanitizer"
+2017-02-05T23:42:39: Analyzing "pip._vendor.html5lib.filters.whitespace"
+2017-02-05T23:42:39: Analyzing "pip._vendor.html5lib.filters._base"
+2017-02-05T23:42:39: Analyzing "pip._vendor.html5lib.filters"
+2017-02-05T23:42:39: Analyzing "pip._vendor.html5lib.serializer.htmlserializer"
+2017-02-05T23:42:39: Analyzing "pip._vendor.html5lib.serializer"
+2017-02-05T23:42:39: Analyzing "pip._vendor.html5lib.treeadapters.sax"
+2017-02-05T23:42:39: Analyzing "pip._vendor.html5lib.treeadapters"
+2017-02-05T23:42:39: Analyzing "pip._vendor.html5lib.treebuilders.dom"
+2017-02-05T23:42:39: Analyzing "pip._vendor.html5lib.treebuilders.etree"
+2017-02-05T23:42:39: Analyzing "pip._vendor.html5lib.treebuilders.etree_lxml"
+2017-02-05T23:42:39: Analyzing "pip._vendor.html5lib.treebuilders._base"
+2017-02-05T23:42:39: Analyzing "pip._vendor.html5lib.treebuilders"
+2017-02-05T23:42:39: Analyzing "pip._vendor.html5lib.treewalkers.dom"
+2017-02-05T23:42:39: Analyzing "pip._vendor.html5lib.treewalkers.etree"
+2017-02-05T23:42:39: Analyzing "pip._vendor.html5lib.treewalkers.genshistream"
+2017-02-05T23:42:39: Analyzing "pip._vendor.html5lib.treewalkers.lxmletree"
+2017-02-05T23:42:39: Analyzing "pip._vendor.html5lib.treewalkers.pulldom"
+2017-02-05T23:42:39: Analyzing "pip._vendor.html5lib.treewalkers._base"
+2017-02-05T23:42:39: Analyzing "pip._vendor.html5lib.treewalkers"
+2017-02-05T23:42:39: Analyzing "pip._vendor.html5lib.trie.datrie"
+2017-02-05T23:42:39: Analyzing "pip._vendor.html5lib.trie.py"
+2017-02-05T23:42:39: Analyzing "pip._vendor.html5lib.trie._base"
+2017-02-05T23:42:39: Analyzing "pip._vendor.html5lib.trie"
+2017-02-05T23:42:39: Analyzing "pip._vendor.lockfile.linklockfile"
+2017-02-05T23:42:39: Analyzing "pip._vendor.lockfile.mkdirlockfile"
+2017-02-05T23:42:39: Analyzing "pip._vendor.lockfile.pidlockfile"
+2017-02-05T23:42:39: Analyzing "pip._vendor.lockfile.sqlitelockfile"
+2017-02-05T23:42:39: Analyzing "pip._vendor.lockfile.symlinklockfile"
+2017-02-05T23:42:39: Analyzing "pip._vendor.lockfile"
+2017-02-05T23:42:39: Analyzing "pip._vendor.packaging.specifiers"
+2017-02-05T23:42:39: Analyzing "pip._vendor.packaging.version"
+2017-02-05T23:42:39: Analyzing "pip._vendor.packaging._compat"
+2017-02-05T23:42:39: Analyzing "pip._vendor.packaging._structures"
+2017-02-05T23:42:39: Analyzing "pip._vendor.packaging.__about__"
+2017-02-05T23:42:39: Analyzing "pip._vendor.packaging"
+2017-02-05T23:42:39: Analyzing "pip._vendor.pkg_resources"
+2017-02-05T23:42:39: Analyzing "pip._vendor.pkg_resources.tests.test_pkg_resources"
+2017-02-05T23:42:39: Analyzing "pip._vendor.pkg_resources.tests.test_resources"
+2017-02-05T23:42:39: Analyzing "pip._vendor.pkg_resources.tests"
+2017-02-05T23:42:39: Analyzing "pip._vendor.progress.bar"
+2017-02-05T23:42:39: Analyzing "pip._vendor.progress.counter"
+2017-02-05T23:42:39: Analyzing "pip._vendor.progress.helpers"
+2017-02-05T23:42:39: Analyzing "pip._vendor.progress.spinner"
+2017-02-05T23:42:39: Analyzing "pip._vendor.progress"
+2017-02-05T23:42:39: Analyzing "pip._vendor.requests.adapters"
+2017-02-05T23:42:39: Analyzing "pip._vendor.requests.api"
+2017-02-05T23:42:39: Analyzing "pip._vendor.requests.auth"
+2017-02-05T23:42:39: Analyzing "pip._vendor.requests.certs"
+2017-02-05T23:42:39: Analyzing "pip._vendor.requests.compat"
+2017-02-05T23:42:39: Analyzing "pip._vendor.requests.cookies"
+2017-02-05T23:42:39: Analyzing "pip._vendor.requests.exceptions"
+2017-02-05T23:42:39: Analyzing "pip._vendor.requests.hooks"
+2017-02-05T23:42:39: Analyzing "pip._vendor.requests.models"
+2017-02-05T23:42:39: Analyzing "pip._vendor.requests.sessions"
+2017-02-05T23:42:39: Analyzing "pip._vendor.requests.status_codes"
+2017-02-05T23:42:39: Analyzing "pip._vendor.requests.structures"
+2017-02-05T23:42:39: Analyzing "pip._vendor.requests.utils"
+2017-02-05T23:42:39: Analyzing "pip._vendor.requests"
+2017-02-05T23:42:39: Analyzing "pip._vendor.requests.packages"
+2017-02-05T23:42:39: Analyzing "pip._vendor.requests.packages.chardet.big5freq"
+2017-02-05T23:42:39: Analyzing "pip._vendor.requests.packages.chardet.big5prober"
+2017-02-05T23:42:39: Analyzing "pip._vendor.requests.packages.chardet.chardetect"
+2017-02-05T23:42:39: Analyzing "pip._vendor.requests.packages.chardet.chardistribution"
+2017-02-05T23:42:39: Analyzing "pip._vendor.requests.packages.chardet.charsetgroupprober"
+2017-02-05T23:42:39: Analyzing "pip._vendor.requests.packages.chardet.charsetprober"
+2017-02-05T23:42:39: Analyzing "pip._vendor.requests.packages.chardet.codingstatemachine"
+2017-02-05T23:42:39: Analyzing "pip._vendor.requests.packages.chardet.compat"
+2017-02-05T23:42:39: Analyzing "pip._vendor.requests.packages.chardet.constants"
+2017-02-05T23:42:39: Analyzing "pip._vendor.requests.packages.chardet.cp949prober"
+2017-02-05T23:42:39: Analyzing "pip._vendor.requests.packages.chardet.escprober"
+2017-02-05T23:42:39: Analyzing "pip._vendor.requests.packages.chardet.escsm"
+2017-02-05T23:42:39: Analyzing "pip._vendor.requests.packages.chardet.eucjpprober"
+2017-02-05T23:42:39: Analyzing "pip._vendor.requests.packages.chardet.euckrfreq"
+2017-02-05T23:42:39: Analyzing "pip._vendor.requests.packages.chardet.euckrprober"
+2017-02-05T23:42:39: Analyzing "pip._vendor.requests.packages.chardet.euctwfreq"
+2017-02-05T23:42:39: Analyzing "pip._vendor.requests.packages.chardet.euctwprober"
+2017-02-05T23:42:39: Analyzing "pip._vendor.requests.packages.chardet.gb2312freq"
+2017-02-05T23:42:39: Analyzing "pip._vendor.requests.packages.chardet.gb2312prober"
+2017-02-05T23:42:39: Analyzing "pip._vendor.requests.packages.chardet.hebrewprober"
+2017-02-05T23:42:39: Analyzing "pip._vendor.requests.packages.chardet.jisfreq"
+2017-02-05T23:42:39: Analyzing "pip._vendor.requests.packages.chardet.jpcntx"
+2017-02-05T23:42:39: Analyzing "pip._vendor.requests.packages.chardet.langbulgarianmodel"
+2017-02-05T23:42:39: Analyzing "pip._vendor.requests.packages.chardet.langcyrillicmodel"
+2017-02-05T23:42:39: Analyzing "pip._vendor.requests.packages.chardet.langgreekmodel"
+2017-02-05T23:42:39: Analyzing "pip._vendor.requests.packages.chardet.langhebrewmodel"
+2017-02-05T23:42:39: Analyzing "pip._vendor.requests.packages.chardet.langhungarianmodel"
+2017-02-05T23:42:39: Analyzing "pip._vendor.requests.packages.chardet.langthaimodel"
+2017-02-05T23:42:39: Analyzing "pip._vendor.requests.packages.chardet.latin1prober"
+2017-02-05T23:42:39: Analyzing "pip._vendor.requests.packages.chardet.mbcharsetprober"
+2017-02-05T23:42:39: Analyzing "pip._vendor.requests.packages.chardet.mbcsgroupprober"
+2017-02-05T23:42:39: Analyzing "pip._vendor.requests.packages.chardet.mbcssm"
+2017-02-05T23:42:39: Analyzing "pip._vendor.requests.packages.chardet.sbcharsetprober"
+2017-02-05T23:42:39: Analyzing "pip._vendor.requests.packages.chardet.sbcsgroupprober"
+2017-02-05T23:42:39: Analyzing "pip._vendor.requests.packages.chardet.sjisprober"
+2017-02-05T23:42:39: Analyzing "pip._vendor.requests.packages.chardet.universaldetector"
+2017-02-05T23:42:39: Analyzing "pip._vendor.requests.packages.chardet.utf8prober"
+2017-02-05T23:42:39: Analyzing "pip._vendor.requests.packages.chardet"
+2017-02-05T23:42:39: Analyzing "pip._vendor.requests.packages.urllib3.connection"
+2017-02-05T23:42:39: Analyzing "pip._vendor.requests.packages.urllib3.connectionpool"
+2017-02-05T23:42:39: Analyzing "pip._vendor.requests.packages.urllib3.exceptions"
+2017-02-05T23:42:39: Analyzing "pip._vendor.requests.packages.urllib3.fields"
+2017-02-05T23:42:39: Analyzing "pip._vendor.requests.packages.urllib3.filepost"
+2017-02-05T23:42:39: Analyzing "pip._vendor.requests.packages.urllib3.poolmanager"
+2017-02-05T23:42:39: Analyzing "pip._vendor.requests.packages.urllib3.request"
+2017-02-05T23:42:39: Analyzing "pip._vendor.requests.packages.urllib3.response"
+2017-02-05T23:42:39: Analyzing "pip._vendor.requests.packages.urllib3._collections"
+2017-02-05T23:42:39: Analyzing "pip._vendor.requests.packages.urllib3"
+2017-02-05T23:42:39: Analyzing "pip._vendor.requests.packages.urllib3.contrib.ntlmpool"
+2017-02-05T23:42:39: Analyzing "pip._vendor.requests.packages.urllib3.contrib.pyopenssl"
+2017-02-05T23:42:39: Analyzing "pip._vendor.requests.packages.urllib3.contrib"
+2017-02-05T23:42:39: Analyzing "pip._vendor.requests.packages.urllib3.packages.ordered_dict"
+2017-02-05T23:42:39: Analyzing "pip._vendor.requests.packages.urllib3.packages.six"
+2017-02-05T23:42:39: Analyzing "pip._vendor.requests.packages.urllib3.packages"
+2017-02-05T23:42:39: Analyzing "pip._vendor.requests.packages.urllib3.packages.ssl_match_hostname._implementation"
+2017-02-05T23:42:39: Analyzing "pip._vendor.requests.packages.urllib3.packages.ssl_match_hostname"
+2017-02-05T23:42:39: Analyzing "pip._vendor.requests.packages.urllib3.util.connection"
+2017-02-05T23:42:39: Analyzing "pip._vendor.requests.packages.urllib3.util.request"
+2017-02-05T23:42:39: Analyzing "pip._vendor.requests.packages.urllib3.util.response"
+2017-02-05T23:42:39: Analyzing "pip._vendor.requests.packages.urllib3.util.retry"
+2017-02-05T23:42:39: Analyzing "pip._vendor.requests.packages.urllib3.util.ssl_"
+2017-02-05T23:42:39: Analyzing "pip._vendor.requests.packages.urllib3.util.timeout"
+2017-02-05T23:42:39: Analyzing "pip._vendor.requests.packages.urllib3.util.url"
+2017-02-05T23:42:39: Analyzing "pip._vendor.requests.packages.urllib3.util"
+2017-02-05T23:42:39: Analyzing "pip._vendor._markerlib.markers"
+2017-02-05T23:42:39: Analyzing "pip._vendor._markerlib"
+2017-02-05T23:42:39: Starting analysis of 227 modules
+2017-02-05T23:42:51: Analysis complete
+2017-02-05T23:42:51: Saving group "C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\site-packages\pip"
+2017-02-05T23:42:55: End of group "C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\site-packages\pip"
+2017-02-05T23:42:55: Start group "C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\site-packages\pkg_resources" with 11 files
+2017-02-05T23:42:57: Parsing "pkg_resources" ("C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\site-packages\pkg_resources\__init__.py")
+2017-02-05T23:42:57: Parsing "pkg_resources.tests.test_pkg_resources" ("C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\site-packages\pkg_resources\tests\test_pkg_resources.py")
+2017-02-05T23:42:57: Parsing "pkg_resources.tests.test_resources" ("C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\site-packages\pkg_resources\tests\test_resources.py")
+2017-02-05T23:42:57: Parsing "pkg_resources.tests" ("C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\site-packages\pkg_resources\tests\__init__.py")
+2017-02-05T23:42:57: Parsing "pkg_resources._vendor" ("C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\site-packages\pkg_resources\_vendor\__init__.py")
+2017-02-05T23:42:57: Parsing "pkg_resources._vendor.packaging.specifiers" ("C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\site-packages\pkg_resources\_vendor\packaging\specifiers.py")
+2017-02-05T23:42:57: Parsing "pkg_resources._vendor.packaging.version" ("C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\site-packages\pkg_resources\_vendor\packaging\version.py")
+2017-02-05T23:42:57: Parsing "pkg_resources._vendor.packaging._compat" ("C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\site-packages\pkg_resources\_vendor\packaging\_compat.py")
+2017-02-05T23:42:57: Parsing "pkg_resources._vendor.packaging._structures" ("C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\site-packages\pkg_resources\_vendor\packaging\_structures.py")
+2017-02-05T23:42:57: Parsing "pkg_resources._vendor.packaging.__about__" ("C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\site-packages\pkg_resources\_vendor\packaging\__about__.py")
+2017-02-05T23:42:57: Parsing "pkg_resources._vendor.packaging" ("C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\site-packages\pkg_resources\_vendor\packaging\__init__.py")
+2017-02-05T23:42:57: Parsing complete
+2017-02-05T23:42:57: Analyzing "pkg_resources"
+2017-02-05T23:42:57: Analyzing "pkg_resources.tests.test_pkg_resources"
+2017-02-05T23:42:57: Analyzing "pkg_resources.tests.test_resources"
+2017-02-05T23:42:57: Analyzing "pkg_resources.tests"
+2017-02-05T23:42:57: Analyzing "pkg_resources._vendor"
+2017-02-05T23:42:57: Analyzing "pkg_resources._vendor.packaging.specifiers"
+2017-02-05T23:42:57: Analyzing "pkg_resources._vendor.packaging.version"
+2017-02-05T23:42:57: Analyzing "pkg_resources._vendor.packaging._compat"
+2017-02-05T23:42:57: Analyzing "pkg_resources._vendor.packaging._structures"
+2017-02-05T23:42:57: Analyzing "pkg_resources._vendor.packaging.__about__"
+2017-02-05T23:42:57: Analyzing "pkg_resources._vendor.packaging"
+2017-02-05T23:42:57: Starting analysis of 11 modules
+2017-02-05T23:42:57: Analysis complete
+2017-02-05T23:42:57: Saving group "C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\site-packages\pkg_resources"
+2017-02-05T23:42:57: End of group "C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\site-packages\pkg_resources"
+2017-02-05T23:42:57: Start group "C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\site-packages\setuptools" with 62 files
+2017-02-05T23:43:00: Parsing "setuptools.archive_util" ("C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\site-packages\setuptools\archive_util.py")
+2017-02-05T23:43:00: Parsing "setuptools.compat" ("C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\site-packages\setuptools\compat.py")
+2017-02-05T23:43:00: Parsing "setuptools.depends" ("C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\site-packages\setuptools\depends.py")
+2017-02-05T23:43:00: Parsing "setuptools.dist" ("C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\site-packages\setuptools\dist.py")
+2017-02-05T23:43:00: Parsing "setuptools.extension" ("C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\site-packages\setuptools\extension.py")
+2017-02-05T23:43:00: Parsing "setuptools.lib2to3_ex" ("C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\site-packages\setuptools\lib2to3_ex.py")
+2017-02-05T23:43:00: Parsing "setuptools.msvc9_support" ("C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\site-packages\setuptools\msvc9_support.py")
+2017-02-05T23:43:00: Parsing "setuptools.package_index" ("C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\site-packages\setuptools\package_index.py")
+2017-02-05T23:43:00: Parsing "setuptools.py26compat" ("C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\site-packages\setuptools\py26compat.py")
+2017-02-05T23:43:00: Parsing "setuptools.py27compat" ("C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\site-packages\setuptools\py27compat.py")
+2017-02-05T23:43:00: Parsing "setuptools.py31compat" ("C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\site-packages\setuptools\py31compat.py")
+2017-02-05T23:43:00: Parsing "setuptools.sandbox" ("C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\site-packages\setuptools\sandbox.py")
+2017-02-05T23:43:00: Parsing "setuptools.ssl_support" ("C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\site-packages\setuptools\ssl_support.py")
+2017-02-05T23:43:00: Parsing "setuptools.unicode_utils" ("C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\site-packages\setuptools\unicode_utils.py")
+2017-02-05T23:43:00: Parsing "setuptools.utils" ("C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\site-packages\setuptools\utils.py")
+2017-02-05T23:43:00: Parsing "setuptools.version" ("C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\site-packages\setuptools\version.py")
+2017-02-05T23:43:00: Parsing "setuptools.windows_support" ("C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\site-packages\setuptools\windows_support.py")
+2017-02-05T23:43:00: Parsing "setuptools" ("C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\site-packages\setuptools\__init__.py")
+2017-02-05T23:43:00: Parsing "setuptools.command.alias" ("C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\site-packages\setuptools\command\alias.py")
+2017-02-05T23:43:00: Parsing "setuptools.command.bdist_egg" ("C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\site-packages\setuptools\command\bdist_egg.py")
+2017-02-05T23:43:00: Parsing "setuptools.command.bdist_rpm" ("C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\site-packages\setuptools\command\bdist_rpm.py")
+2017-02-05T23:43:00: Parsing "setuptools.command.bdist_wininst" ("C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\site-packages\setuptools\command\bdist_wininst.py")
+2017-02-05T23:43:00: Parsing "setuptools.command.build_ext" ("C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\site-packages\setuptools\command\build_ext.py")
+2017-02-05T23:43:00: Parsing "setuptools.command.build_py" ("C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\site-packages\setuptools\command\build_py.py")
+2017-02-05T23:43:00: Parsing "setuptools.command.develop" ("C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\site-packages\setuptools\command\develop.py")
+2017-02-05T23:43:00: Parsing "setuptools.command.easy_install" ("C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\site-packages\setuptools\command\easy_install.py")
+2017-02-05T23:43:00: Parsing "setuptools.command.egg_info" ("C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\site-packages\setuptools\command\egg_info.py")
+2017-02-05T23:43:00: Parsing "setuptools.command.install" ("C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\site-packages\setuptools\command\install.py")
+2017-02-05T23:43:00: Parsing "setuptools.command.install_egg_info" ("C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\site-packages\setuptools\command\install_egg_info.py")
+2017-02-05T23:43:00: Parsing "setuptools.command.install_lib" ("C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\site-packages\setuptools\command\install_lib.py")
+2017-02-05T23:43:00: Parsing "setuptools.command.install_scripts" ("C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\site-packages\setuptools\command\install_scripts.py")
+2017-02-05T23:43:00: Parsing "setuptools.command.register" ("C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\site-packages\setuptools\command\register.py")
+2017-02-05T23:43:00: Parsing "setuptools.command.rotate" ("C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\site-packages\setuptools\command\rotate.py")
+2017-02-05T23:43:00: Parsing "setuptools.command.saveopts" ("C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\site-packages\setuptools\command\saveopts.py")
+2017-02-05T23:43:00: Parsing "setuptools.command.sdist" ("C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\site-packages\setuptools\command\sdist.py")
+2017-02-05T23:43:00: Parsing "setuptools.command.setopt" ("C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\site-packages\setuptools\command\setopt.py")
+2017-02-05T23:43:00: Parsing "setuptools.command.test" ("C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\site-packages\setuptools\command\test.py")
+2017-02-05T23:43:00: Parsing "setuptools.command.upload_docs" ("C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\site-packages\setuptools\command\upload_docs.py")
+2017-02-05T23:43:00: Parsing "setuptools.command" ("C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\site-packages\setuptools\command\__init__.py")
+2017-02-05T23:43:00: Parsing "setuptools.tests.contexts" ("C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\site-packages\setuptools\tests\contexts.py")
+2017-02-05T23:43:00: Parsing "setuptools.tests.environment" ("C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\site-packages\setuptools\tests\environment.py")
+2017-02-05T23:43:00: Parsing "setuptools.tests.fixtures" ("C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\site-packages\setuptools\tests\fixtures.py")
+2017-02-05T23:43:00: Parsing "setuptools.tests.py26compat" ("C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\site-packages\setuptools\tests\py26compat.py")
+2017-02-05T23:43:00: Parsing "setuptools.tests.server" ("C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\site-packages\setuptools\tests\server.py")
+2017-02-05T23:43:00: Parsing "setuptools.tests.test_bdist_egg" ("C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\site-packages\setuptools\tests\test_bdist_egg.py")
+2017-02-05T23:43:00: Parsing "setuptools.tests.test_build_ext" ("C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\site-packages\setuptools\tests\test_build_ext.py")
+2017-02-05T23:43:00: Parsing "setuptools.tests.test_develop" ("C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\site-packages\setuptools\tests\test_develop.py")
+2017-02-05T23:43:00: Parsing "setuptools.tests.test_dist_info" ("C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\site-packages\setuptools\tests\test_dist_info.py")
+2017-02-05T23:43:00: Parsing "setuptools.tests.test_easy_install" ("C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\site-packages\setuptools\tests\test_easy_install.py")
+2017-02-05T23:43:00: Parsing "setuptools.tests.test_egg_info" ("C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\site-packages\setuptools\tests\test_egg_info.py")
+2017-02-05T23:43:00: Parsing "setuptools.tests.test_find_packages" ("C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\site-packages\setuptools\tests\test_find_packages.py")
+2017-02-05T23:43:00: Parsing "setuptools.tests.test_integration" ("C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\site-packages\setuptools\tests\test_integration.py")
+2017-02-05T23:43:00: Parsing "setuptools.tests.test_markerlib" ("C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\site-packages\setuptools\tests\test_markerlib.py")
+2017-02-05T23:43:00: Parsing "setuptools.tests.test_msvc9compiler" ("C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\site-packages\setuptools\tests\test_msvc9compiler.py")
+2017-02-05T23:43:00: Parsing "setuptools.tests.test_packageindex" ("C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\site-packages\setuptools\tests\test_packageindex.py")
+2017-02-05T23:43:00: Parsing "setuptools.tests.test_sandbox" ("C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\site-packages\setuptools\tests\test_sandbox.py")
+2017-02-05T23:43:00: Parsing "setuptools.tests.test_sdist" ("C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\site-packages\setuptools\tests\test_sdist.py")
+2017-02-05T23:43:00: Parsing "setuptools.tests.test_test" ("C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\site-packages\setuptools\tests\test_test.py")
+2017-02-05T23:43:00: Parsing "setuptools.tests.test_upload_docs" ("C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\site-packages\setuptools\tests\test_upload_docs.py")
+2017-02-05T23:43:00: Parsing "setuptools.tests.test_windows_wrappers" ("C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\site-packages\setuptools\tests\test_windows_wrappers.py")
+2017-02-05T23:43:00: Parsing "setuptools.tests.textwrap" ("C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\site-packages\setuptools\tests\textwrap.py")
+2017-02-05T23:43:00: Parsing "setuptools.tests" ("C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\site-packages\setuptools\tests\__init__.py")
+2017-02-05T23:43:00: Parsing complete
+2017-02-05T23:43:00: Analyzing "setuptools.archive_util"
+2017-02-05T23:43:00: Analyzing "setuptools.compat"
+2017-02-05T23:43:00: Analyzing "setuptools.depends"
+2017-02-05T23:43:00: Analyzing "setuptools.dist"
+2017-02-05T23:43:00: Analyzing "setuptools.extension"
+2017-02-05T23:43:00: Analyzing "setuptools.lib2to3_ex"
+2017-02-05T23:43:00: Analyzing "setuptools.msvc9_support"
+2017-02-05T23:43:00: Analyzing "setuptools.package_index"
+2017-02-05T23:43:00: Analyzing "setuptools.py26compat"
+2017-02-05T23:43:00: Analyzing "setuptools.py27compat"
+2017-02-05T23:43:00: Analyzing "setuptools.py31compat"
+2017-02-05T23:43:00: Analyzing "setuptools.sandbox"
+2017-02-05T23:43:00: Analyzing "setuptools.ssl_support"
+2017-02-05T23:43:00: Analyzing "setuptools.unicode_utils"
+2017-02-05T23:43:00: Analyzing "setuptools.utils"
+2017-02-05T23:43:00: Analyzing "setuptools.version"
+2017-02-05T23:43:00: Analyzing "setuptools.windows_support"
+2017-02-05T23:43:00: Analyzing "setuptools"
+2017-02-05T23:43:00: Analyzing "setuptools.command.alias"
+2017-02-05T23:43:00: Analyzing "setuptools.command.bdist_egg"
+2017-02-05T23:43:00: Analyzing "setuptools.command.bdist_rpm"
+2017-02-05T23:43:00: Analyzing "setuptools.command.bdist_wininst"
+2017-02-05T23:43:00: Analyzing "setuptools.command.build_ext"
+2017-02-05T23:43:00: Analyzing "setuptools.command.build_py"
+2017-02-05T23:43:00: Analyzing "setuptools.command.develop"
+2017-02-05T23:43:00: Analyzing "setuptools.command.easy_install"
+2017-02-05T23:43:00: Analyzing "setuptools.command.egg_info"
+2017-02-05T23:43:00: Analyzing "setuptools.command.install"
+2017-02-05T23:43:00: Analyzing "setuptools.command.install_egg_info"
+2017-02-05T23:43:00: Analyzing "setuptools.command.install_lib"
+2017-02-05T23:43:00: Analyzing "setuptools.command.install_scripts"
+2017-02-05T23:43:00: Analyzing "setuptools.command.register"
+2017-02-05T23:43:00: Analyzing "setuptools.command.rotate"
+2017-02-05T23:43:00: Analyzing "setuptools.command.saveopts"
+2017-02-05T23:43:00: Analyzing "setuptools.command.sdist"
+2017-02-05T23:43:00: Analyzing "setuptools.command.setopt"
+2017-02-05T23:43:00: Analyzing "setuptools.command.test"
+2017-02-05T23:43:00: Analyzing "setuptools.command.upload_docs"
+2017-02-05T23:43:00: Analyzing "setuptools.command"
+2017-02-05T23:43:00: Analyzing "setuptools.tests.contexts"
+2017-02-05T23:43:00: Analyzing "setuptools.tests.environment"
+2017-02-05T23:43:00: Analyzing "setuptools.tests.fixtures"
+2017-02-05T23:43:00: Analyzing "setuptools.tests.py26compat"
+2017-02-05T23:43:00: Analyzing "setuptools.tests.server"
+2017-02-05T23:43:00: Analyzing "setuptools.tests.test_bdist_egg"
+2017-02-05T23:43:00: Analyzing "setuptools.tests.test_build_ext"
+2017-02-05T23:43:00: Analyzing "setuptools.tests.test_develop"
+2017-02-05T23:43:00: Analyzing "setuptools.tests.test_dist_info"
+2017-02-05T23:43:00: Analyzing "setuptools.tests.test_easy_install"
+2017-02-05T23:43:00: Analyzing "setuptools.tests.test_egg_info"
+2017-02-05T23:43:00: Analyzing "setuptools.tests.test_find_packages"
+2017-02-05T23:43:00: Analyzing "setuptools.tests.test_integration"
+2017-02-05T23:43:00: Analyzing "setuptools.tests.test_markerlib"
+2017-02-05T23:43:00: Analyzing "setuptools.tests.test_msvc9compiler"
+2017-02-05T23:43:00: Analyzing "setuptools.tests.test_packageindex"
+2017-02-05T23:43:00: Analyzing "setuptools.tests.test_sandbox"
+2017-02-05T23:43:00: Analyzing "setuptools.tests.test_sdist"
+2017-02-05T23:43:00: Analyzing "setuptools.tests.test_test"
+2017-02-05T23:43:00: Analyzing "setuptools.tests.test_upload_docs"
+2017-02-05T23:43:00: Analyzing "setuptools.tests.test_windows_wrappers"
+2017-02-05T23:43:00: Analyzing "setuptools.tests.textwrap"
+2017-02-05T23:43:00: Analyzing "setuptools.tests"
+2017-02-05T23:43:00: Starting analysis of 62 modules
+2017-02-05T23:43:03: Analysis complete
+2017-02-05T23:43:03: Saving group "C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\site-packages\setuptools"
+2017-02-05T23:43:06: End of group "C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\site-packages\setuptools"
+2017-02-05T23:43:06: Start group "C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\site-packages\werkzeug" with 39 files
+2017-02-05T23:43:08: Parsing "werkzeug.datastructures" ("C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\site-packages\werkzeug\datastructures.py")
+2017-02-05T23:43:08: Parsing "werkzeug.exceptions" ("C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\site-packages\werkzeug\exceptions.py")
+2017-02-05T23:43:08: Parsing "werkzeug.filesystem" ("C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\site-packages\werkzeug\filesystem.py")
+2017-02-05T23:43:08: Parsing "werkzeug.formparser" ("C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\site-packages\werkzeug\formparser.py")
+2017-02-05T23:43:08: Parsing "werkzeug.http" ("C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\site-packages\werkzeug\http.py")
+2017-02-05T23:43:08: Parsing "werkzeug.local" ("C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\site-packages\werkzeug\local.py")
+2017-02-05T23:43:08: Parsing "werkzeug.posixemulation" ("C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\site-packages\werkzeug\posixemulation.py")
+2017-02-05T23:43:08: Parsing "werkzeug.routing" ("C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\site-packages\werkzeug\routing.py")
+2017-02-05T23:43:08: Parsing "werkzeug.script" ("C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\site-packages\werkzeug\script.py")
+2017-02-05T23:43:08: Parsing "werkzeug.security" ("C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\site-packages\werkzeug\security.py")
+2017-02-05T23:43:08: Parsing "werkzeug.serving" ("C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\site-packages\werkzeug\serving.py")
+2017-02-05T23:43:08: Parsing "werkzeug.test" ("C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\site-packages\werkzeug\test.py")
+2017-02-05T23:43:08: Parsing "werkzeug.testapp" ("C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\site-packages\werkzeug\testapp.py")
+2017-02-05T23:43:08: Parsing "werkzeug.urls" ("C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\site-packages\werkzeug\urls.py")
+2017-02-05T23:43:08: Parsing "werkzeug.useragents" ("C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\site-packages\werkzeug\useragents.py")
+2017-02-05T23:43:08: Parsing "werkzeug.utils" ("C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\site-packages\werkzeug\utils.py")
+2017-02-05T23:43:08: Parsing "werkzeug.wrappers" ("C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\site-packages\werkzeug\wrappers.py")
+2017-02-05T23:43:08: Parsing "werkzeug.wsgi" ("C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\site-packages\werkzeug\wsgi.py")
+2017-02-05T23:43:08: Parsing "werkzeug._compat" ("C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\site-packages\werkzeug\_compat.py")
+2017-02-05T23:43:08: Parsing "werkzeug._internal" ("C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\site-packages\werkzeug\_internal.py")
+2017-02-05T23:43:08: Parsing "werkzeug._reloader" ("C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\site-packages\werkzeug\_reloader.py")
+2017-02-05T23:43:08: Parsing "werkzeug" ("C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\site-packages\werkzeug\__init__.py")
+2017-02-05T23:43:08: Parsing "werkzeug.contrib.atom" ("C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\site-packages\werkzeug\contrib\atom.py")
+2017-02-05T23:43:08: Parsing "werkzeug.contrib.cache" ("C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\site-packages\werkzeug\contrib\cache.py")
+2017-02-05T23:43:08: Parsing "werkzeug.contrib.fixers" ("C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\site-packages\werkzeug\contrib\fixers.py")
+2017-02-05T23:43:08: Parsing "werkzeug.contrib.iterio" ("C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\site-packages\werkzeug\contrib\iterio.py")
+2017-02-05T23:43:08: Parsing "werkzeug.contrib.jsrouting" ("C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\site-packages\werkzeug\contrib\jsrouting.py")
+2017-02-05T23:43:08: Parsing "werkzeug.contrib.limiter" ("C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\site-packages\werkzeug\contrib\limiter.py")
+2017-02-05T23:43:08: Parsing "werkzeug.contrib.lint" ("C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\site-packages\werkzeug\contrib\lint.py")
+2017-02-05T23:43:08: Parsing "werkzeug.contrib.profiler" ("C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\site-packages\werkzeug\contrib\profiler.py")
+2017-02-05T23:43:08: Parsing "werkzeug.contrib.securecookie" ("C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\site-packages\werkzeug\contrib\securecookie.py")
+2017-02-05T23:43:08: Parsing "werkzeug.contrib.sessions" ("C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\site-packages\werkzeug\contrib\sessions.py")
+2017-02-05T23:43:08: Parsing "werkzeug.contrib.testtools" ("C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\site-packages\werkzeug\contrib\testtools.py")
+2017-02-05T23:43:08: Parsing "werkzeug.contrib.wrappers" ("C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\site-packages\werkzeug\contrib\wrappers.py")
+2017-02-05T23:43:08: Parsing "werkzeug.contrib" ("C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\site-packages\werkzeug\contrib\__init__.py")
+2017-02-05T23:43:08: Parsing "werkzeug.debug.console" ("C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\site-packages\werkzeug\debug\console.py")
+2017-02-05T23:43:09: Parsing "werkzeug.debug.repr" ("C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\site-packages\werkzeug\debug\repr.py")
+2017-02-05T23:43:09: Parsing "werkzeug.debug.tbtools" ("C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\site-packages\werkzeug\debug\tbtools.py")
+2017-02-05T23:43:09: Parsing "werkzeug.debug" ("C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\site-packages\werkzeug\debug\__init__.py")
+2017-02-05T23:43:09: Parsing complete
+2017-02-05T23:43:09: Analyzing "werkzeug.datastructures"
+2017-02-05T23:43:09: Analyzing "werkzeug.exceptions"
+2017-02-05T23:43:09: Analyzing "werkzeug.filesystem"
+2017-02-05T23:43:09: Analyzing "werkzeug.formparser"
+2017-02-05T23:43:09: Analyzing "werkzeug.http"
+2017-02-05T23:43:09: Analyzing "werkzeug.local"
+2017-02-05T23:43:09: Analyzing "werkzeug.posixemulation"
+2017-02-05T23:43:09: Analyzing "werkzeug.routing"
+2017-02-05T23:43:09: Analyzing "werkzeug.script"
+2017-02-05T23:43:09: Analyzing "werkzeug.security"
+2017-02-05T23:43:09: Analyzing "werkzeug.serving"
+2017-02-05T23:43:09: Analyzing "werkzeug.test"
+2017-02-05T23:43:09: Analyzing "werkzeug.testapp"
+2017-02-05T23:43:09: Analyzing "werkzeug.urls"
+2017-02-05T23:43:09: Analyzing "werkzeug.useragents"
+2017-02-05T23:43:09: Analyzing "werkzeug.utils"
+2017-02-05T23:43:09: Analyzing "werkzeug.wrappers"
+2017-02-05T23:43:09: Analyzing "werkzeug.wsgi"
+2017-02-05T23:43:09: Analyzing "werkzeug._compat"
+2017-02-05T23:43:09: Analyzing "werkzeug._internal"
+2017-02-05T23:43:09: Analyzing "werkzeug._reloader"
+2017-02-05T23:43:09: Analyzing "werkzeug"
+2017-02-05T23:43:09: Analyzing "werkzeug.contrib.atom"
+2017-02-05T23:43:09: Analyzing "werkzeug.contrib.cache"
+2017-02-05T23:43:09: Analyzing "werkzeug.contrib.fixers"
+2017-02-05T23:43:09: Analyzing "werkzeug.contrib.iterio"
+2017-02-05T23:43:09: Analyzing "werkzeug.contrib.jsrouting"
+2017-02-05T23:43:09: Analyzing "werkzeug.contrib.limiter"
+2017-02-05T23:43:09: Analyzing "werkzeug.contrib.lint"
+2017-02-05T23:43:09: Analyzing "werkzeug.contrib.profiler"
+2017-02-05T23:43:09: Analyzing "werkzeug.contrib.securecookie"
+2017-02-05T23:43:09: Analyzing "werkzeug.contrib.sessions"
+2017-02-05T23:43:09: Analyzing "werkzeug.contrib.testtools"
+2017-02-05T23:43:09: Analyzing "werkzeug.contrib.wrappers"
+2017-02-05T23:43:09: Analyzing "werkzeug.contrib"
+2017-02-05T23:43:09: Analyzing "werkzeug.debug.console"
+2017-02-05T23:43:09: Analyzing "werkzeug.debug.repr"
+2017-02-05T23:43:09: Analyzing "werkzeug.debug.tbtools"
+2017-02-05T23:43:09: Analyzing "werkzeug.debug"
+2017-02-05T23:43:09: Starting analysis of 39 modules
+2017-02-05T23:43:11: Analysis complete
+2017-02-05T23:43:11: Saving group "C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\site-packages\werkzeug"
+2017-02-05T23:43:12: End of group "C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\site-packages\werkzeug"
+2017-02-05T23:43:12: Start group "C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\site-packages\_markerlib" with 2 files
+2017-02-05T23:43:14: Parsing "_markerlib.markers" ("C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\site-packages\_markerlib\markers.py")
+2017-02-05T23:43:14: Parsing "_markerlib" ("C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\site-packages\_markerlib\__init__.py")
+2017-02-05T23:43:14: Parsing complete
+2017-02-05T23:43:14: Analyzing "_markerlib.markers"
+2017-02-05T23:43:14: Analyzing "_markerlib"
+2017-02-05T23:43:14: Starting analysis of 2 modules
+2017-02-05T23:43:14: Analysis complete
+2017-02-05T23:43:14: Saving group "C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\site-packages\_markerlib"
+2017-02-05T23:43:14: End of group "C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\site-packages\_markerlib"
+2017-02-05T23:43:16: Deleting 0 files
+
+2017-02-05T23:43:34: Start analysis
+2017-02-05T23:43:34: [WARNING] Library was set explicitly - skipping path detection
+2017-02-05T23:43:35: IncludeModulesFromModulePath = win32com
+2017-02-05T23:43:35: Deleting 0 files
+2017-02-05T23:43:35: astropy.CallDepth = 0
+2017-02-05T23:43:35: matplotlib.CallDepth = 3
+2017-02-05T23:43:35: pandas.CallDepth = 0
+2017-02-05T23:43:35: sympy.CallDepth = 0
+2017-02-05T23:43:35: Start group "C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\site-packages\flask_login" with 8 files
+2017-02-05T23:43:38: Parsing "flask_login.config" ("C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\site-packages\flask_login\config.py")
+2017-02-05T23:43:38: Parsing "flask_login.login_manager" ("C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\site-packages\flask_login\login_manager.py")
+2017-02-05T23:43:38: Parsing "flask_login.mixins" ("C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\site-packages\flask_login\mixins.py")
+2017-02-05T23:43:38: Parsing "flask_login.signals" ("C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\site-packages\flask_login\signals.py")
+2017-02-05T23:43:38: Parsing "flask_login.utils" ("C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\site-packages\flask_login\utils.py")
+2017-02-05T23:43:38: Parsing "flask_login._compat" ("C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\site-packages\flask_login\_compat.py")
+2017-02-05T23:43:38: Parsing "flask_login.__about__" ("C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\site-packages\flask_login\__about__.py")
+2017-02-05T23:43:38: Parsing "flask_login" ("C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\site-packages\flask_login\__init__.py")
+2017-02-05T23:43:38: Parsing complete
+2017-02-05T23:43:38: Analyzing "flask_login.config"
+2017-02-05T23:43:38: Analyzing "flask_login.login_manager"
+2017-02-05T23:43:38: Analyzing "flask_login.mixins"
+2017-02-05T23:43:38: Analyzing "flask_login.signals"
+2017-02-05T23:43:38: Analyzing "flask_login.utils"
+2017-02-05T23:43:38: Analyzing "flask_login._compat"
+2017-02-05T23:43:38: Analyzing "flask_login.__about__"
+2017-02-05T23:43:38: Analyzing "flask_login"
+2017-02-05T23:43:38: Starting analysis of 8 modules
+2017-02-05T23:43:38: Analysis complete
+2017-02-05T23:43:38: Saving group "C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\site-packages\flask_login"
+2017-02-05T23:43:38: End of group "C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\site-packages\flask_login"
+2017-02-05T23:43:39: Deleting 0 files

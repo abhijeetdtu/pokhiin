@@ -5,6 +5,13 @@ import SocketServer
 
 from flaskapp import app as application
 
+virtenv = os.environ['APPDIR'] + '/venv/'
+os.environ['PYTHON_EGG_CACHE'] = os.path.join(virtenv, 'lib/python2.6/site-packages')
+virtualenv = os.path.join(virtenv, 'bin/activate_this.py')
+try:
+    execfile(virtualenv, dict(__file__=virtualenv))
+except IOError:
+    pass
 #
 # Below for testing only
 #
