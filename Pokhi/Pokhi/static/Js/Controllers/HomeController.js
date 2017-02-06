@@ -18,20 +18,24 @@
 
         var stage = new createjs.Stage("viewport");
         console.log(stage)
-        var circle = new createjs.Shape();
-        circle.graphics.beginFill("DeepSkyBlue").drawCircle(0, 0, 50);
-        circle.x = 100;
-        circle.y = 100;
-        stage.addChild(circle);
-        stage.update();
-        
+        var circles = [];
+        for (var i = 0 ; i < 100 ; i++) {
+            var circle = new createjs.Shape();
+            circle.graphics.beginFill("DeepSkyBlue").drawCircle(Math.random() * window.innerWidth, Math.random() * window.innerHeight, 10 + 40*Math.random());
+
+            circles.push(circle);
+            stage.addChild(circle);
+            stage.update();
+
+        }
+
         createjs.Ticker.setInterval(25);
-        createjs.Ticker.setFPS(40);
-
-        createjs.Ticker.addEventListener("tick", function (event){ 
-            circle.x += event.delta / 1000 * 100;
-
-            circle.x %= window.innerWidth;
+        createjs.Ticker.setFPS(40);        
+        createjs.Ticker.addEventListener("tick", function (event) {
+            for (var i = 0 ; i < 100 ; i++) {
+                circles[i].x += (event.delta / 1000) * Math.random()*80 + 1;
+                circles[i].x %= window.innerWidth;
+            }
             // this will log a steadily increasing value:
             //console.log("total time: "+createjs.Ticker.getTime());
             stage.update();
