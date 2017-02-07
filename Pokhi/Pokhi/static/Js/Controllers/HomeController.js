@@ -2,44 +2,41 @@
     console.log("home")
     $scope.message = "Welcome to home";
 
-    $scope.login = function () {
-        console.log($scope.username, $scope.password);
-        loginService.login($scope.username, $scope.password, function (isLoggedIn) {
-            if(isLoggedIn)
-                $state.go("base")
-        });
+    
+    $scope.GetRandomColor = function () {
+        return "rgb(" + Math.floor(Math.random() * 155 + 100) + "," + Math.floor(Math.random() * 155 + +100) + "," + Math.floor(Math.random() * 155 + +100) + ")";
     }
 
+    $scope.CreateCircle = function (stage,x) {
+        if (x == null || typeof x == 'undefined')
+            x = Math.random() * window.innerWidth;
+        var circle = new createjs.Shape();
+        circle.graphics.beginFill($scope.GetRandomColor()).drawCircle(x, Math.random() * window.innerHeight, 10 + 40 * Math.random());
+        stage.addChild(circle);
+        createjs.Tween.get(circle, { loop: true })
+             .to({ scale : 0.8 }, 1000, createjs.Ease.getPowInOut(4))
+             .to({ alpha: 0 }, 1500, createjs.Ease.getPowInOut(2))
+             .to({ alpha: 1 }, 1500, createjs.Ease.getPowInOut(2))
+             .to({ scale: 1 / 0.8 }, 1000, createjs.Ease.getPowInOut(4));
+
+    }
     $scope.Canvas = function () {
         
-        var canvas = document.getElementById("viewport");
-        canvas.clientWidth = window.innerWidth;
+        var canvas = $("#viewport").css("width", "inherit");
+   
+        $("#viewport").attr("width", window.innerWidth);
+            
         //canvas.clientHeight = window.innerheight;
 
         var stage = new createjs.Stage("viewport");
         console.log(stage)
-        var circles = [];
+
+        $scope.CreateCircle(stage , 0);
         for (var i = 0 ; i < 100 ; i++) {
-            var circle = new createjs.Shape();
-            circle.graphics.beginFill("DeepSkyBlue").drawCircle(Math.random() * window.innerWidth, Math.random() * window.innerHeight, 10 + 40*Math.random());
-
-            circles.push(circle);
-            stage.addChild(circle);
-            stage.update();
-
+            $scope.CreateCircle(stage);
         }
-
-        createjs.Ticker.setInterval(25);
-        createjs.Ticker.setFPS(40);        
-        createjs.Ticker.addEventListener("tick", function (event) {
-            for (var i = 0 ; i < 100 ; i++) {
-                circles[i].x += (event.delta / 1000) * Math.random()*80 + 1;
-                circles[i].x %= window.innerWidth;
-            }
-            // this will log a steadily increasing value:
-            //console.log("total time: "+createjs.Ticker.getTime());
-            stage.update();
-        });
+        createjs.Ticker.setFPS(60);
+        createjs.Ticker.addEventListener("tick", stage);
     }
 
     $scope.Canvas();
