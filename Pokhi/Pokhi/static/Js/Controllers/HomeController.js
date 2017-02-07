@@ -3,9 +3,17 @@
     $scope.message = "Welcome to home";
 
     
+    $scope.canvasResize = function () {
+        var canvasHolder = document.getElementById("canvasHolder");
+        var width = canvasHolder.clientWidth;
+        $("#viewport").attr("width", width);
+    }
+    $(window).on("resize", $scope.canvasResize);
+    
     $scope.GetRandomColor = function () {
         return "rgb(" + Math.floor(Math.random() * 155 + 100) + "," + Math.floor(Math.random() * 155 + +100) + "," + Math.floor(Math.random() * 155 + +100) + ")";
     }
+
 
     $scope.CreateCircle = function (stage,x) {
         if (x == null || typeof x == 'undefined')
@@ -20,14 +28,9 @@
              .to({ scale: 1 / 0.8 }, 1000, createjs.Ease.getPowInOut(4));
 
     }
-    $scope.Canvas = function () {
-        
-        var canvas = $("#viewport").css("width", "inherit");
-   
-        $("#viewport").attr("width", window.innerWidth);
-            
-        //canvas.clientHeight = window.innerheight;
 
+    $scope.Canvas = function () {
+        $scope.canvasResize();
         var stage = new createjs.Stage("viewport");
         console.log(stage)
 
