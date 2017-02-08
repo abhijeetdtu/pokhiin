@@ -22,9 +22,9 @@
         circle.graphics.beginFill($scope.GetRandomColor()).drawCircle(x, Math.random() * window.innerHeight, 10 + 40 * Math.random());
         stage.addChild(circle);
         createjs.Tween.get(circle, { loop: true })
-             .to({ scale : 0.8 }, 1000, createjs.Ease.getPowInOut(4))
-             .to({ alpha: 0 }, 1500, createjs.Ease.getPowInOut(2))
-             .to({ alpha: 1 }, 1500, createjs.Ease.getPowInOut(2))
+             .to({ scale : 0.8 }, 500*Math.random() + 500, createjs.Ease.getPowInOut(4))
+             .to({ alpha: 0 }, 1000 * Math.random() + 500, createjs.Ease.getPowInOut(2))
+             .to({ alpha: 1 }, 1000 * Math.random() + 500, createjs.Ease.getPowInOut(2))
              .to({ scale: 1 / 0.8 }, 1000, createjs.Ease.getPowInOut(4));
 
     }

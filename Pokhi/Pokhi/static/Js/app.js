@@ -8,6 +8,11 @@ var app = angular.module('Pokhi', ['ui.router']);
             templateUrl: '/Views/Home.html',
             controller: 'HomeController'
         })
+        .state('base', {
+            url: '/base',
+            templateUrl: '/Views/Base.html',
+            controller: 'BaseController'
+        })
     });
 
     app.config(function($interpolateProvider) {

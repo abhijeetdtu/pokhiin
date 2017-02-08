@@ -31,7 +31,7 @@ def GetUserFromCredentials(username , password):
 @login_manager.user_loader
 def load_user(user_id):
     print("load_user" , user_id)
-    return GetUserForFlaskLoadManager(user_id , True)
+    return GetUserForFlaskLoadManager(user_id)
 
 @loginAPI.route('/api/users/login' , methods=['POST'])
 def Login():
