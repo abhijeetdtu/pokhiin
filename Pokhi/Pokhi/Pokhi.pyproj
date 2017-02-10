@@ -94,6 +94,7 @@
     <Content Include="static\Js\Controllers\BaseController.js" />
     <Content Include="static\Js\Controllers\HomeController.js" />
     <Content Include="static\Js\Controllers\LandingController.js" />
+    <Content Include="static\Js\Services\displayService.js" />
     <Content Include="static\Js\Services\loginService.js" />
     <Content Include="static\Js\vendor\angular-route.js" />
     <Content Include="static\Js\vendor\angular.min.js" />

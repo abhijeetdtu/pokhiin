@@ -1,15 +1,7 @@
-﻿app.controller("HomeController", ["$scope", 'loginService' , function ($scope , loginService) {
+﻿app.controller("HomeController", ["$scope", '$timeout', 'loginService' , function ($scope ,$timeout, loginService) {
     console.log("home")
-    $scope.message = "Welcome to home";
 
-    
-    $scope.canvasResize = function () {
-        var canvasHolder = document.getElementById("canvasHolder");
-        var width = canvasHolder.clientWidth;
-        $("#viewport").attr("width", width);
-    }
-    $(window).on("resize", $scope.canvasResize);
-    
+   
     $scope.GetRandomColor = function () {
         return "rgb(" + Math.floor(Math.random() * 155 + 100) + "," + Math.floor(Math.random() * 155 + +100) + "," + Math.floor(Math.random() * 155 + +100) + ")";
     }
@@ -17,7 +9,7 @@
 
     $scope.CreateCircle = function (stage,x) {
         if (x == null || typeof x == 'undefined')
-            x = Math.random() * window.innerWidth;
+            x = Math.random() * stage.canvas.width;
         var circle = new createjs.Shape();
         circle.graphics.beginFill($scope.GetRandomColor()).drawCircle(x, Math.random() * window.innerHeight, 10 + 40 * Math.random());
         stage.addChild(circle);
@@ -30,9 +22,8 @@
     }
 
     $scope.Canvas = function () {
-        $scope.canvasResize();
         var stage = new createjs.Stage("viewport");
-        console.log(stage)
+        console.log(stage.canvas.width)
 
         $scope.CreateCircle(stage , 0);
         for (var i = 0 ; i < 100 ; i++) {
@@ -42,5 +33,15 @@
         createjs.Ticker.addEventListener("tick", stage);
     }
 
-    $scope.Canvas();
+    $scope.canvasResize = function () {
+        console.log("REsizing", document.getElementById("canvasHolder").clientWidth);
+        var canvasHolder = document.getElementById("canvasHolder");
+        var width = canvasHolder.clientWidth;
+        $("#viewport").attr("width", width);
+        $scope.Canvas();
+    }
+    $(window).on("resize", $scope.canvasResize);
+    $timeout(function () { $scope.canvasResize()}, 50);
+
+    //$scope.canvasResize();
 }])

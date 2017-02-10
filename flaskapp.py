@@ -30,5 +30,6 @@ def Views(path):
     print(path ,"/Views/{}".format(path) ) 
     return render_template("/Views/{}".format(path))
 
+
 if __name__ == '__main__':
     app.run()
