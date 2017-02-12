@@ -7,8 +7,7 @@
     <ProjectGuid>c86d84dd-4748-45d2-a5fd-5862729976c8</ProjectGuid>
     <ProjectHome>.</ProjectHome>
     <ProjectTypeGuids>{1b580a1a-fdb3-4b32-83e1-6407eb2722e6};{349c5851-65df-11da-9384-00065b846f21};{888888a0-9f3d-457c-b088-3a5042f75d52}</ProjectTypeGuids>
-    <StartupFile>
-    </StartupFile>
+    <StartupFile>DocToHtml\docToHtml.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -32,6 +31,8 @@
     <InterpreterReference Include="{3319d6e9-7cb7-4163-83ad-12ab55317195}\2.7" />
   </ItemGroup>
   <ItemGroup>
+    <Folder Include="DocToHtml\" />
+    <Folder Include="static\fonts\" />
     <Folder Include="static\Js\" />
     <Folder Include="static\Js\Controllers\" />
     <Folder Include="static\Js\ViewJs\" />
@@ -44,8 +45,12 @@
     <Folder Include="static\" />
     <Folder Include="templates\Views\" />
     <Folder Include="Rest\" />
+    <Folder Include="templates\Views\Partials\" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="DocToHtml\docToHtml.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="Rest\authAPI.py">
       <SubType>Code</SubType>
     </Compile>
@@ -89,7 +94,14 @@
     <Content Include="static\Css\index.css" />
     <Content Include="static\Css\site.css" />
     <Content Include="static\Css\style.css" />
+    <Content Include="static\Data\abc.docx" />
+    <Content Include="static\Data\def.docx" />
     <Content Include="static\Data\test.pdf" />
+    <Content Include="static\fonts\glyphicons-halflings-regular.eot" />
+    <Content Include="static\fonts\glyphicons-halflings-regular.svg" />
+    <Content Include="static\fonts\glyphicons-halflings-regular.ttf" />
+    <Content Include="static\fonts\glyphicons-halflings-regular.woff" />
+    <Content Include="static\fonts\glyphicons-halflings-regular.woff2" />
     <Content Include="static\Js\app.js" />
     <Content Include="static\Js\Controllers\BaseController.js" />
     <Content Include="static\Js\Controllers\HomeController.js" />
@@ -118,6 +130,9 @@
     <Content Include="templates\Views\Base.html" />
     <Content Include="templates\Views\Home.html" />
     <Content Include="templates\Views\Index.html" />
+    <Content Include="templates\Views\Partials\Geek.html" />
+    <Content Include="templates\Views\Partials\Music.html" />
+    <Content Include="templates\Views\Partials\Research.html" />
   </ItemGroup>
   <ItemGroup>
     <Interpreter Include="venv\">

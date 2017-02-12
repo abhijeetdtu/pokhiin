@@ -1,8 +1,5 @@
 ﻿app.factory('loginService', ['$http' , function ($http) {
 
-    var currentUser;
-    var lastsCurrentUserCall = null;
-    var REFRESH_PERIOD = 10000;
 
     return {
         login: function (username , password , callback) {

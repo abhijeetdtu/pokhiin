@@ -1,5 +1,25 @@
-﻿
+﻿    
+<div class="row">
     <div id="canvasHolder" class="col-sm-12 col-md-12">
-        <canvas height="100" id="viewport" ng-init="canvasResize()"></canvas>
+        <canvas height="50" id="viewport" ng-init="canvasResize()"></canvas>
+    </div>
+</div>
+<hr>
+    <div class="row">
+
+        <ul class="nav nav-pills">
+            <li  ng-repeat="x in MainNavItems" >
+                 <a  data-toggle="tab" href="#[[ x[0] ]]">
+                     <span class="[[ x[1] ]]"></span>
+                        [[ x[0] ]]
+                 </a>
+            </li>
+        </ul>
+    </div>
+    <hr>
+
+    <div class="tab-content ">
+        <div class="tab-pane" ng-repeat="x in MainNavItems" id="[[ x[0] ]]" ng-include=" x[2] ">
+        </div>
     </div>
 

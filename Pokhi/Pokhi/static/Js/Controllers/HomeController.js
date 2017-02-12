@@ -1,7 +1,8 @@
-﻿app.controller("HomeController", ["$scope", '$timeout', 'loginService' , function ($scope ,$timeout, loginService) {
+﻿app.controller("HomeController", ["$scope", '$timeout', 'loginService' ,'displayService' , function ($scope ,$timeout, loginService , displayService) {
     console.log("home")
 
-   
+    $scope.MainNavItems = displayService.getNavItems("Home", "Main");
+
     $scope.GetRandomColor = function () {
         return "rgb(" + Math.floor(Math.random() * 155 + 100) + "," + Math.floor(Math.random() * 155 + +100) + "," + Math.floor(Math.random() * 155 + +100) + ")";
     }
