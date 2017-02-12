@@ -1,11 +1,11 @@
 ﻿    
-<div class="row">
+<div class="row-fluid">
     <div id="canvasHolder" class="col-sm-12 col-md-12">
         <canvas height="50" id="viewport" ng-init="canvasResize()"></canvas>
     </div>
 </div>
 <hr>
-    <div class="row">
+    <div class="row-fluid">
 
         <ul class="nav nav-pills">
             <li  ng-repeat="x in MainNavItems" >
@@ -17,9 +17,11 @@
         </ul>
     </div>
     <hr>
-
-    <div class="tab-content ">
-        <div class="tab-pane" ng-repeat="x in MainNavItems" id="[[ x[0] ]]" ng-include=" x[2] ">
+    
+    <div class="row-fluid">
+        <div class="tab-content">
+            <div class="tab-pane" ng-repeat="x in MainNavItems" id="[[ x[0] ]]" ng-include=" x[2] ">
+            </div>
         </div>
     </div>
 
