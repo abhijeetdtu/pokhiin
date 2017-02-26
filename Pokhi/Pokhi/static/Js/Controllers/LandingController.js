@@ -62,4 +62,8 @@
             }
         });
     }
+    d3.select("#logo").transition()
+        .delay(500)
+        .duration(3000)
+        .styleTween("opacity", function () { return d3.interpolate(0,1); });
 }])
