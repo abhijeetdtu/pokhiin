@@ -33,45 +33,47 @@
     
    <div ng-show="showLoader == false">
        <input type="hidden" id="isLoggedIn" ng-model="isLoggedIn" value="{{current_user.is_authenticated}}" />
-       <div class="container">
-           <hr />
-           <div class="row-fluid">
-               <div class="col-sm-12 col-xs-12 col-md-3">
-                   <div class="heading"><b>pOKHI</b></div>
-               </div>
-               <di  ng-show="isLoggedIn == null">
+       
+           <div class="container">
 
-                   <form >
-                       <div>
-                           <div class="col-xs-12 col-md-offset-3 col-md-2 form-group">
-                               <input class="form-control" name="username" placeholder="username" ng-model="username" />
+               <div class="row-fluid">
+                   <div class="col-sm-12 col-xs-12 col-md-3">
+                       <img src="{{ url_for('static', filename='Images/Logo_pokhi.png') }}" height="50" width="100">
+                       <!--<div class="heading"><b>pOKHI</b></div>-->
+                   </div>
+                   <di ng-show="isLoggedIn == null">
+
+                       <form>
+                           <div>
+                               <div class="col-xs-12 col-md-offset-3 col-md-2 form-group">
+                                   <input class="form-control" name="username" placeholder="username" ng-model="username" />
+                               </div>
+                               <div class="col-xs-8 col-md-2 form-group">
+                                   <input class="form-control" name="password" placeholder="password" ng-model="password" type="password" />
+                               </div>
+
+                               <div class="col-xs-4 col-md-2 form-group">
+                                   <button class="btn btn-default form-control" ng-click="login()">login</button>
+                               </div>
+
                            </div>
-                           <div class="col-xs-8 col-md-2 form-group">
-                               <input class="form-control" name="password" placeholder="password" ng-model="password" type="password" />
-                           </div>
-
-                           <div class="col-xs-4 col-md-2 form-group">
-                               <button class="btn btn-default form-control" ng-click="login()">login</button>
-                           </div>
-
-                       </div>
 
 
-                   </form>
+                       </form>
 
-               </di>
-               <div class="col-sm-12 col-xs-12 col-md-offset-7 col-md-2" ng-show="isLoggedIn != null">
+                   </di>
+                   <div class="col-sm-12 col-xs-12 col-md-offset-7 col-md-2" ng-show="isLoggedIn != null">
                        <div class="form-group">
                            <button class="btn btn-default" ng-click="logout()">Logout</button>
                        </div>
-               </div>
-         </div>
-           <hr>
-                   <div ui-view>
                    </div>
-               
-           
-   </div>
-   
+               </div>
+               <hr>
+               <div ui-view>
+               </div>
+
+
+           </div>
+       </div>
 </body>
 </html>

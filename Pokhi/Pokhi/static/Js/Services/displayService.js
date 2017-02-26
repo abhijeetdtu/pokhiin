@@ -21,6 +21,7 @@
                             return [['Research', 'glyphicon glyphicon-stats' , 'Views/Partials/Research.html']
                                 , ['Music', 'glyphicon glyphicon-headphones', 'Views/Partials/Music.html']
                                 , ['Geek', 'glyphicon glyphicon-qrcode', 'Views/Partials/Geek.html']
+                                , ['Pong', 'glyphicon glyphicon-qrcode', 'Apps/Pong/index.html']
                             ]
                             break;
                     }

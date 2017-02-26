@@ -13,6 +13,10 @@ var app = angular.module('Pokhi', ['ui.router']);
             templateUrl: '/Views/Base.html',
             controller: 'BaseController'
         })
+        .state('PongApp', {
+            url: '/app/pong',
+            templateUrl: '/Apps/Pong/index.html',
+        })
         .state("otherwise", {
             url: '/',
             templateUrl: '/Views/Home.html',

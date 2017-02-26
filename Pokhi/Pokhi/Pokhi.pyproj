@@ -102,6 +102,7 @@
     <Content Include="static\fonts\glyphicons-halflings-regular.ttf" />
     <Content Include="static\fonts\glyphicons-halflings-regular.woff" />
     <Content Include="static\fonts\glyphicons-halflings-regular.woff2" />
+    <Content Include="static\Images\Logo_pokhi.png" />
     <Content Include="static\Js\app.js" />
     <Content Include="static\Js\Controllers\BaseController.js" />
     <Content Include="static\Js\Controllers\HomeController.js" />
