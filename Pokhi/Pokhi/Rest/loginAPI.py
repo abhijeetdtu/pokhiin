@@ -6,21 +6,27 @@ from flask.ext.login import login_user, login_required ,logout_user , current_us
 from Helpers import Helpers
 from dbConnect import mongo , login_manager
 from authAPI import AuthHelpers , User
-
+import sys, traceback
 
 loginAPI = Blueprint('loginAPI', __name__)
 
 
 def JsonifyUser(user):
-    if(isinstance(user, User) == True):
-        return {'username': user.username , 'isAuthenticated':'true'}
-    else:
-        return {'isAuthenticated':'false'}
+    print("jsonify user" , user , type(user) ==  type(User) , type(user))
+    return {'username': user.username , 'isAuthenticated':user.is_authenticated}
 
-def GetUserForFlaskLoadManager(username , isAuthenticated = False , isActive = True , isAnonymous = False ):
-    user = User(username , isAuthenticated, isActive , isAnonymous)
-    print("GetUserForFlask" , user)
-    return user
+def GetUserForFlaskLoadManager(username , isAuthenticated =False, isActive = True , isAnonymous = False ):
+    try:
+        user = mongo.db.pokhiusers.find_one( { "username": username })      
+        if("isLoggedIn" in user and user["isLoggedIn"] == True):
+            isAuthenticated = True
+        print("GetUserForFlask" , user , isAuthenticated)
+        user = User(username , isAuthenticated, isActive , isAnonymous)      
+        return user
+    except Exception as e:
+        print("Exception" , e)
+        traceback.print_exc(file=sys.stdout)
+        return User(username , False, isActive , isAnonymous)
     
 
 def GetUserFromCredentials(username , password):
@@ -56,7 +62,11 @@ def Authenticate(username ,password):
 @login_manager.user_loader
 def load_user(user_id):
     print("load_user" , user_id)
-    return GetUserForFlaskLoadManager(user_id)
+    try:
+        return GetUserForFlaskLoadManager(user_id)
+    except Exception as e:
+        print("Exception" ,e)
+        traceback.print_exc(file=sys.stdout)
 
 
 @loginAPI.route('/api/users/getcurrentuser' , methods=['GET'])
@@ -79,6 +89,7 @@ def Login():
         print("authenticated" , authenticated)
         if(authenticated == True):
             success = login_user(GetUserForFlaskLoadManager(username , authenticated))
+            mongo.db.pokhiusers.update( { "username": username }  , { '$set' : { "isLoggedIn" : True } })
         else:
             success = False
     except Exception as e:
@@ -88,7 +99,9 @@ def Login():
 @loginAPI.route("/api/users/logout" , methods=['GET'])
 def logout():
     try:
+        username = current_user.username
         logout_user()
+        mongo.db.pokhiusers.update( { "username": username }  , { '$set' : { "isLoggedIn" : False } })
     except Exception as e:
         print(e)
         return jsonify({"success" : False})

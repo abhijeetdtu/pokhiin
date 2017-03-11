@@ -2,6 +2,7 @@ from flask import Flask , render_template
 from Pokhi.Pokhi.Rest.dbConnect import mongo , login_manager
 from Pokhi.Pokhi.Rest.starAPI import starAPI
 from Pokhi.Pokhi.Rest.loginAPI import loginAPI
+from Pokhi.Pokhi.Rest.fileAPI import fileAPI
 from Pokhi.Pokhi.Rest.authAPI import AuthHelpers
 
 import os
@@ -17,6 +18,7 @@ login_manager.init_app(app)
 mongo.init_app(app)
 app.register_blueprint(starAPI)
 app.register_blueprint(loginAPI)
+app.register_blueprint(fileAPI)
 app.secret_key = AuthHelpers.getEncryptedPassword('super secret key')
 
 
@@ -30,6 +32,9 @@ def Views(path):
     print(path ,"/Views/{}".format(path) ) 
     return render_template("/Views/{}".format(path))
 
+@app.route('/Apps/<path:path>', methods=['GET', 'POST'])
+def Apps(path):
+    return render_template("/Apps/{}".format(path))
 
 if __name__ == '__main__':
     app.run()

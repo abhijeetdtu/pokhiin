@@ -1,4 +1,10 @@
-﻿<div>
-
+﻿<div ng-cpntroller="BaseController">
     You logged in you {{ current_user.username }}!
 </div>
+
+<form  enctype="multipart/form-data">
+    <input type="file" name="file" id="fileUpload" />
+    <input type="text"  name="filename" value="names"/>
+    <button ng-click="PostFile()">Send</button>
+</form>
+

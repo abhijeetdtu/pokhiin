@@ -44,7 +44,7 @@
                 if (typeof data != 'undefined' && data.success) {
                     console.log("currentuser", data.data);
                     //callback(data.success);
-                    if (data.data.isAuthenticated == 'true') {
+                    if (data.data && data.data.isAuthenticated == true) {
                         console.log("success");
                         currentUser = data.data;          
                     }

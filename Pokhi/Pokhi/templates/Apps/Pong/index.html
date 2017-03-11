@@ -1,0 +1,39 @@
+<html>
+	<head>
+	</head>
+	<style media="screen" type="text/css">
+	#scoreBoard {
+		position:relative;
+		background-color:#A62A2A;
+		color:white;
+		font-size:50;
+	}
+	#botScore{
+		float: left;
+	}
+	#playerScore{
+		float: right;
+	}
+	#msgBoard {
+		background-color:orange;
+		color:white;
+		text-align:center;
+		font-size:50;
+	}
+	#mycanvas{
+		background-color:#426352;
+	}
+
+	</style>
+	<script src="{{ url_for('static', filename='Apps/Pong/assets/scripts/physicsjs-full.min.js') }}"  type="text/javascript-lazy"></script>
+	<script src="{{ url_for('static', filename='Apps/Pong/assets/scripts/bot.js') }}" type="text/javascript-lazy"></script>
+	<script src="{{ url_for('static', filename='Apps/Pong/assets/scripts/mainLogic.js') }}" type="text/javascript-lazy"></script>
+	<body>
+	
+        <div class="Game" style="height:100%;width:100%">
+            <div id="scoreBoard"><span id="botScore">BOT: 0</span><span>.</span> <span id="playerScore">0 : PLAYER</span></div>
+            <div id="msgBoard">Loading</div>
+            <canvas id="myCanvas"></canvas>
+        </div>
+	</body>
+</html>

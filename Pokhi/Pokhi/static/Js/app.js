@@ -1,5 +1,5 @@
 ﻿
-var app = angular.module('Pokhi', ['ui.router']);
+var app = angular.module('Pokhi', ['ui.router', 'ngLoadScript']);
 
     app.config(function ($stateProvider) {
         $stateProvider

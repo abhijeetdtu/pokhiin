@@ -10,11 +10,17 @@
     $scope.showLoader = false;
     $scope.isLoggedIn = null;
 
-    $scope.showLoading = function () {
+    $scope.showLoading = function (elemSelector) {
+        if(elemSelector)
+            $(elemSelector).append($("#loader"));
         $scope.showLoader = true;
     }
 
-    $scope.hideLoading = function () {
+    $scope.hideLoading = function (elemSelector) {
+        if (elemSelector) {
+            $(body).append($("#loader"));
+            $(elemSelector).remove($("#loader"));
+        }
         $scope.showLoader = false;
     }
 
@@ -55,11 +61,13 @@
     }
 
     $scope.logout = function () {
+        $scope.showLoading();
         loginService.logout(function (isLoggedOut) {
             if (isLoggedOut) {
                 $state.go("home");
                 $scope.isLoggedIn = null;
             }
+            $scope.hideLoading();
         });
     }
     d3.select("#logo").transition()

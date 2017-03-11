@@ -1,4 +1,5 @@
-
+import math
+from random import randint
 class Helpers:
     
     @staticmethod
@@ -20,3 +21,7 @@ class Helpers:
     @staticmethod
     def CollectionToArray(collection):
         return [Helpers.GetProperties(x) for x in collection]
+
+    @staticmethod
+    def GetRandomString(length):
+        return "".join([chr(randint(65,91)) for x in range(length)])

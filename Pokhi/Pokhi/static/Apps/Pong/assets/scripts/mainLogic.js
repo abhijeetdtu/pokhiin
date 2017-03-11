@@ -1,4 +1,4 @@
-window.onload = function(){
+var Pong = function(){
 		var canvas = document.getElementById('myCanvas');
 		canvas.style.left = 50;
 		canvas.width = window.innerWidth-100;
@@ -15,7 +15,7 @@ window.onload = function(){
 		    width:canvas.width
 		});
 		var ball , playerHandle ,botHandle;
-
+		document.getElementById('msgBoard').innerHTML = "";
 		world.add( renderer );
 		world.add(Physics.behavior('interactive', { el: renderer.container }));
 		world.add(Physics.behavior("body-impulse-response"));
@@ -162,26 +162,21 @@ window.onload = function(){
 		    	//canvas.style.visibility = "hidden";
 		    	
 		    	world.pause();
-		    	setTimeout(function(){
-		    		
-		    		count = 4 ;
+		    	    count = 4;
+		    	    startTime = Date.now();
 			    	interval = setInterval(function(){
 			    			var msg = document.getElementById('msgBoard');
 			    			count -= 1
 			    			msg.innerHTML = count;
-			    	} ,500)
 
-			    	setTimeout(function(){
-			    		resetBodies();
-			    		world.unpause();
-			    		} , 1600);
-			    	setTimeout(function(){
-			    		document.getElementById('msgBoard').innerHTML = "";
-			    		window.clearInterval(interval);
-			    	} , 2000);
-
-		    	} , 500);
-		    	
+			    			if(Date.now() - startTime >  1600)
+			    			{
+			    			    document.getElementById('msgBoard').innerHTML = "";
+			    			    window.clearInterval(interval);
+			    			    resetBodies();
+			    			    world.unpause();
+			    			}
+			    	} ,500)		    	
 		    	
 		    }
 		    
@@ -263,4 +258,9 @@ window.onload = function(){
     					world.step(time);
   				});
 		Physics.util.ticker.start()	
-	};
+};
+
+window.setTimeout(function () {
+    Pong();
+
+} , 5000)

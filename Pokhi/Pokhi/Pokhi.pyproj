@@ -32,9 +32,16 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="DocToHtml\" />
+    <Folder Include="static\Apps\" />
+    <Folder Include="static\Apps\Pong\" />
+    <Folder Include="static\Apps\Pong\assets\" />
+    <Folder Include="static\Apps\Pong\assets\images\" />
+    <Folder Include="static\Apps\Pong\assets\scripts\" />
+    <Folder Include="static\Data\UploadedFiles\" />
     <Folder Include="static\fonts\" />
     <Folder Include="static\Js\" />
     <Folder Include="static\Js\Controllers\" />
+    <Folder Include="static\Js\Directives\" />
     <Folder Include="static\Js\ViewJs\" />
     <Folder Include="static\Js\Services\" />
     <Folder Include="static\Js\vendor\" />
@@ -43,6 +50,8 @@
     <Folder Include="static\Data\" />
     <Folder Include="templates\" />
     <Folder Include="static\" />
+    <Folder Include="templates\Apps\" />
+    <Folder Include="templates\Apps\Pong\" />
     <Folder Include="templates\Views\" />
     <Folder Include="Rest\" />
     <Folder Include="templates\Views\Partials\" />
@@ -55,6 +64,9 @@
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="Rest\dbConnect.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Rest\fileAPI.py">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="Rest\Helpers.py">
@@ -83,6 +95,13 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="static\Apps\Pong\assets\images\saw-blade.png" />
+    <Content Include="static\Apps\Pong\assets\scripts\bot.js" />
+    <Content Include="static\Apps\Pong\assets\scripts\mainLogic.js" />
+    <Content Include="static\Apps\Pong\assets\scripts\physicsjs-full.min.js" />
+    <Content Include="static\Apps\Pong\bot.js" />
+    <Content Include="static\Apps\Pong\index.html" />
+    <Content Include="static\Apps\Pong\mainLogic.js" />
     <Content Include="static\Css\bootstrap-theme.css" />
     <Content Include="static\Css\bootstrap-theme.css.map" />
     <Content Include="static\Css\bootstrap-theme.min.css" />
@@ -107,7 +126,9 @@
     <Content Include="static\Js\Controllers\BaseController.js" />
     <Content Include="static\Js\Controllers\HomeController.js" />
     <Content Include="static\Js\Controllers\LandingController.js" />
+    <Content Include="static\Js\Directives\lazyLoadJavascript.js" />
     <Content Include="static\Js\Services\displayService.js" />
+    <Content Include="static\Js\Services\fileService.js" />
     <Content Include="static\Js\Services\loginService.js" />
     <Content Include="static\Js\vendor\angular-route.js" />
     <Content Include="static\Js\vendor\angular.min.js" />
@@ -128,6 +149,7 @@
     <Content Include="static\Js\vendor\tweenjs-0.6.2.combined.js" />
     <Content Include="static\Js\vendor\tweenjs-0.6.2.min.js" />
     <Content Include="static\Js\ViewJs\Home.js" />
+    <Content Include="templates\Apps\Pong\index.html" />
     <Content Include="templates\Views\Base.html" />
     <Content Include="templates\Views\Home.html" />
     <Content Include="templates\Views\Index.html" />
