@@ -102,6 +102,7 @@
     <Content Include="static\Apps\Pong\bot.js" />
     <Content Include="static\Apps\Pong\index.html" />
     <Content Include="static\Apps\Pong\mainLogic.js" />
+    <Content Include="static\Css\animations.css" />
     <Content Include="static\Css\bootstrap-theme.css" />
     <Content Include="static\Css\bootstrap-theme.css.map" />
     <Content Include="static\Css\bootstrap-theme.min.css" />
