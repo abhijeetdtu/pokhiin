@@ -9,7 +9,7 @@
                                 , ['Pong', 'glyphicon glyphicon-qrcode', 'Apps/Pong/index.html']]
 
     navItems["Base"] = {};
-    navItems["Base"]["Main"] = [['Upload', 'glyphicon glyphicon-stats', 'Views/Partials/UploadFile.html']]
+    navItems["Base"]["Main"] = [['Upload', 'glyphicon glyphicon-cloud-upload', 'Views/Partials/UploadFile.html']]
 
     return {
         showLoader: function () {

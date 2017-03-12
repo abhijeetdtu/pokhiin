@@ -140,5 +140,6 @@ and (orientation : portrait) {
 
 
 .nav-pills > li.active > a {
-    background-color:coral !important;
+    color:dodgerblue !important;
+    background-color:transparent !important;
 }
