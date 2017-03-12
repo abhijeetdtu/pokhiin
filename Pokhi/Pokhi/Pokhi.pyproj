@@ -157,6 +157,7 @@
     <Content Include="templates\Views\Partials\Geek.html" />
     <Content Include="templates\Views\Partials\Music.html" />
     <Content Include="templates\Views\Partials\Research.html" />
+    <Content Include="templates\Views\Partials\UploadFile.html" />
   </ItemGroup>
   <ItemGroup>
     <Interpreter Include="venv\">

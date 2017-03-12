@@ -26,6 +26,15 @@
                             break;
                     }
                     break;
+
+                case 'Base':
+                    switch (navId) {
+                        case 'Main':
+                            return [['Upload', 'glyphicon glyphicon-stats', 'Views/Partials/UploadFile.html']
+                            ]
+                            break;
+                    }
+                    break;
             }
         }
     }

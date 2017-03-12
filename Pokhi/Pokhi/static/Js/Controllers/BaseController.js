@@ -1,7 +1,8 @@
-﻿app.controller("BaseController", ["$scope" ,"fileService" ,function ($scope , fileService) {
+﻿app.controller("BaseController", ["$scope" ,"fileService" , "displayService", function ($scope , fileService , displayService) {
 
     $scope.PostFile = function () {
-        console.log($("#fileUpload").prop("files"));
         fileService.uploadFile($("#fileUpload").prop("files"));
     }
+
+    $scope.MainNavItems = displayService.getNavItems("Base" , "Main")
 }])

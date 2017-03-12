@@ -2,9 +2,25 @@
     You logged in you {{ current_user.username }}!
 </div>
 
-<form  enctype="multipart/form-data">
-    <input type="file" name="file" id="fileUpload" />
-    <input type="text"  name="filename" value="names"/>
-    <button ng-click="PostFile()">Send</button>
-</form>
+
+<div class="row-fluid">
+
+    <ul class="nav nav-pills">
+        <li ng-repeat="x in MainNavItems">
+            <a data-toggle="tab" href="#[[ x[0] ]]">
+                <span class="[[ x[1] ]]"></span>
+                [[ x[0] ]]
+            </a>
+        </li>
+    </ul>
+</div>
+<hr>
+
+<div class="row-fluid">
+    <div class="tab-content">
+        <div class="tab-pane fade" ng-class="{ in : $index == 0}" ng-repeat="x in MainNavItems" id="[[ x[0] ]]" ng-include=" x[2] ">
+        </div>
+    </div>
+</div>
+
 
