@@ -1,4 +1,4 @@
-﻿app.factory("soundService", [function () {
+﻿app.factory("soundService", ["$timeout" , function ($timeout) {
     createjs.Sound.registerSound("/static/Sounds/Symbolic Emotions.mp3", "Song");
 
     var toPlay = {};
@@ -10,15 +10,24 @@
         if (toPlay[event.id]) {
             createjs.Sound.play(event.id, { loop: -1 });
             toPlay[event.id](true);
+            toPlay[event.id] = true;
         }
     }
 
     
     return {
 
-        Play: function (id , callback) {
-            toPlay[id] = callback;
-            //createjs.Sound.play("Song", {loop:-1});
+        Play: function (id, callback) {
+            if (toPlay[id] == true) {
+                //To make async always
+                $timeout(function(){
+                    callback(true);
+                    createjs.Sound.play("Song", { loop: -1 });
+                })
+            }
+            else   
+                toPlay[id] = callback;
+            //
         },
 
         Stop: function () {

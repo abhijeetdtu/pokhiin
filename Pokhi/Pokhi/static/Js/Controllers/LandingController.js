@@ -95,9 +95,9 @@
 
 
     $scope.PlayMusic = function () {
-        soundService.Play("Song" , function () {
-            $scope.playing = true;
-            $scope.$apply();
+        soundService.Play("Song", function () {
+                $scope.playing = true;
+                $scope.$apply();
         });    
     }
     $scope.PlayMusic();
