@@ -1,4 +1,4 @@
-﻿app.factory("displayService", [function () {
+﻿app.factory("displayService", ['$compile' , function ($compile) {
 
     var showingLoader = false;
     var navItems = {};
@@ -10,18 +10,30 @@
 
     navItems["Base"] = {};
     navItems["Base"]["Main"] = [['Upload', 'glyphicon glyphicon-cloud-upload', 'Views/Partials/UploadFile.html']]
-
+    var ErrorMsg = "Welcome Error";
     return {
-        showLoader: function () {
-            showingLoader = true;
-            return true;
+        showLoading: function (scope,elem) {
+            scope.showLoader = true;
+            var loader = $compile("<loader show='true'/>")(scope);
+            if (elem)
+                elem.append(loader);
+            else
+                $("body").append(loader);
         },
 
-        hideLoader: function () {
-            showingLoader = false;
-            return false;
+        hideLoading: function (scope , elem) {
+            scope.showLoader = false;
+            if (elem)
+                $(elem).find("loader").remove();
+            else
+                $("body").find("loader").remove();
         },
 
+        ShowModal : function (scope ,modalId, type, msg) {
+            scope.ModalType = type;
+            scope.ModalMsg = msg;
+            $("#"+modalId).modal('show');
+        },
         getNavItems: function (viewName , navId) {
             switch (viewName) {
                 case 'Home':

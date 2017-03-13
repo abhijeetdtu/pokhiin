@@ -23,19 +23,18 @@ def UploadFile():
 
         location = os.path.abspath(os.path.join(os.path.realpath(__file__), "../../static/Data/UploadedFiles/"))
         #location = "e:\\Books\\"
-        print(location)
         fileID = Helpers.GetRandomString(10)
-        print(fileID)
-        print(request.files)
         if request.method == 'POST':
             # check if the post request has the file part
             file = request.files['files']
-            name = file.filename
+            name = request.form["filename"]+"_"+fileID
+            tags = request.form["tags"]
+            #print(file,name,tags)
             # if user does not select file, browser also
             # submit a empty part without filename
             if name == '':
-                return  jsonify({'success' : str(False) , 'msg':"no file selected"})
-            if file and allowed_file(name):
+                return  jsonify({'success' : str(False) , 'msg':"No file selected"})
+            if file and allowed_file(file.filename):
                 filename = secure_filename(name)
                 file.save(os.path.join(location ,name))
                 return jsonify({'success' : str(True) , 'msg':"Successfully uploaded"})

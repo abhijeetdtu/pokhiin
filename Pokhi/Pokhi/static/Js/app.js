@@ -29,3 +29,6 @@ var app = angular.module('Pokhi', ['ui.router', 'ngLoadScript']);
         $interpolateProvider.endSymbol(']]');
     });
 
+
+    app.staticFolderPath = "/static";
+    app.staticFolderPath = "/templates";

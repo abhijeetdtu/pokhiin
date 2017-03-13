@@ -17,12 +17,19 @@
     <script src="{{ url_for('static', filename='Js/vendor/bootstrap.min.js') }}"></script>
     <script src="{{ url_for('static', filename='Js/vendor/d3.min.js') }}"></script>
 
-    <script src="{{ url_for('static', filename='Js/Directives/lazyLoadJavascript.js') }}"></script>
+
     <script src="{{ url_for('static', filename='Js/app.js') }}"></script>
+
+
+    <script src="{{ url_for('static', filename='Js/Directives/lazyLoadJavascript.js') }}"></script>
+    <script src="{{ url_for('static', filename='Js/Directives/ModalDirective.js') }}"></script>
+    <script src="{{ url_for('static', filename='Js/Directives/ValidFileDirective.js') }}"></script>
+    <script src="{{ url_for('static', filename='Js/Directives/LoadingSymbolDirective.js') }}"></script>
 
     <script src="{{ url_for('static', filename='Js/Controllers/HomeController.js') }}"></script>
     <script src="{{ url_for('static', filename='Js/Controllers/LandingController.js') }}"></script>
     <script src="{{ url_for('static', filename='Js/Controllers/BaseController.js') }}"></script>
+    <script src="{{ url_for('static', filename='Js/Controllers/UploadFileController.js') }}"></script>
 
     <script src="{{ url_for('static', filename='Js/Services/loginService.js') }}"></script>
     <script src="{{ url_for('static', filename='Js/Services/displayService.js') }}"></script>
@@ -33,12 +40,6 @@
 
 <body ng-controller="LandingController">
 
-    
-
-    <div id="loader" style="position:absolute;height:100%;width:100%" ng-show="showLoader">
-        <div class="loader" style="position:absolute;left:45%;top:35%;"></div>
-    </div>
-    
    <div ng-show="showLoader == false">
        <input type="hidden" id="isLoggedIn" ng-model="isLoggedIn" value="{{current_user.is_authenticated}}" />
        
@@ -51,24 +52,20 @@
                    </div>
                    <di ng-show="isLoggedIn == null">
 
-                       <form>
-                           <div>
+                       <form class="form-group" name="loginForm">
                                <div class="col-xs-12 col-md-offset-3 col-md-2 form-group">
-                                   <input class="form-control" name="username" placeholder="username" ng-model="username" />
+                                   <input class="form-control" name="username" placeholder="username" ng-model="username" required/>
                                </div>
                                <div class="col-xs-8 col-md-2 form-group">
-                                   <input class="form-control" name="password" placeholder="password" ng-model="password" type="password" />
+                                   <input class="form-control" name="password" placeholder="password" ng-model="password" type="password"  required/>
                                </div>
 
                                <div class="col-xs-4 col-md-2 form-group">
-                                   <button class="btn btn-default form-control" ng-click="login()">login</button>
+                                   <button class="btn btn-default form-control" ng-disabled="!loginForm.username.$valid || !loginForm.password.$valid"ng-click="login()">login</button>
                                </div>
-
-                           </div>
-
-
+                            
                        </form>
-
+                       <modal key="LoginMessageModal" title="[[ ModalType ]]" msg="[[ ModalMsg ]]" />
                    </di>
                    <div class="col-sm-12 col-xs-12 col-md-offset-7 col-md-2" ng-show="isLoggedIn != null">
                        <div class="form-group">
@@ -83,7 +80,8 @@
 
            </div>
        </div>
+        
 
-    
+
 </body>
 </html>

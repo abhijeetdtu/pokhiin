@@ -1,7 +1,5 @@
 ﻿app.controller("LandingController", ['$scope', '$rootScope', '$state','loginService', 'displayService' ,function ($scope,$rootScope, $state , loginService , displayService) {
 
-    console.log("landing");
-   
     $scope.GoHome = function () {
         console.log("going home");
         $state.go("home");
@@ -49,25 +47,29 @@
 
     $scope.login = function () {
         console.log($scope.username, $scope.password);
-        $scope.showLoading();
+        displayService.showLoading($scope);
         loginService.login($scope.username, $scope.password, function (isLoggedIn) {
             if (isLoggedIn) {
                 $state.go("base");
                 $scope.isLoggedIn = isLoggedIn;
             }
-            $scope.hideLoading();
+            else 
+                displayService.ShowModal($scope, 'LoginMessageModal', 'Error', 'Invalid username or password');
+           
+            displayService.hideLoading($scope);
+            
         });
         
     }
 
     $scope.logout = function () {
-        $scope.showLoading();
+        displayService.showLoading($scope);
         loginService.logout(function (isLoggedOut) {
             if (isLoggedOut) {
                 $state.go("home");
                 $scope.isLoggedIn = null;
             }
-            $scope.hideLoading();
+            displayService.hideLoading($scope);
         });
     }
     d3.select("#logo").transition()

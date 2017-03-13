@@ -127,7 +127,11 @@
     <Content Include="static\Js\Controllers\BaseController.js" />
     <Content Include="static\Js\Controllers\HomeController.js" />
     <Content Include="static\Js\Controllers\LandingController.js" />
+    <Content Include="static\Js\Controllers\UploadFileController.js" />
     <Content Include="static\Js\Directives\lazyLoadJavascript.js" />
+    <Content Include="static\Js\Directives\LoadingSymbolDirective.js" />
+    <Content Include="static\Js\Directives\ModalDirective.js" />
+    <Content Include="static\Js\Directives\ValidFileDirective.js" />
     <Content Include="static\Js\Services\displayService.js" />
     <Content Include="static\Js\Services\fileService.js" />
     <Content Include="static\Js\Services\loginService.js" />
@@ -155,6 +159,7 @@
     <Content Include="templates\Views\Home.html" />
     <Content Include="templates\Views\Index.html" />
     <Content Include="templates\Views\Partials\Geek.html" />
+    <Content Include="templates\Views\Partials\Modal.html" />
     <Content Include="templates\Views\Partials\Music.html" />
     <Content Include="templates\Views\Partials\Research.html" />
     <Content Include="templates\Views\Partials\UploadFile.html" />
