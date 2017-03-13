@@ -87,9 +87,6 @@
         .duration(3000)
         .styleTween("opacity", function () { return d3.interpolate(0, 1); });
 
-    $timeout(function () {
-        $scope.PlayMusic();
-    },10000)
 
     $scope.StopMusic = function () {
         soundService.Stop();
@@ -98,7 +95,10 @@
 
 
     $scope.PlayMusic = function () {
-        soundService.Play();
-        $scope.playing = true;
+        soundService.Play("Song" , function () {
+            $scope.playing = true;
+            $scope.$apply();
+        });    
     }
+    $scope.PlayMusic();
 }])
