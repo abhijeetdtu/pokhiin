@@ -7,12 +7,14 @@
     <link rel="stylesheet" href="{{ url_for('static', filename='Css/bootstrap.css') }}" />
     <link rel="stylesheet" href="{{ url_for('static', filename='Css/animations.css') }}" />
     <link rel="stylesheet" href="{{ url_for('static', filename='Css/site.css') }}" />
+    <link rel="stylesheet" href="{{ url_for('static', filename='Css/inputs.css') }}" />
 
     <script src="{{ url_for('static', filename='Js/vendor/angular.min.js') }}"></script>
     <script src="{{ url_for('static', filename='Js/vendor/angularjs-ui-router.js') }}"></script>
     <script src="{{ url_for('static', filename='Js/vendor/angular-route.js') }}"></script>
     <script src="{{ url_for('static', filename='Js/vendor/easeljs-0.8.2.min.js') }}"></script>
     <script src="{{ url_for('static', filename='Js/vendor/tweenjs-0.6.2.min.js') }}"></script>
+    <script src="{{ url_for('static', filename='Js/vendor/soundjs-0.6.2.min.js') }}"></script>
     <script src="{{ url_for('static', filename='Js/vendor/jquery-2.2.0.min.js') }}"></script>
     <script src="{{ url_for('static', filename='Js/vendor/bootstrap.min.js') }}"></script>
     <script src="{{ url_for('static', filename='Js/vendor/d3.min.js') }}"></script>
@@ -34,11 +36,21 @@
     <script src="{{ url_for('static', filename='Js/Services/loginService.js') }}"></script>
     <script src="{{ url_for('static', filename='Js/Services/displayService.js') }}"></script>
     <script src="{{ url_for('static', filename='Js/Services/fileService.js') }}"></script>
+    <script src="{{ url_for('static', filename='Js/Services/soundService.js') }}"></script>
 
     
 </head>
 
 <body ng-controller="LandingController">
+
+
+    <a class="btn btn-default btn-icon-circle btn-xl" ng-click="StopMusic()" ng-show="playing == true"  style="z-index:999; position:fixed;top:45%">
+        <span class="glyphicon glyphicon-volume-off"></span>
+    </a>
+    <a class="btn btn-default btn-icon-circle btn-xl" ng-click="PlayMusic()" ng-show="playing == false" style="z-index:999;position:fixed;top:45%">
+        <span class="glyphicon glyphicon-volume-up" ></span>
+    </a>
+
 
    <div ng-show="showLoader == false">
        <input type="hidden" id="isLoggedIn" ng-model="isLoggedIn" value="{{current_user.is_authenticated}}" />

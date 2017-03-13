@@ -48,6 +48,7 @@
     <Folder Include="static\Images\" />
     <Folder Include="static\Css\" />
     <Folder Include="static\Data\" />
+    <Folder Include="static\Sounds\" />
     <Folder Include="templates\" />
     <Folder Include="static\" />
     <Folder Include="templates\Apps\" />
@@ -112,6 +113,7 @@
     <Content Include="static\Css\bootstrap.min.css" />
     <Content Include="static\Css\bootstrap.min.css.map" />
     <Content Include="static\Css\index.css" />
+    <Content Include="static\Css\inputs.css" />
     <Content Include="static\Css\site.css" />
     <Content Include="static\Css\style.css" />
     <Content Include="static\Data\abc.docx" />
@@ -135,6 +137,7 @@
     <Content Include="static\Js\Services\displayService.js" />
     <Content Include="static\Js\Services\fileService.js" />
     <Content Include="static\Js\Services\loginService.js" />
+    <Content Include="static\Js\Services\soundService.js" />
     <Content Include="static\Js\vendor\angular-route.js" />
     <Content Include="static\Js\vendor\angular.min.js" />
     <Content Include="static\Js\vendor\angularjs-ui-router.js" />
@@ -151,9 +154,12 @@
     <Content Include="static\Js\vendor\LAB.src.js" />
     <Content Include="static\Js\vendor\npm.js" />
     <Content Include="static\Js\vendor\parse-1.6.14.min.js" />
+    <Content Include="static\Js\vendor\soundjs-0.6.2.min.js" />
     <Content Include="static\Js\vendor\tweenjs-0.6.2.combined.js" />
     <Content Include="static\Js\vendor\tweenjs-0.6.2.min.js" />
     <Content Include="static\Js\ViewJs\Home.js" />
+    <Content Include="static\Sounds\A Lifetime In A Day.mp3" />
+    <Content Include="static\Sounds\Symbolic Emotions.mp3" />
     <Content Include="templates\Apps\Pong\index.html" />
     <Content Include="templates\Views\Base.html" />
     <Content Include="templates\Views\Home.html" />

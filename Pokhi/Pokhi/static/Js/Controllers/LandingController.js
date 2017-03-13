@@ -1,4 +1,14 @@
-﻿app.controller("LandingController", ['$scope', '$rootScope', '$state','loginService', 'displayService' ,function ($scope,$rootScope, $state , loginService , displayService) {
+﻿app.controller("LandingController",
+    [   '$scope',
+        '$rootScope',
+        '$state',
+        '$timeout',
+        'loginService',
+        'displayService',
+        'soundService',
+    function ($scope, $rootScope, $state,$timeout, loginService, displayService, soundService) {
+
+
 
     $scope.GoHome = function () {
         console.log("going home");
@@ -75,5 +85,20 @@
     d3.select("#logo").transition()
         .delay(500)
         .duration(3000)
-        .styleTween("opacity", function () { return d3.interpolate(0,1); });
+        .styleTween("opacity", function () { return d3.interpolate(0, 1); });
+
+    $timeout(function () {
+        $scope.PlayMusic();
+    },10000)
+
+    $scope.StopMusic = function () {
+        soundService.Stop();
+        $scope.playing = false;
+    }
+
+
+    $scope.PlayMusic = function () {
+        soundService.Play();
+        $scope.playing = true;
+    }
 }])
