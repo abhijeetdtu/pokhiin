@@ -14,7 +14,17 @@
         }
     }
 
-    
+    var nxOnLoadFunctions = [];
+    var nxLoaded = false;
+    nx.onload = function () {
+        nx.globalWidgets = false;
+        console.log("nxloaded" , nxOnLoadFunctions , nx)
+        nxLoaded = true;
+        for (var i = 0 ; i < nxOnLoadFunctions.length; i++)
+            nxOnLoadFunctions[i](nx);
+    }
+
+
     return {
 
         Play: function (id, callback) {
@@ -32,7 +42,14 @@
 
         Stop: function () {
             createjs.Sound.stop();
+        },
+        OnNxLoad: function (func) {
+            if (nxLoaded)
+                func(nx);
+            else
+                nxOnLoadFunctions.push(func);
         }
+        
     };
 
 }]);

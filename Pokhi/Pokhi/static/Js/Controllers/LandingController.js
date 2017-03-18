@@ -100,5 +100,5 @@
                 $scope.$apply();
         });    
     }
-    $scope.PlayMusic();
+   // $scope.PlayMusic();
 }])

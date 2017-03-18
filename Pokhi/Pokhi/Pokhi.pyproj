@@ -129,10 +129,12 @@
     <Content Include="static\Js\Controllers\BaseController.js" />
     <Content Include="static\Js\Controllers\HomeController.js" />
     <Content Include="static\Js\Controllers\LandingController.js" />
+    <Content Include="static\Js\Controllers\MusicController.js" />
     <Content Include="static\Js\Controllers\UploadFileController.js" />
     <Content Include="static\Js\Directives\lazyLoadJavascript.js" />
     <Content Include="static\Js\Directives\LoadingSymbolDirective.js" />
     <Content Include="static\Js\Directives\ModalDirective.js" />
+    <Content Include="static\Js\Directives\SequencerWidgetDirective.js" />
     <Content Include="static\Js\Directives\ValidFileDirective.js" />
     <Content Include="static\Js\Services\displayService.js" />
     <Content Include="static\Js\Services\fileService.js" />
@@ -147,14 +149,18 @@
     <Content Include="static\Js\vendor\d3.min.js" />
     <Content Include="static\Js\vendor\easeljs-0.8.2.min.js" />
     <Content Include="static\Js\vendor\handlebars-v4.0.5.js" />
+    <Content Include="static\Js\vendor\interface.min.js" />
     <Content Include="static\Js\vendor\jquery-2.2.0.min.js" />
     <Content Include="static\Js\vendor\LAB-debug.min.js" />
     <Content Include="static\Js\vendor\LAB.js" />
     <Content Include="static\Js\vendor\LAB.min.js" />
     <Content Include="static\Js\vendor\LAB.src.js" />
+    <Content Include="static\Js\vendor\nexusUI.js" />
     <Content Include="static\Js\vendor\npm.js" />
     <Content Include="static\Js\vendor\parse-1.6.14.min.js" />
     <Content Include="static\Js\vendor\soundjs-0.6.2.min.js" />
+    <Content Include="static\Js\vendor\Tone.js" />
+    <Content Include="static\Js\vendor\Tone.min.js" />
     <Content Include="static\Js\vendor\tweenjs-0.6.2.combined.js" />
     <Content Include="static\Js\vendor\tweenjs-0.6.2.min.js" />
     <Content Include="static\Js\ViewJs\Home.js" />
@@ -168,6 +174,7 @@
     <Content Include="templates\Views\Partials\Modal.html" />
     <Content Include="templates\Views\Partials\Music.html" />
     <Content Include="templates\Views\Partials\Research.html" />
+    <Content Include="templates\Views\Partials\Sequencer.html" />
     <Content Include="templates\Views\Partials\UploadFile.html" />
   </ItemGroup>
   <ItemGroup>

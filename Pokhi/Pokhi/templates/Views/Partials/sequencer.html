@@ -1,0 +1,50 @@
+﻿<div class="sequencer">
+    <div class="row-fluid">
+        <div>
+            <div class="btn-group btn-group-lg" role="group" aria-label="...">
+                <button ng-click="fillRandomNotes()" class="btn btn-default">Randomize</button>
+                <button ng-show="filled" ng-click="clear()" class="btn btn-default">Clear</button>
+
+            </div>
+        </div>
+        <div>
+            <div class="dropdown">
+                <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+                    Tempo
+                    <span class="caret"></span>
+                </button>
+
+                <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
+                    <li ng-repeat="tempo in tempos">
+                        <a ng-click="setTempo(tempo)">[[ tempo ]]</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        
+    </div>
+    <div class="row-fluid">
+        <div class="col-md-2">
+            <ul class="list-group">
+                <li  class="list-group-item" ng-repeat="x in getRows()">
+                    <div class="dropdown">
+                        <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+                            <span > [[ selections[$index] ]]</span>
+                            <span class="caret"></span>
+                        </button>
+
+                        <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
+                            <li ng-repeat="instrument in synths">
+                                <a ng-click="selectInstrument($parent.$index , $index)">[[ synths[$index] ]]</a>
+                            </li>
+                        </ul>
+                    </div>
+                </li>
+            </ul>
+        </div>
+        <div class="col-md-8">
+            <div id="[[key]]"></div>
+        </div>
+        
+    </div>
+</div>
