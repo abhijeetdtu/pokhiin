@@ -1,8 +1,10 @@
 from flask import Blueprint
 from flask import jsonify
 from flask import request, url_for
+from flask.ext.login import current_user
 from Helpers import Helpers
-
+from config import Config
+import dbAccess
 import os
 
 fileAPI = Blueprint('fileAPI', __name__)
@@ -20,15 +22,15 @@ def secure_filename(filename):
 @fileAPI.route('/api/files/uploadFile' , methods=['POST'])
 def UploadFile():
     try:
-
-        location = os.path.abspath(os.path.join(os.path.realpath(__file__), "../../static/Data/UploadedFiles/"))
+        location = Config.ENV["UPLOAD_FOLDER"]
+        print(location)
         #location = "e:\\Books\\"
         fileID = Helpers.GetRandomString(10)
         if request.method == 'POST':
             # check if the post request has the file part
             file = request.files['files']
             name = request.form["filename"]+"_"+fileID
-            tags = request.form["tags"]
+            tags = request.form["tags"].split(",")
             #print(file,name,tags)
             # if user does not select file, browser also
             # submit a empty part without filename
@@ -37,6 +39,7 @@ def UploadFile():
             if file and allowed_file(file.filename):
                 filename = secure_filename(name)
                 file.save(os.path.join(location ,name))
+                dbAccess.Files.SaveFileMetaData(request.form["filename"] , name , current_user.username , tags , location)
                 return jsonify({'success' : str(True) , 'msg':"Successfully uploaded"})
     except Exception as e:
         print("exception" , e)

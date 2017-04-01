@@ -64,6 +64,12 @@
     <Compile Include="Rest\authAPI.py">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="Rest\config.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Rest\dbAccess.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="Rest\dbConnect.py">
       <SubType>Code</SubType>
     </Compile>
