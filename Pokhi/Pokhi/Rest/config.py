@@ -11,3 +11,6 @@ class Config:
     ENV["UPLOAD_FOLDER"] = os.path.abspath(os.path.join( ENV["DATA_DIR"], "UploadedFiles/"))
     print(ENV["DATA_DIR"])
     print(ENV["UPLOAD_FOLDER"])
+
+    if(os.path.exists(ENV["UPLOAD_FOLDER"]) == False):
+        os.mkdir(ENV["UPLOAD_FOLDER"])
