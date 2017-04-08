@@ -65,9 +65,6 @@ def UploadedFiles():
             Logger.Log("Exception" , e)         
             return jsonify({'success' : False , 'data':[]})
 
-@fileAPI.route("/api/files/getHTMLFileFeed" , methods=['GET'])
-def GetHTMLFileFeed():
-    fileName = 
 
 
 @fileAPI.route('/api/files/deleteFile' , methods=['POST'])
