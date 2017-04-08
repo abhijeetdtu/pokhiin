@@ -61,6 +61,9 @@
     <Compile Include="DocToHtml\docToHtml.py">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="DocToHtml\__init__.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="Rest\authAPI.py">
       <SubType>Code</SubType>
     </Compile>
@@ -77,6 +80,9 @@
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="Rest\Helpers.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Rest\logger.py">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="Rest\loginAPI.py">
@@ -181,6 +187,7 @@
     <Content Include="templates\Views\Partials\Music.html" />
     <Content Include="templates\Views\Partials\Research.html" />
     <Content Include="templates\Views\Partials\Sequencer.html" />
+    <Content Include="templates\Views\Partials\SequencerT.html" />
     <Content Include="templates\Views\Partials\UploadFile.html" />
   </ItemGroup>
   <ItemGroup>

@@ -1499,3 +1499,430 @@ System.FormatException: Input string was not in a correct format.
 2017-02-05T23:43:38: Saving group "C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\site-packages\flask_login"
 2017-02-05T23:43:38: End of group "C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\site-packages\flask_login"
 2017-02-05T23:43:39: Deleting 0 files
+
+2017-04-03T22:34:15: Start analysis
+2017-04-03T22:34:15: [WARNING] Library was set explicitly - skipping path detection
+2017-04-03T22:34:16: IncludeModulesFromModulePath = win32com
+2017-04-03T22:34:17: Deleting 0 files
+2017-04-03T22:34:17: Scraping numpy.core.multiarray
+2017-04-03T22:34:17: Command: "C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Scripts\python27.exe" "E:\Program Files (x86)\Microsoft Visual Studio 14.0\Common7\IDE\Extensions\Microsoft\Python Tools for Visual Studio\2.2\ExtensionScraper.py" scrape numpy.core.multiarray "C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\site-packages" "C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\.ptvs\numpy\numpy.core.multiarray"
+2017-04-03T22:34:19: Scraping numpy.core.multiarray_tests
+2017-04-03T22:34:19: Command: "C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Scripts\python27.exe" "E:\Program Files (x86)\Microsoft Visual Studio 14.0\Common7\IDE\Extensions\Microsoft\Python Tools for Visual Studio\2.2\ExtensionScraper.py" scrape numpy.core.multiarray_tests "C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\site-packages" "C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\.ptvs\numpy\numpy.core.multiarray_tests"
+2017-04-03T22:34:19: Scraping numpy.core.operand_flag_tests
+2017-04-03T22:34:19: Command: "C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Scripts\python27.exe" "E:\Program Files (x86)\Microsoft Visual Studio 14.0\Common7\IDE\Extensions\Microsoft\Python Tools for Visual Studio\2.2\ExtensionScraper.py" scrape numpy.core.operand_flag_tests "C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\site-packages" "C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\.ptvs\numpy\numpy.core.operand_flag_tests"
+2017-04-03T22:34:19: Scraping numpy.core.struct_ufunc_test
+2017-04-03T22:34:19: Command: "C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Scripts\python27.exe" "E:\Program Files (x86)\Microsoft Visual Studio 14.0\Common7\IDE\Extensions\Microsoft\Python Tools for Visual Studio\2.2\ExtensionScraper.py" scrape numpy.core.struct_ufunc_test "C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\site-packages" "C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\.ptvs\numpy\numpy.core.struct_ufunc_test"
+2017-04-03T22:34:19: Scraping numpy.core.test_rational
+2017-04-03T22:34:19: Command: "C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Scripts\python27.exe" "E:\Program Files (x86)\Microsoft Visual Studio 14.0\Common7\IDE\Extensions\Microsoft\Python Tools for Visual Studio\2.2\ExtensionScraper.py" scrape numpy.core.test_rational "C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\site-packages" "C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\.ptvs\numpy\numpy.core.test_rational"
+2017-04-03T22:34:19: Scraping numpy.core.umath
+2017-04-03T22:34:19: Command: "C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Scripts\python27.exe" "E:\Program Files (x86)\Microsoft Visual Studio 14.0\Common7\IDE\Extensions\Microsoft\Python Tools for Visual Studio\2.2\ExtensionScraper.py" scrape numpy.core.umath "C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\site-packages" "C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\.ptvs\numpy\numpy.core.umath"
+2017-04-03T22:34:20: Scraping numpy.core.umath_tests
+2017-04-03T22:34:20: Command: "C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Scripts\python27.exe" "E:\Program Files (x86)\Microsoft Visual Studio 14.0\Common7\IDE\Extensions\Microsoft\Python Tools for Visual Studio\2.2\ExtensionScraper.py" scrape numpy.core.umath_tests "C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\site-packages" "C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\.ptvs\numpy\numpy.core.umath_tests"
+2017-04-03T22:34:20: Scraping numpy.core._dummy
+2017-04-03T22:34:20: Command: "C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Scripts\python27.exe" "E:\Program Files (x86)\Microsoft Visual Studio 14.0\Common7\IDE\Extensions\Microsoft\Python Tools for Visual Studio\2.2\ExtensionScraper.py" scrape numpy.core._dummy "C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\site-packages" "C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\.ptvs\numpy\numpy.core._dummy"
+2017-04-03T22:34:20: Scraping numpy.fft.fftpack_lite
+2017-04-03T22:34:20: Command: "C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Scripts\python27.exe" "E:\Program Files (x86)\Microsoft Visual Studio 14.0\Common7\IDE\Extensions\Microsoft\Python Tools for Visual Studio\2.2\ExtensionScraper.py" scrape numpy.fft.fftpack_lite "C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\site-packages" "C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\.ptvs\numpy\numpy.fft.fftpack_lite"
+2017-04-03T22:34:21: Scraping numpy.linalg.lapack_lite
+2017-04-03T22:34:21: Command: "C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Scripts\python27.exe" "E:\Program Files (x86)\Microsoft Visual Studio 14.0\Common7\IDE\Extensions\Microsoft\Python Tools for Visual Studio\2.2\ExtensionScraper.py" scrape numpy.linalg.lapack_lite "C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\site-packages" "C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\.ptvs\numpy\numpy.linalg.lapack_lite"
+2017-04-03T22:34:21: Scraping numpy.linalg._umath_linalg
+2017-04-03T22:34:21: Command: "C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Scripts\python27.exe" "E:\Program Files (x86)\Microsoft Visual Studio 14.0\Common7\IDE\Extensions\Microsoft\Python Tools for Visual Studio\2.2\ExtensionScraper.py" scrape numpy.linalg._umath_linalg "C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\site-packages" "C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\.ptvs\numpy\numpy.linalg._umath_linalg"
+2017-04-03T22:34:21: Scraping numpy.random.mtrand
+2017-04-03T22:34:21: Command: "C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Scripts\python27.exe" "E:\Program Files (x86)\Microsoft Visual Studio 14.0\Common7\IDE\Extensions\Microsoft\Python Tools for Visual Studio\2.2\ExtensionScraper.py" scrape numpy.random.mtrand "C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\site-packages" "C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\.ptvs\numpy\numpy.random.mtrand"
+2017-04-03T22:34:22: Scraped 12 files
+2017-04-03T22:34:22: astropy.CallDepth = 0
+2017-04-03T22:34:22: matplotlib.CallDepth = 3
+2017-04-03T22:34:22: pandas.CallDepth = 0
+2017-04-03T22:34:22: sympy.CallDepth = 0
+2017-04-03T22:34:22: Start group "C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\site-packages\numpy" with 193 files
+2017-04-03T22:34:54: Parsing "numpy.add_newdocs" ("C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\site-packages\numpy\add_newdocs.py")
+2017-04-03T22:34:54: Parsing "numpy.ctypeslib" ("C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\site-packages\numpy\ctypeslib.py")
+2017-04-03T22:34:54: Parsing "numpy.dual" ("C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\site-packages\numpy\dual.py")
+2017-04-03T22:34:54: Parsing "numpy.matlib" ("C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\site-packages\numpy\matlib.py")
+2017-04-03T22:34:54: Parsing "numpy.setup" ("C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\site-packages\numpy\setup.py")
+2017-04-03T22:34:54: Parsing "numpy.version" ("C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\site-packages\numpy\version.py")
+2017-04-03T22:34:54: Parsing "numpy._distributor_init" ("C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\site-packages\numpy\_distributor_init.py")
+2017-04-03T22:34:54: Parsing "numpy._globals" ("C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\site-packages\numpy\_globals.py")
+2017-04-03T22:34:54: Parsing "numpy._import_tools" ("C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\site-packages\numpy\_import_tools.py")
+2017-04-03T22:34:54: Parsing "numpy.__config__" ("C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\site-packages\numpy\__config__.py")
+2017-04-03T22:34:54: Parsing "numpy" ("C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\site-packages\numpy\__init__.py")
+2017-04-03T22:34:54: Parsing "numpy.compat.py3k" ("C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\site-packages\numpy\compat\py3k.py")
+2017-04-03T22:34:54: Parsing "numpy.compat.setup" ("C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\site-packages\numpy\compat\setup.py")
+2017-04-03T22:34:54: Parsing "numpy.compat._inspect" ("C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\site-packages\numpy\compat\_inspect.py")
+2017-04-03T22:34:54: Parsing "numpy.compat" ("C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\site-packages\numpy\compat\__init__.py")
+2017-04-03T22:34:54: Parsing "numpy.core.arrayprint" ("C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\site-packages\numpy\core\arrayprint.py")
+2017-04-03T22:34:54: Parsing "numpy.core.cversions" ("C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\site-packages\numpy\core\cversions.py")
+2017-04-03T22:34:54: Parsing "numpy.core.defchararray" ("C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\site-packages\numpy\core\defchararray.py")
+2017-04-03T22:34:54: Parsing "numpy.core.einsumfunc" ("C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\site-packages\numpy\core\einsumfunc.py")
+2017-04-03T22:34:54: Parsing "numpy.core.fromnumeric" ("C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\site-packages\numpy\core\fromnumeric.py")
+2017-04-03T22:34:54: Parsing "numpy.core.function_base" ("C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\site-packages\numpy\core\function_base.py")
+2017-04-03T22:34:54: Parsing "numpy.core.generate_numpy_api" ("C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\site-packages\numpy\core\generate_numpy_api.py")
+2017-04-03T22:34:54: Parsing "numpy.core.getlimits" ("C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\site-packages\numpy\core\getlimits.py")
+2017-04-03T22:34:54: Parsing "numpy.core.info" ("C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\site-packages\numpy\core\info.py")
+2017-04-03T22:34:54: Parsing "numpy.core.machar" ("C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\site-packages\numpy\core\machar.py")
+2017-04-03T22:34:54: Parsing "numpy.core.memmap" ("C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\site-packages\numpy\core\memmap.py")
+2017-04-03T22:34:54: Parsing "numpy.core.numeric" ("C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\site-packages\numpy\core\numeric.py")
+2017-04-03T22:34:54: Parsing "numpy.core.numerictypes" ("C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\site-packages\numpy\core\numerictypes.py")
+2017-04-03T22:34:54: Parsing "numpy.core.records" ("C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\site-packages\numpy\core\records.py")
+2017-04-03T22:34:54: Parsing "numpy.core.setup" ("C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\site-packages\numpy\core\setup.py")
+2017-04-03T22:34:54: Parsing "numpy.core.setup_common" ("C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\site-packages\numpy\core\setup_common.py")
+2017-04-03T22:34:54: Parsing "numpy.core.shape_base" ("C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\site-packages\numpy\core\shape_base.py")
+2017-04-03T22:34:54: Parsing "numpy.core._internal" ("C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\site-packages\numpy\core\_internal.py")
+2017-04-03T22:34:54: Parsing "numpy.core._methods" ("C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\site-packages\numpy\core\_methods.py")
+2017-04-03T22:34:54: Parsing "numpy.core" ("C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\site-packages\numpy\core\__init__.py")
+2017-04-03T22:34:54: Parsing "numpy.distutils.ccompiler" ("C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\site-packages\numpy\distutils\ccompiler.py")
+2017-04-03T22:34:54: Parsing "numpy.distutils.compat" ("C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\site-packages\numpy\distutils\compat.py")
+2017-04-03T22:34:54: Parsing "numpy.distutils.conv_template" ("C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\site-packages\numpy\distutils\conv_template.py")
+2017-04-03T22:34:54: Parsing "numpy.distutils.core" ("C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\site-packages\numpy\distutils\core.py")
+2017-04-03T22:34:54: Parsing "numpy.distutils.cpuinfo" ("C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\site-packages\numpy\distutils\cpuinfo.py")
+2017-04-03T22:34:54: Parsing "numpy.distutils.environment" ("C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\site-packages\numpy\distutils\environment.py")
+2017-04-03T22:34:54: Parsing "numpy.distutils.exec_command" ("C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\site-packages\numpy\distutils\exec_command.py")
+2017-04-03T22:34:54: Parsing "numpy.distutils.extension" ("C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\site-packages\numpy\distutils\extension.py")
+2017-04-03T22:34:54: Parsing "numpy.distutils.from_template" ("C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\site-packages\numpy\distutils\from_template.py")
+2017-04-03T22:34:54: Parsing "numpy.distutils.info" ("C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\site-packages\numpy\distutils\info.py")
+2017-04-03T22:34:54: Parsing "numpy.distutils.intelccompiler" ("C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\site-packages\numpy\distutils\intelccompiler.py")
+2017-04-03T22:34:54: Parsing "numpy.distutils.lib2def" ("C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\site-packages\numpy\distutils\lib2def.py")
+2017-04-03T22:34:54: Parsing "numpy.distutils.line_endings" ("C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\site-packages\numpy\distutils\line_endings.py")
+2017-04-03T22:34:54: Parsing "numpy.distutils.log" ("C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\site-packages\numpy\distutils\log.py")
+2017-04-03T22:34:54: Parsing "numpy.distutils.mingw32ccompiler" ("C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\site-packages\numpy\distutils\mingw32ccompiler.py")
+2017-04-03T22:34:54: Parsing "numpy.distutils.misc_util" ("C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\site-packages\numpy\distutils\misc_util.py")
+2017-04-03T22:34:54: Parsing "numpy.distutils.msvc9compiler" ("C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\site-packages\numpy\distutils\msvc9compiler.py")
+2017-04-03T22:34:54: Parsing "numpy.distutils.msvccompiler" ("C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\site-packages\numpy\distutils\msvccompiler.py")
+2017-04-03T22:34:54: Parsing "numpy.distutils.npy_pkg_config" ("C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\site-packages\numpy\distutils\npy_pkg_config.py")
+2017-04-03T22:34:54: Parsing "numpy.distutils.numpy_distribution" ("C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\site-packages\numpy\distutils\numpy_distribution.py")
+2017-04-03T22:34:54: Parsing "numpy.distutils.pathccompiler" ("C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\site-packages\numpy\distutils\pathccompiler.py")
+2017-04-03T22:34:54: Parsing "numpy.distutils.setup" ("C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\site-packages\numpy\distutils\setup.py")
+2017-04-03T22:34:54: Parsing "numpy.distutils.system_info" ("C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\site-packages\numpy\distutils\system_info.py")
+2017-04-03T22:34:54: Parsing "numpy.distutils.unixccompiler" ("C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\site-packages\numpy\distutils\unixccompiler.py")
+2017-04-03T22:34:54: Parsing "numpy.distutils.__config__" ("C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\site-packages\numpy\distutils\__config__.py")
+2017-04-03T22:34:54: Parsing "numpy.distutils" ("C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\site-packages\numpy\distutils\__init__.py")
+2017-04-03T22:34:54: Parsing "numpy.distutils.__version__" ("C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\site-packages\numpy\distutils\__version__.py")
+2017-04-03T22:34:54: Parsing "numpy.distutils.command.autodist" ("C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\site-packages\numpy\distutils\command\autodist.py")
+2017-04-03T22:34:54: Parsing "numpy.distutils.command.bdist_rpm" ("C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\site-packages\numpy\distutils\command\bdist_rpm.py")
+2017-04-03T22:34:54: Parsing "numpy.distutils.command.build" ("C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\site-packages\numpy\distutils\command\build.py")
+2017-04-03T22:34:54: Parsing "numpy.distutils.command.build_clib" ("C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\site-packages\numpy\distutils\command\build_clib.py")
+2017-04-03T22:34:54: Parsing "numpy.distutils.command.build_ext" ("C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\site-packages\numpy\distutils\command\build_ext.py")
+2017-04-03T22:34:54: Parsing "numpy.distutils.command.build_py" ("C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\site-packages\numpy\distutils\command\build_py.py")
+2017-04-03T22:34:54: Parsing "numpy.distutils.command.build_scripts" ("C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\site-packages\numpy\distutils\command\build_scripts.py")
+2017-04-03T22:34:54: Parsing "numpy.distutils.command.build_src" ("C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\site-packages\numpy\distutils\command\build_src.py")
+2017-04-03T22:34:54: Parsing "numpy.distutils.command.config" ("C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\site-packages\numpy\distutils\command\config.py")
+2017-04-03T22:34:54: Parsing "numpy.distutils.command.config_compiler" ("C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\site-packages\numpy\distutils\command\config_compiler.py")
+2017-04-03T22:34:54: Parsing "numpy.distutils.command.develop" ("C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\site-packages\numpy\distutils\command\develop.py")
+2017-04-03T22:34:54: Parsing "numpy.distutils.command.egg_info" ("C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\site-packages\numpy\distutils\command\egg_info.py")
+2017-04-03T22:34:54: Parsing "numpy.distutils.command.install" ("C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\site-packages\numpy\distutils\command\install.py")
+2017-04-03T22:34:54: Parsing "numpy.distutils.command.install_clib" ("C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\site-packages\numpy\distutils\command\install_clib.py")
+2017-04-03T22:34:54: Parsing "numpy.distutils.command.install_data" ("C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\site-packages\numpy\distutils\command\install_data.py")
+2017-04-03T22:34:54: Parsing "numpy.distutils.command.install_headers" ("C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\site-packages\numpy\distutils\command\install_headers.py")
+2017-04-03T22:34:54: Parsing "numpy.distutils.command.sdist" ("C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\site-packages\numpy\distutils\command\sdist.py")
+2017-04-03T22:34:54: Parsing "numpy.distutils.command" ("C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\site-packages\numpy\distutils\command\__init__.py")
+2017-04-03T22:34:54: Parsing "numpy.distutils.fcompiler.absoft" ("C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\site-packages\numpy\distutils\fcompiler\absoft.py")
+2017-04-03T22:34:54: Parsing "numpy.distutils.fcompiler.compaq" ("C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\site-packages\numpy\distutils\fcompiler\compaq.py")
+2017-04-03T22:34:54: Parsing "numpy.distutils.fcompiler.g95" ("C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\site-packages\numpy\distutils\fcompiler\g95.py")
+2017-04-03T22:34:54: Parsing "numpy.distutils.fcompiler.gnu" ("C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\site-packages\numpy\distutils\fcompiler\gnu.py")
+2017-04-03T22:34:54: Parsing "numpy.distutils.fcompiler.hpux" ("C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\site-packages\numpy\distutils\fcompiler\hpux.py")
+2017-04-03T22:34:54: Parsing "numpy.distutils.fcompiler.ibm" ("C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\site-packages\numpy\distutils\fcompiler\ibm.py")
+2017-04-03T22:34:54: Parsing "numpy.distutils.fcompiler.intel" ("C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\site-packages\numpy\distutils\fcompiler\intel.py")
+2017-04-03T22:34:54: Parsing "numpy.distutils.fcompiler.lahey" ("C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\site-packages\numpy\distutils\fcompiler\lahey.py")
+2017-04-03T22:34:54: Parsing "numpy.distutils.fcompiler.mips" ("C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\site-packages\numpy\distutils\fcompiler\mips.py")
+2017-04-03T22:34:54: Parsing "numpy.distutils.fcompiler.nag" ("C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\site-packages\numpy\distutils\fcompiler\nag.py")
+2017-04-03T22:34:54: Parsing "numpy.distutils.fcompiler.none" ("C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\site-packages\numpy\distutils\fcompiler\none.py")
+2017-04-03T22:34:54: Parsing "numpy.distutils.fcompiler.pathf95" ("C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\site-packages\numpy\distutils\fcompiler\pathf95.py")
+2017-04-03T22:34:54: Parsing "numpy.distutils.fcompiler.pg" ("C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\site-packages\numpy\distutils\fcompiler\pg.py")
+2017-04-03T22:34:54: Parsing "numpy.distutils.fcompiler.sun" ("C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\site-packages\numpy\distutils\fcompiler\sun.py")
+2017-04-03T22:34:54: Parsing "numpy.distutils.fcompiler.vast" ("C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\site-packages\numpy\distutils\fcompiler\vast.py")
+2017-04-03T22:34:54: Parsing "numpy.distutils.fcompiler" ("C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\site-packages\numpy\distutils\fcompiler\__init__.py")
+2017-04-03T22:34:54: Parsing "numpy.doc.basics" ("C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\site-packages\numpy\doc\basics.py")
+2017-04-03T22:34:54: Parsing "numpy.doc.broadcasting" ("C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\site-packages\numpy\doc\broadcasting.py")
+2017-04-03T22:34:54: Parsing "numpy.doc.byteswapping" ("C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\site-packages\numpy\doc\byteswapping.py")
+2017-04-03T22:34:54: Parsing "numpy.doc.constants" ("C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\site-packages\numpy\doc\constants.py")
+2017-04-03T22:34:54: Parsing "numpy.doc.creation" ("C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\site-packages\numpy\doc\creation.py")
+2017-04-03T22:34:54: Parsing "numpy.doc.glossary" ("C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\site-packages\numpy\doc\glossary.py")
+2017-04-03T22:34:54: Parsing "numpy.doc.indexing" ("C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\site-packages\numpy\doc\indexing.py")
+2017-04-03T22:34:54: Parsing "numpy.doc.internals" ("C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\site-packages\numpy\doc\internals.py")
+2017-04-03T22:34:54: Parsing "numpy.doc.misc" ("C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\site-packages\numpy\doc\misc.py")
+2017-04-03T22:34:54: Parsing "numpy.doc.structured_arrays" ("C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\site-packages\numpy\doc\structured_arrays.py")
+2017-04-03T22:34:54: Parsing "numpy.doc.subclassing" ("C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\site-packages\numpy\doc\subclassing.py")
+2017-04-03T22:34:54: Parsing "numpy.doc.ufuncs" ("C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\site-packages\numpy\doc\ufuncs.py")
+2017-04-03T22:34:54: Parsing "numpy.doc" ("C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\site-packages\numpy\doc\__init__.py")
+2017-04-03T22:34:54: Parsing "numpy.f2py.auxfuncs" ("C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\site-packages\numpy\f2py\auxfuncs.py")
+2017-04-03T22:34:54: Parsing "numpy.f2py.capi_maps" ("C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\site-packages\numpy\f2py\capi_maps.py")
+2017-04-03T22:34:54: Parsing "numpy.f2py.cb_rules" ("C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\site-packages\numpy\f2py\cb_rules.py")
+2017-04-03T22:34:54: Parsing "numpy.f2py.cfuncs" ("C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\site-packages\numpy\f2py\cfuncs.py")
+2017-04-03T22:34:54: Parsing "numpy.f2py.common_rules" ("C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\site-packages\numpy\f2py\common_rules.py")
+2017-04-03T22:34:54: Parsing "numpy.f2py.crackfortran" ("C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\site-packages\numpy\f2py\crackfortran.py")
+2017-04-03T22:34:54: Parsing "numpy.f2py.diagnose" ("C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\site-packages\numpy\f2py\diagnose.py")
+2017-04-03T22:34:54: Parsing "numpy.f2py.f2py2e" ("C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\site-packages\numpy\f2py\f2py2e.py")
+2017-04-03T22:34:54: Parsing "numpy.f2py.f2py_testing" ("C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\site-packages\numpy\f2py\f2py_testing.py")
+2017-04-03T22:34:54: Parsing "numpy.f2py.f90mod_rules" ("C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\site-packages\numpy\f2py\f90mod_rules.py")
+2017-04-03T22:34:54: Parsing "numpy.f2py.func2subr" ("C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\site-packages\numpy\f2py\func2subr.py")
+2017-04-03T22:34:54: Parsing "numpy.f2py.info" ("C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\site-packages\numpy\f2py\info.py")
+2017-04-03T22:34:54: Parsing "numpy.f2py.rules" ("C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\site-packages\numpy\f2py\rules.py")
+2017-04-03T22:34:54: Parsing "numpy.f2py.setup" ("C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\site-packages\numpy\f2py\setup.py")
+2017-04-03T22:34:54: Parsing "numpy.f2py.use_rules" ("C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\site-packages\numpy\f2py\use_rules.py")
+2017-04-03T22:34:54: Parsing "numpy.f2py" ("C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\site-packages\numpy\f2py\__init__.py")
+2017-04-03T22:34:54: Parsing "numpy.f2py.__main__" ("C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\site-packages\numpy\f2py\__main__.py")
+2017-04-03T22:34:54: Parsing "numpy.f2py.__version__" ("C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\site-packages\numpy\f2py\__version__.py")
+2017-04-03T22:34:54: Parsing "numpy.fft.fftpack" ("C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\site-packages\numpy\fft\fftpack.py")
+2017-04-03T22:34:54: Parsing "numpy.fft.helper" ("C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\site-packages\numpy\fft\helper.py")
+2017-04-03T22:34:54: Parsing "numpy.fft.info" ("C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\site-packages\numpy\fft\info.py")
+2017-04-03T22:34:54: Parsing "numpy.fft.setup" ("C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\site-packages\numpy\fft\setup.py")
+2017-04-03T22:34:54: Parsing "numpy.fft" ("C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\site-packages\numpy\fft\__init__.py")
+2017-04-03T22:34:54: Parsing "numpy.lib.arraypad" ("C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\site-packages\numpy\lib\arraypad.py")
+2017-04-03T22:34:54: Parsing "numpy.lib.arraysetops" ("C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\site-packages\numpy\lib\arraysetops.py")
+2017-04-03T22:34:54: Parsing "numpy.lib.arrayterator" ("C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\site-packages\numpy\lib\arrayterator.py")
+2017-04-03T22:34:54: Parsing "numpy.lib.financial" ("C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\site-packages\numpy\lib\financial.py")
+2017-04-03T22:34:54: Parsing "numpy.lib.format" ("C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\site-packages\numpy\lib\format.py")
+2017-04-03T22:34:54: Parsing "numpy.lib.function_base" ("C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\site-packages\numpy\lib\function_base.py")
+2017-04-03T22:34:54: Parsing "numpy.lib.index_tricks" ("C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\site-packages\numpy\lib\index_tricks.py")
+2017-04-03T22:34:54: Parsing "numpy.lib.info" ("C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\site-packages\numpy\lib\info.py")
+2017-04-03T22:34:54: Parsing "numpy.lib.nanfunctions" ("C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\site-packages\numpy\lib\nanfunctions.py")
+2017-04-03T22:34:54: Parsing "numpy.lib.npyio" ("C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\site-packages\numpy\lib\npyio.py")
+2017-04-03T22:34:54: Parsing "numpy.lib.polynomial" ("C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\site-packages\numpy\lib\polynomial.py")
+2017-04-03T22:34:54: Parsing "numpy.lib.recfunctions" ("C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\site-packages\numpy\lib\recfunctions.py")
+2017-04-03T22:34:54: Parsing "numpy.lib.scimath" ("C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\site-packages\numpy\lib\scimath.py")
+2017-04-03T22:34:54: Parsing "numpy.lib.setup" ("C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\site-packages\numpy\lib\setup.py")
+2017-04-03T22:34:54: Parsing "numpy.lib.shape_base" ("C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\site-packages\numpy\lib\shape_base.py")
+2017-04-03T22:34:54: Parsing "numpy.lib.stride_tricks" ("C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\site-packages\numpy\lib\stride_tricks.py")
+2017-04-03T22:34:54: Parsing "numpy.lib.twodim_base" ("C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\site-packages\numpy\lib\twodim_base.py")
+2017-04-03T22:34:54: Parsing "numpy.lib.type_check" ("C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\site-packages\numpy\lib\type_check.py")
+2017-04-03T22:34:54: Parsing "numpy.lib.ufunclike" ("C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\site-packages\numpy\lib\ufunclike.py")
+2017-04-03T22:34:54: Parsing "numpy.lib.user_array" ("C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\site-packages\numpy\lib\user_array.py")
+2017-04-03T22:34:54: Parsing "numpy.lib.utils" ("C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\site-packages\numpy\lib\utils.py")
+2017-04-03T22:34:54: Parsing "numpy.lib._datasource" ("C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\site-packages\numpy\lib\_datasource.py")
+2017-04-03T22:34:54: Parsing "numpy.lib._iotools" ("C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\site-packages\numpy\lib\_iotools.py")
+2017-04-03T22:34:54: Parsing "numpy.lib._version" ("C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\site-packages\numpy\lib\_version.py")
+2017-04-03T22:34:54: Parsing "numpy.lib" ("C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\site-packages\numpy\lib\__init__.py")
+2017-04-03T22:34:54: Parsing "numpy.linalg.info" ("C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\site-packages\numpy\linalg\info.py")
+2017-04-03T22:34:54: Parsing "numpy.linalg.linalg" ("C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\site-packages\numpy\linalg\linalg.py")
+2017-04-03T22:34:54: Parsing "numpy.linalg.setup" ("C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\site-packages\numpy\linalg\setup.py")
+2017-04-03T22:34:54: Parsing "numpy.linalg" ("C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\site-packages\numpy\linalg\__init__.py")
+2017-04-03T22:34:54: Parsing "numpy.ma.bench" ("C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\site-packages\numpy\ma\bench.py")
+2017-04-03T22:34:54: Parsing "numpy.ma.core" ("C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\site-packages\numpy\ma\core.py")
+2017-04-03T22:34:54: Parsing "numpy.ma.extras" ("C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\site-packages\numpy\ma\extras.py")
+2017-04-03T22:34:54: Parsing "numpy.ma.mrecords" ("C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\site-packages\numpy\ma\mrecords.py")
+2017-04-03T22:34:54: Parsing "numpy.ma.setup" ("C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\site-packages\numpy\ma\setup.py")
+2017-04-03T22:34:54: Parsing "numpy.ma.testutils" ("C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\site-packages\numpy\ma\testutils.py")
+2017-04-03T22:34:54: Parsing "numpy.ma.timer_comparison" ("C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\site-packages\numpy\ma\timer_comparison.py")
+2017-04-03T22:34:54: Parsing "numpy.ma.version" ("C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\site-packages\numpy\ma\version.py")
+2017-04-03T22:34:54: Parsing "numpy.ma" ("C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\site-packages\numpy\ma\__init__.py")
+2017-04-03T22:34:54: Parsing "numpy.matrixlib.defmatrix" ("C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\site-packages\numpy\matrixlib\defmatrix.py")
+2017-04-03T22:34:54: Parsing "numpy.matrixlib.setup" ("C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\site-packages\numpy\matrixlib\setup.py")
+2017-04-03T22:34:54: Parsing "numpy.matrixlib" ("C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\site-packages\numpy\matrixlib\__init__.py")
+2017-04-03T22:34:54: Parsing "numpy.polynomial.chebyshev" ("C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\site-packages\numpy\polynomial\chebyshev.py")
+2017-04-03T22:34:54: Parsing "numpy.polynomial.hermite" ("C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\site-packages\numpy\polynomial\hermite.py")
+2017-04-03T22:34:54: Parsing "numpy.polynomial.hermite_e" ("C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\site-packages\numpy\polynomial\hermite_e.py")
+2017-04-03T22:34:54: Parsing "numpy.polynomial.laguerre" ("C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\site-packages\numpy\polynomial\laguerre.py")
+2017-04-03T22:34:54: Parsing "numpy.polynomial.legendre" ("C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\site-packages\numpy\polynomial\legendre.py")
+2017-04-03T22:34:54: Parsing "numpy.polynomial.polynomial" ("C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\site-packages\numpy\polynomial\polynomial.py")
+2017-04-03T22:34:54: Parsing "numpy.polynomial.polyutils" ("C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\site-packages\numpy\polynomial\polyutils.py")
+2017-04-03T22:34:54: Parsing "numpy.polynomial.setup" ("C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\site-packages\numpy\polynomial\setup.py")
+2017-04-03T22:34:54: Parsing "numpy.polynomial._polybase" ("C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\site-packages\numpy\polynomial\_polybase.py")
+2017-04-03T22:34:54: Parsing "numpy.polynomial" ("C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\site-packages\numpy\polynomial\__init__.py")
+2017-04-03T22:34:54: Parsing "numpy.random.info" ("C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\site-packages\numpy\random\info.py")
+2017-04-03T22:34:54: Parsing "numpy.random.setup" ("C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\site-packages\numpy\random\setup.py")
+2017-04-03T22:34:54: Parsing "numpy.random" ("C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\site-packages\numpy\random\__init__.py")
+2017-04-03T22:34:54: Parsing "numpy.testing.decorators" ("C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\site-packages\numpy\testing\decorators.py")
+2017-04-03T22:34:54: Parsing "numpy.testing.noseclasses" ("C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\site-packages\numpy\testing\noseclasses.py")
+2017-04-03T22:34:54: Parsing "numpy.testing.nosetester" ("C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\site-packages\numpy\testing\nosetester.py")
+2017-04-03T22:34:54: Parsing "numpy.testing.print_coercion_tables" ("C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\site-packages\numpy\testing\print_coercion_tables.py")
+2017-04-03T22:34:54: Parsing "numpy.testing.setup" ("C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\site-packages\numpy\testing\setup.py")
+2017-04-03T22:34:54: Parsing "numpy.testing.utils" ("C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\site-packages\numpy\testing\utils.py")
+2017-04-03T22:34:54: Parsing "numpy.testing" ("C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\site-packages\numpy\testing\__init__.py")
+2017-04-03T22:34:54: Parsing complete
+2017-04-03T22:34:54: Analyzing "numpy.add_newdocs"
+2017-04-03T22:34:54: Analyzing "numpy.ctypeslib"
+2017-04-03T22:34:54: Analyzing "numpy.dual"
+2017-04-03T22:34:54: Analyzing "numpy.matlib"
+2017-04-03T22:34:54: Analyzing "numpy.setup"
+2017-04-03T22:34:54: Analyzing "numpy.version"
+2017-04-03T22:34:54: Analyzing "numpy._distributor_init"
+2017-04-03T22:34:54: Analyzing "numpy._globals"
+2017-04-03T22:34:54: Analyzing "numpy._import_tools"
+2017-04-03T22:34:54: Analyzing "numpy.__config__"
+2017-04-03T22:34:54: Analyzing "numpy"
+2017-04-03T22:34:54: Analyzing "numpy.compat.py3k"
+2017-04-03T22:34:54: Analyzing "numpy.compat.setup"
+2017-04-03T22:34:54: Analyzing "numpy.compat._inspect"
+2017-04-03T22:34:54: Analyzing "numpy.compat"
+2017-04-03T22:34:54: Analyzing "numpy.core.arrayprint"
+2017-04-03T22:34:54: Analyzing "numpy.core.cversions"
+2017-04-03T22:34:54: Analyzing "numpy.core.defchararray"
+2017-04-03T22:34:54: Analyzing "numpy.core.einsumfunc"
+2017-04-03T22:34:54: Analyzing "numpy.core.fromnumeric"
+2017-04-03T22:34:54: Analyzing "numpy.core.function_base"
+2017-04-03T22:34:54: Analyzing "numpy.core.generate_numpy_api"
+2017-04-03T22:34:54: Analyzing "numpy.core.getlimits"
+2017-04-03T22:34:54: Analyzing "numpy.core.info"
+2017-04-03T22:34:54: Analyzing "numpy.core.machar"
+2017-04-03T22:34:54: Analyzing "numpy.core.memmap"
+2017-04-03T22:34:54: Analyzing "numpy.core.numeric"
+2017-04-03T22:34:54: Analyzing "numpy.core.numerictypes"
+2017-04-03T22:34:54: Analyzing "numpy.core.records"
+2017-04-03T22:34:54: Analyzing "numpy.core.setup"
+2017-04-03T22:34:54: Analyzing "numpy.core.setup_common"
+2017-04-03T22:34:54: Analyzing "numpy.core.shape_base"
+2017-04-03T22:34:54: Analyzing "numpy.core._internal"
+2017-04-03T22:34:54: Analyzing "numpy.core._methods"
+2017-04-03T22:34:54: Analyzing "numpy.core"
+2017-04-03T22:34:54: Analyzing "numpy.distutils.ccompiler"
+2017-04-03T22:34:54: Analyzing "numpy.distutils.compat"
+2017-04-03T22:34:54: Analyzing "numpy.distutils.conv_template"
+2017-04-03T22:34:54: Analyzing "numpy.distutils.core"
+2017-04-03T22:34:54: Analyzing "numpy.distutils.cpuinfo"
+2017-04-03T22:34:54: Analyzing "numpy.distutils.environment"
+2017-04-03T22:34:54: Analyzing "numpy.distutils.exec_command"
+2017-04-03T22:34:54: Analyzing "numpy.distutils.extension"
+2017-04-03T22:34:54: Analyzing "numpy.distutils.from_template"
+2017-04-03T22:34:54: Analyzing "numpy.distutils.info"
+2017-04-03T22:34:54: Analyzing "numpy.distutils.intelccompiler"
+2017-04-03T22:34:54: Analyzing "numpy.distutils.lib2def"
+2017-04-03T22:34:54: Analyzing "numpy.distutils.line_endings"
+2017-04-03T22:34:54: Analyzing "numpy.distutils.log"
+2017-04-03T22:34:54: Analyzing "numpy.distutils.mingw32ccompiler"
+2017-04-03T22:34:54: Analyzing "numpy.distutils.misc_util"
+2017-04-03T22:34:54: Analyzing "numpy.distutils.msvc9compiler"
+2017-04-03T22:34:54: Analyzing "numpy.distutils.msvccompiler"
+2017-04-03T22:34:54: Analyzing "numpy.distutils.npy_pkg_config"
+2017-04-03T22:34:54: Analyzing "numpy.distutils.numpy_distribution"
+2017-04-03T22:34:54: Analyzing "numpy.distutils.pathccompiler"
+2017-04-03T22:34:54: Analyzing "numpy.distutils.setup"
+2017-04-03T22:34:54: Analyzing "numpy.distutils.system_info"
+2017-04-03T22:34:54: Analyzing "numpy.distutils.unixccompiler"
+2017-04-03T22:34:54: Analyzing "numpy.distutils.__config__"
+2017-04-03T22:34:54: Analyzing "numpy.distutils"
+2017-04-03T22:34:54: Analyzing "numpy.distutils.__version__"
+2017-04-03T22:34:54: Analyzing "numpy.distutils.command.autodist"
+2017-04-03T22:34:54: Analyzing "numpy.distutils.command.bdist_rpm"
+2017-04-03T22:34:54: Analyzing "numpy.distutils.command.build"
+2017-04-03T22:34:54: Analyzing "numpy.distutils.command.build_clib"
+2017-04-03T22:34:54: Analyzing "numpy.distutils.command.build_ext"
+2017-04-03T22:34:54: Analyzing "numpy.distutils.command.build_py"
+2017-04-03T22:34:54: Analyzing "numpy.distutils.command.build_scripts"
+2017-04-03T22:34:54: Analyzing "numpy.distutils.command.build_src"
+2017-04-03T22:34:54: Analyzing "numpy.distutils.command.config"
+2017-04-03T22:34:54: Analyzing "numpy.distutils.command.config_compiler"
+2017-04-03T22:34:54: Analyzing "numpy.distutils.command.develop"
+2017-04-03T22:34:54: Analyzing "numpy.distutils.command.egg_info"
+2017-04-03T22:34:54: Analyzing "numpy.distutils.command.install"
+2017-04-03T22:34:54: Analyzing "numpy.distutils.command.install_clib"
+2017-04-03T22:34:54: Analyzing "numpy.distutils.command.install_data"
+2017-04-03T22:34:54: Analyzing "numpy.distutils.command.install_headers"
+2017-04-03T22:34:54: Analyzing "numpy.distutils.command.sdist"
+2017-04-03T22:34:54: Analyzing "numpy.distutils.command"
+2017-04-03T22:34:54: Analyzing "numpy.distutils.fcompiler.absoft"
+2017-04-03T22:34:54: Analyzing "numpy.distutils.fcompiler.compaq"
+2017-04-03T22:34:54: Analyzing "numpy.distutils.fcompiler.g95"
+2017-04-03T22:34:54: Analyzing "numpy.distutils.fcompiler.gnu"
+2017-04-03T22:34:54: Analyzing "numpy.distutils.fcompiler.hpux"
+2017-04-03T22:34:54: Analyzing "numpy.distutils.fcompiler.ibm"
+2017-04-03T22:34:54: Analyzing "numpy.distutils.fcompiler.intel"
+2017-04-03T22:34:55: Analyzing "numpy.distutils.fcompiler.lahey"
+2017-04-03T22:34:55: Analyzing "numpy.distutils.fcompiler.mips"
+2017-04-03T22:34:55: Analyzing "numpy.distutils.fcompiler.nag"
+2017-04-03T22:34:55: Analyzing "numpy.distutils.fcompiler.none"
+2017-04-03T22:34:55: Analyzing "numpy.distutils.fcompiler.pathf95"
+2017-04-03T22:34:55: Analyzing "numpy.distutils.fcompiler.pg"
+2017-04-03T22:34:55: Analyzing "numpy.distutils.fcompiler.sun"
+2017-04-03T22:34:55: Analyzing "numpy.distutils.fcompiler.vast"
+2017-04-03T22:34:55: Analyzing "numpy.distutils.fcompiler"
+2017-04-03T22:34:55: Analyzing "numpy.doc.basics"
+2017-04-03T22:34:55: Analyzing "numpy.doc.broadcasting"
+2017-04-03T22:34:55: Analyzing "numpy.doc.byteswapping"
+2017-04-03T22:34:55: Analyzing "numpy.doc.constants"
+2017-04-03T22:34:55: Analyzing "numpy.doc.creation"
+2017-04-03T22:34:55: Analyzing "numpy.doc.glossary"
+2017-04-03T22:34:55: Analyzing "numpy.doc.indexing"
+2017-04-03T22:34:55: Analyzing "numpy.doc.internals"
+2017-04-03T22:34:55: Analyzing "numpy.doc.misc"
+2017-04-03T22:34:55: Analyzing "numpy.doc.structured_arrays"
+2017-04-03T22:34:55: Analyzing "numpy.doc.subclassing"
+2017-04-03T22:34:55: Analyzing "numpy.doc.ufuncs"
+2017-04-03T22:34:55: Analyzing "numpy.doc"
+2017-04-03T22:34:55: Analyzing "numpy.f2py.auxfuncs"
+2017-04-03T22:34:55: Analyzing "numpy.f2py.capi_maps"
+2017-04-03T22:34:55: Analyzing "numpy.f2py.cb_rules"
+2017-04-03T22:34:55: Analyzing "numpy.f2py.cfuncs"
+2017-04-03T22:34:55: Analyzing "numpy.f2py.common_rules"
+2017-04-03T22:34:55: Analyzing "numpy.f2py.crackfortran"
+2017-04-03T22:34:55: Analyzing "numpy.f2py.diagnose"
+2017-04-03T22:34:55: Analyzing "numpy.f2py.f2py2e"
+2017-04-03T22:34:55: Analyzing "numpy.f2py.f2py_testing"
+2017-04-03T22:34:55: Analyzing "numpy.f2py.f90mod_rules"
+2017-04-03T22:34:55: Analyzing "numpy.f2py.func2subr"
+2017-04-03T22:34:55: Analyzing "numpy.f2py.info"
+2017-04-03T22:34:55: Analyzing "numpy.f2py.rules"
+2017-04-03T22:34:55: Analyzing "numpy.f2py.setup"
+2017-04-03T22:34:55: Analyzing "numpy.f2py.use_rules"
+2017-04-03T22:34:55: Analyzing "numpy.f2py"
+2017-04-03T22:34:55: Analyzing "numpy.f2py.__main__"
+2017-04-03T22:34:55: Analyzing "numpy.f2py.__version__"
+2017-04-03T22:34:55: Analyzing "numpy.fft.fftpack"
+2017-04-03T22:34:55: Analyzing "numpy.fft.helper"
+2017-04-03T22:34:55: Analyzing "numpy.fft.info"
+2017-04-03T22:34:55: Analyzing "numpy.fft.setup"
+2017-04-03T22:34:55: Analyzing "numpy.fft"
+2017-04-03T22:34:55: Analyzing "numpy.lib.arraypad"
+2017-04-03T22:34:55: Analyzing "numpy.lib.arraysetops"
+2017-04-03T22:34:55: Analyzing "numpy.lib.arrayterator"
+2017-04-03T22:34:55: Analyzing "numpy.lib.financial"
+2017-04-03T22:34:55: Analyzing "numpy.lib.format"
+2017-04-03T22:34:55: Analyzing "numpy.lib.function_base"
+2017-04-03T22:34:55: Analyzing "numpy.lib.index_tricks"
+2017-04-03T22:34:55: Analyzing "numpy.lib.info"
+2017-04-03T22:34:55: Analyzing "numpy.lib.nanfunctions"
+2017-04-03T22:34:55: Analyzing "numpy.lib.npyio"
+2017-04-03T22:34:55: Analyzing "numpy.lib.polynomial"
+2017-04-03T22:34:55: Analyzing "numpy.lib.recfunctions"
+2017-04-03T22:34:55: Analyzing "numpy.lib.scimath"
+2017-04-03T22:34:55: Analyzing "numpy.lib.setup"
+2017-04-03T22:34:55: Analyzing "numpy.lib.shape_base"
+2017-04-03T22:34:55: Analyzing "numpy.lib.stride_tricks"
+2017-04-03T22:34:55: Analyzing "numpy.lib.twodim_base"
+2017-04-03T22:34:55: Analyzing "numpy.lib.type_check"
+2017-04-03T22:34:55: Analyzing "numpy.lib.ufunclike"
+2017-04-03T22:34:55: Analyzing "numpy.lib.user_array"
+2017-04-03T22:34:55: Analyzing "numpy.lib.utils"
+2017-04-03T22:34:55: Analyzing "numpy.lib._datasource"
+2017-04-03T22:34:55: Analyzing "numpy.lib._iotools"
+2017-04-03T22:34:55: Analyzing "numpy.lib._version"
+2017-04-03T22:34:55: Analyzing "numpy.lib"
+2017-04-03T22:34:55: Analyzing "numpy.linalg.info"
+2017-04-03T22:34:55: Analyzing "numpy.linalg.linalg"
+2017-04-03T22:34:55: Analyzing "numpy.linalg.setup"
+2017-04-03T22:34:55: Analyzing "numpy.linalg"
+2017-04-03T22:34:55: Analyzing "numpy.ma.bench"
+2017-04-03T22:34:55: Analyzing "numpy.ma.core"
+2017-04-03T22:34:55: Analyzing "numpy.ma.extras"
+2017-04-03T22:34:55: Analyzing "numpy.ma.mrecords"
+2017-04-03T22:34:55: Analyzing "numpy.ma.setup"
+2017-04-03T22:34:55: Analyzing "numpy.ma.testutils"
+2017-04-03T22:34:55: Analyzing "numpy.ma.timer_comparison"
+2017-04-03T22:34:55: Analyzing "numpy.ma.version"
+2017-04-03T22:34:55: Analyzing "numpy.ma"
+2017-04-03T22:34:55: Analyzing "numpy.matrixlib.defmatrix"
+2017-04-03T22:34:55: Analyzing "numpy.matrixlib.setup"
+2017-04-03T22:34:55: Analyzing "numpy.matrixlib"
+2017-04-03T22:34:55: Analyzing "numpy.polynomial.chebyshev"
+2017-04-03T22:34:55: Analyzing "numpy.polynomial.hermite"
+2017-04-03T22:34:55: Analyzing "numpy.polynomial.hermite_e"
+2017-04-03T22:34:55: Analyzing "numpy.polynomial.laguerre"
+2017-04-03T22:34:55: Analyzing "numpy.polynomial.legendre"
+2017-04-03T22:34:55: Analyzing "numpy.polynomial.polynomial"
+2017-04-03T22:34:55: Analyzing "numpy.polynomial.polyutils"
+2017-04-03T22:34:55: Analyzing "numpy.polynomial.setup"
+2017-04-03T22:34:55: Analyzing "numpy.polynomial._polybase"
+2017-04-03T22:34:55: Analyzing "numpy.polynomial"
+2017-04-03T22:34:55: Analyzing "numpy.random.info"
+2017-04-03T22:34:55: Analyzing "numpy.random.setup"
+2017-04-03T22:34:55: Analyzing "numpy.random"
+2017-04-03T22:34:55: Analyzing "numpy.testing.decorators"
+2017-04-03T22:34:55: Analyzing "numpy.testing.noseclasses"
+2017-04-03T22:34:55: Analyzing "numpy.testing.nosetester"
+2017-04-03T22:34:55: Analyzing "numpy.testing.print_coercion_tables"
+2017-04-03T22:34:55: Analyzing "numpy.testing.setup"
+2017-04-03T22:34:55: Analyzing "numpy.testing.utils"
+2017-04-03T22:34:55: Analyzing "numpy.testing"
+2017-04-03T22:34:55: Starting analysis of 193 modules
+2017-04-03T22:35:08: Analysis complete
+2017-04-03T22:35:08: Saving group "C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\site-packages\numpy"
+2017-04-03T22:35:16: End of group "C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\Pokhi\Pokhi\venv\Lib\site-packages\numpy"
+2017-04-03T22:35:17: Deleting 0 files

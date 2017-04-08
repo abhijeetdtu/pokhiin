@@ -14,6 +14,7 @@
     return {
         showLoading: function (scope,elem) {
             scope.showLoader = true;
+            var isGlobal = elem ? false : true;
             var loader = $compile("<loader show='true'/>")(scope);
             if (elem)
                 elem.append(loader);

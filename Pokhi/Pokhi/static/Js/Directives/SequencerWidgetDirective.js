@@ -103,7 +103,7 @@
                         }
 
 
-                        scope.fillRandomNotes();
+                        //scope.fillRandomNotes();
 
                         //var chord = new Tone.Event(function (time, chord) {
                         //    //the chord as well as the exact time of the event

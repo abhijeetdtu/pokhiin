@@ -14,6 +14,21 @@
     border-bottom-color:lightblue;
 }
 
+.headingOne {
+    color:darkslategrey;
+    border-bottom:solid;
+    font-size:100%;
+    border-bottom-width:1px;
+    border-bottom-color:lightblue;
+}
+
+.headingTwo {
+    color:darkslategrey;
+    border-bottom:solid;
+    font-size:80%;
+    border-bottom-width:1px;
+    border-bottom-color:lightblue;
+}
 
 .headingMain {
     margin-left:5%;
@@ -31,6 +46,16 @@
     width: 120px;
     height: 120px;
     animation: spin 2s linear infinite;
+}
+
+.loaderHolder {
+    position:absolute;
+    top:0%;
+    left:0%;
+    height:100%;
+    width:100%;
+    background-color:white;
+    z-index:9999;
 }
 
 .paragraph {

@@ -1,5 +1,5 @@
 ﻿app.factory("soundService", ["$timeout" , function ($timeout) {
-    createjs.Sound.registerSound("/static/Sounds/Symbolic Emotions.mp3", "Song");
+    //createjs.Sound.registerSound("/static/Sounds/Symbolic Emotions.mp3", "Song");
 
     var toPlay = {};
 

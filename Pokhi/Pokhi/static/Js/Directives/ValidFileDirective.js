@@ -1,6 +1,6 @@
 ﻿app.directive('validfile', function validFile() {
 
-    var validFormats = ['jpg', 'pdf'];
+    var validFormats = ['docx'];
     return {
         require: 'ngModel',
         link: function (scope, elem, attrs, ngModel) {

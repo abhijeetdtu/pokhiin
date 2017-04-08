@@ -16,7 +16,7 @@
         <div class="form-group">
 
             <label class="btn btn-default btn-file">
-                <span>1. Browse</span> <input type="file" class="form-control" name="files" ng-model="file" id="fileUpload" style="display:none;" required validFile />
+                <span>1. Browse</span> <input type="file" class="form-control" name="file" ng-model="file" id="fileUpload" style="display:none;" required validFile />
             </label>
         </div>
 
@@ -33,13 +33,28 @@
             </div>
         </div>
 
+        <div class="form-group">
+            <div class="checkbox">
+                <label >
+                    <input type="checkbox" class="form-control" name="convertToHtml" ng-model="convertToHtml" id="ConvertToHtml">
+                    Post to Feed ?
+                </label>
+            </div>
+        </div>
+
 
         <button class="btn btn-primary" ng-disabled="!fileUploadForm.$valid" ng-click="PostFile()">Send</button>
 
-        <span class="alert alert-warning" ng-show="fileUploadForm.file.$error.validFile">1. No valid file Selected.</span>
+        <span class="alert alert-warning" ng-show="fileUploadForm.file.$invalid">1. No valid file Selected.</span>
         <span class="alert alert-warning" ng-show="fileUploadForm.filename.$invalid">2. The name is required.</span>
     </form>
 
 
     <modal key="UploadFileModal" title="[[ ModalType ]]" msg="[[ ModalMsg ]]" />
+
+    <div class="alert alert-warning" ng-show="userFiles.length == 0">You have no files!</div>
+
+    <ul class="list-group" ng-show="userFiles">
+        <li class="list-group-item" ng-repeat="x in userFiles"> [[ x ]] <button class="btn btn-default" ng-click="DeleteFile(x.id)">X</button></li>
+    </ul>
 </div>

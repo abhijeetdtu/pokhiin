@@ -5,9 +5,8 @@ from bs4 import BeautifulSoup , NavigableString
 class DocToHtml:
 
     @staticmethod
-    def Convert(filename):
-        fileN = filename.split("/")[-1].split(".")[0]
-        with open(filename, "rb") as docx_file:
+    def Convert(pathToFile ,fileN):
+        with open(pathToFile, "rb") as docx_file:
             result = mammoth.convert_to_html(docx_file)
             html = result.value # The generated HTML
             messages = result.messages # Any messages, such as warnings during conversion
@@ -15,9 +14,16 @@ class DocToHtml:
 
         html = html.encode("utf-8")
         html = DocToHtml.Stylize(html , fileN)
-        DocToHtml.WriteToFile("test.html" , html)
+        print(fileN+".html")
+        DocToHtml.WriteToPath(pathToFile.split(".")[0] +".html" , html)
         #print(soup.prettify())
         return html
+
+    @staticmethod
+    def WriteToPath(path ,string):
+        f = open(path , "w")
+        f.write(string.encode("utf-8"))
+        f.close()
 
     @staticmethod
     def WriteToFile(filename , string):
@@ -32,6 +38,13 @@ class DocToHtml:
 
         htmlString = DocToHtml.CreatePanel(htmlString) 
         soup = BeautifulSoup(htmlString , 'html.parser')
+        
+        for x in soup.find_all("h1"):
+            x['class'] = 'headingOne'
+
+            
+        for x in soup.find_all("h2"):
+            x['class'] = 'headingTwo'
 
         for x in soup.find_all("strong"):
             x['class'] = 'headingLegible'
