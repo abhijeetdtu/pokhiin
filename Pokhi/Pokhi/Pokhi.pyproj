@@ -88,6 +88,9 @@
     <Compile Include="Rest\loginAPI.py">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="Rest\researchAPI.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="Rest\sha256.py">
       <SubType>Code</SubType>
     </Compile>
@@ -142,6 +145,7 @@
     <Content Include="static\Js\Controllers\HomeController.js" />
     <Content Include="static\Js\Controllers\LandingController.js" />
     <Content Include="static\Js\Controllers\MusicController.js" />
+    <Content Include="static\Js\Controllers\ResearchController.js" />
     <Content Include="static\Js\Controllers\UploadFileController.js" />
     <Content Include="static\Js\Directives\lazyLoadJavascript.js" />
     <Content Include="static\Js\Directives\LoadingSymbolDirective.js" />

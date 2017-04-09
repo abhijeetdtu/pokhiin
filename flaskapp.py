@@ -3,6 +3,7 @@ from Pokhi.Pokhi.Rest.dbConnect import mongo , login_manager
 from Pokhi.Pokhi.Rest.starAPI import starAPI
 from Pokhi.Pokhi.Rest.loginAPI import loginAPI
 from Pokhi.Pokhi.Rest.fileAPI import fileAPI
+from Pokhi.Pokhi.Rest.researchAPI import researchAPI
 from Pokhi.Pokhi.Rest.authAPI import AuthHelpers
 
 import os
@@ -20,6 +21,7 @@ mongo.init_app(app)
 app.register_blueprint(starAPI)
 app.register_blueprint(loginAPI)
 app.register_blueprint(fileAPI)
+app.register_blueprint(researchAPI)
 app.secret_key = AuthHelpers.getEncryptedPassword('super secret key')
 
 

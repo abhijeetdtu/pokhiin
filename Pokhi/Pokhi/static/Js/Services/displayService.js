@@ -1,4 +1,4 @@
-﻿app.factory("displayService", ['$compile' , function ($compile) {
+﻿app.factory("displayService", ['$compile' ,"$http", function ($compile , $http) {
 
     var showingLoader = false;
     var navItems = {};
@@ -53,6 +53,14 @@
                     }
                     break;
             }
+        },
+
+        getGraphItems: function (callback) {
+            $http({
+                url: "/api/research/getGraphItems",
+            }).success(function (data) {
+                callback(data);
+            })
         }
     }
 }])

@@ -62,3 +62,10 @@ class Files:
             Logger.Log("Exception" , e)
             print(e)
             return []
+
+
+class PlotLy:
+
+    @staticmethod
+    def GetAllPlotLyGraphs():
+        return [ {"name" : x["name"] , "url" : x["url"] , "_id" : str(x["_id"])} for x in mongo.db.plotly.find({}) ]
