@@ -5,7 +5,7 @@
 
         <button class="btn btn-default" ng-click="showGraph[x.url]=true" ng-show="showGraph[x.url]==false"><span class="glyphicon glyphicon-menu-down"></span></button>
         <div ng-show="showGraph[x.url] == true">
-            <iframe width="900" height="500" frameborder="0" scrolling="no" ng-src="[[ sce.trustAsResourceUrl(x.url) ]]"></iframe>
+            <iframe height="500" frameborder="0" scrolling="no" ng-src="[[ sce.trustAsResourceUrl(x.url) ]]"></iframe>
         </div>
     </li>
 </ul>

@@ -3,6 +3,10 @@
 
 }
 
+iframe, object, embed {
+    width: 100%;
+}
+
 .heading {
     color:lightgray;
 }
