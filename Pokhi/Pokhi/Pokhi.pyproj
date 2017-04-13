@@ -146,6 +146,7 @@
     <Content Include="static\Js\Controllers\LandingController.js" />
     <Content Include="static\Js\Controllers\MusicController.js" />
     <Content Include="static\Js\Controllers\ResearchController.js" />
+    <Content Include="static\Js\Controllers\SelfServiceGraphsController.js" />
     <Content Include="static\Js\Controllers\UploadFileController.js" />
     <Content Include="static\Js\Directives\lazyLoadJavascript.js" />
     <Content Include="static\Js\Directives\LoadingSymbolDirective.js" />
@@ -156,11 +157,13 @@
     <Content Include="static\Js\Services\fileService.js" />
     <Content Include="static\Js\Services\loginService.js" />
     <Content Include="static\Js\Services\soundService.js" />
+    <Content Include="static\Js\Services\visualizationService.js" />
     <Content Include="static\Js\vendor\angular-route.js" />
     <Content Include="static\Js\vendor\angular.min.js" />
     <Content Include="static\Js\vendor\angularjs-ui-router.js" />
     <Content Include="static\Js\vendor\bootstrap.js" />
     <Content Include="static\Js\vendor\bootstrap.min.js" />
+    <Content Include="static\Js\vendor\c3.js" />
     <Content Include="static\Js\vendor\d3.js" />
     <Content Include="static\Js\vendor\d3.min.js" />
     <Content Include="static\Js\vendor\easeljs-0.8.2.min.js" />
@@ -190,6 +193,7 @@
     <Content Include="templates\Views\Partials\Modal.html" />
     <Content Include="templates\Views\Partials\Music.html" />
     <Content Include="templates\Views\Partials\Research.html" />
+    <Content Include="templates\Views\Partials\SelfServiceGraphs.html" />
     <Content Include="templates\Views\Partials\Sequencer.html" />
     <Content Include="templates\Views\Partials\SequencerT.html" />
     <Content Include="templates\Views\Partials\UploadFile.html" />
