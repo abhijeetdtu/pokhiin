@@ -1,0 +1,40 @@
+﻿<div class="col-md-4" ng-init="showMeasurePanel = true" ng-show="showMeasurePanel == true">
+    <div class="list-group-item selectedListItem">
+        <div class="row">
+            <div class="col-md-6">Select Measue</div>
+            <div class="col-md-4">
+                Select X axis
+            </div>
+            <div class="col-md-2">
+                <button class="btn" ng-click="showMeasurePanel = false;"><</button>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-11">
+            <div class="list-group">
+                <div class="list-group-item"
+                     style="word-wrap: break-word;"
+                     ng-class="{ 'selectedListItem' :measureSelected[x] }"
+                     ng-repeat="x in dataset.fields"
+                     ng-init="measureSelected[x] = false"
+                     ng-click="measureSelect(x)">
+                    <div class="row">
+                        <div class="col-md-9">[[x]]</div>
+                        <div class="col-md-3">
+                            <button class="btn" ng-click="setAsXAxis(x); $event.stopPropagation();">
+                                <span class="glyphicon glyphicon-plus"></span>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="col-md-1"  ng-show="showMeasurePanel == false" >
+    <button class="btn" ng-click="showMeasurePanel = true;">></button>
+</div> 
+<div ng-class="{ 'col-md-8' : showMeasurePanel , 'col-md-11': !showMeasurePanel }">
+    <div id="[[graphId]]" class="graphHolder"></div>
+</div> 

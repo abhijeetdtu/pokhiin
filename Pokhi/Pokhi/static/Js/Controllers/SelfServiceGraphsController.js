@@ -5,9 +5,9 @@
 
     visService.GetResource(function(data){
         $scope.data = data;
-        $scope.records = data.records;
-        $scope.fields = data.fields;
-        $scope.generateChart("#graph", $scope.data, $scope.type);
+        //$scope.records = data.records;
+        //$scope.fields = data.fields;
+        //$scope.generateChart("#graph", $scope.data, $scope.type);
     })
 
     $scope.measureSelect = function (measure) {

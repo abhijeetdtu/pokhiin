@@ -9,7 +9,7 @@
             tempos:'='
         },
         // template: function (element, attrs) { return '<div id="' + attrs.key + '"><button ng-click="fillRandomNotes()">Randomize</button></div>' },
-        template: function (element, attrs) { console.log("returning template"); return '<div ng-include="\'Views/Partials/SequencerT.html\'" onload="init()" ></div>' },
+        template: function (element, attrs) { return '<div ng-include="\'Views/Partials/SequencerT.html\'" onload="init()" ></div>' },
         link: function (scope, element, attrs, ctrl) {
             console.log("linking", element);
             scope.key = attrs.key;

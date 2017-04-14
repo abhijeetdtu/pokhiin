@@ -148,6 +148,7 @@
     <Content Include="static\Js\Controllers\ResearchController.js" />
     <Content Include="static\Js\Controllers\SelfServiceGraphsController.js" />
     <Content Include="static\Js\Controllers\UploadFileController.js" />
+    <Content Include="static\Js\Directives\GraphDirective.js" />
     <Content Include="static\Js\Directives\lazyLoadJavascript.js" />
     <Content Include="static\Js\Directives\LoadingSymbolDirective.js" />
     <Content Include="static\Js\Directives\ModalDirective.js" />
@@ -190,6 +191,7 @@
     <Content Include="templates\Views\Home.html" />
     <Content Include="templates\Views\Index.html" />
     <Content Include="templates\Views\Partials\Geek.html" />
+    <Content Include="templates\Views\Partials\GraphTemplate.html" />
     <Content Include="templates\Views\Partials\Modal.html" />
     <Content Include="templates\Views\Partials\Music.html" />
     <Content Include="templates\Views\Partials\Research.html" />
