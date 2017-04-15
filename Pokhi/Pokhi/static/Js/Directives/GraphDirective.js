@@ -9,13 +9,15 @@
         template: function (element, attrs) { return '<div ng-include="\'/Views/Partials/GraphTemplate.html\'" onload="init()"></div>' },
 
         link: function ($scope, element, attrs, controller) {
-            $scope.graphId =  attrs.key + "-" + "graph"
-            $scope.type = attrs.type || "line";
+            $scope.typesOfChart = ['line' , 'bar' , 'pie' ,'spline' , 'area']
+            $scope.graphId = attrs.key + "-" + "graph";
+
             $scope.measureSelected = {};
             $scope.data = attrs.data;
             $scope.xAxisCategories = [];
             $scope.chartParams = {};
             $scope.chartParams.axis = {};
+            $scope.chartType =  attrs.type || "line";
 
             $scope.collapseMeasurePanel = function () {
             }
@@ -28,7 +30,10 @@
                 $scope.measureSelected[measure] = !$scope.measureSelected[measure];
                 $scope.generateChart();
             }
-
+            $scope.chartTypeSelect = function (chartType) {
+                $scope.chartType = chartType;
+                $scope.generateChart();
+            }
             $scope.$watch('data', function (newValue, oldValue) {
  
                 if (newValue && newValue[0][0] != oldValue) {                   
@@ -50,7 +55,7 @@
                         enabled: true
                     },
                     data: {
-                        type: $scope.type,
+                        type: $scope.chartType,
                         json: $scope.dataset.records,
                         keys: {
                             //                x: 'name', // it's possible to specify 'x' when category axis
@@ -61,6 +66,10 @@
                         x: {
                             type:'category',
                             categories: categories,
+                            tick: {
+                                rotate: 90,
+                                multiline: false
+                            },
                           }
                     }
                 });

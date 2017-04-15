@@ -3,18 +3,28 @@
     <div class="animate slide-left"  ng-show="showOptionsPanel == true">
         <div class="list-group-item selectedListItem">
             <div class="row">
-                <div class="col-md-6">Select Measue</div>
-                <div class="col-md-4">
-                    Select X axis
+                <div class="col-md-10">
+                    <div ng-repeat="typeOfChart in typesOfChart" ng-click="chartTypeSelect(typeOfChart);" ng-class="{ 'selectedListItem' : chartType == typeOfChart}">
+                        [[typeOfChart]]
+                    </div>
                 </div>
                 <div class="col-md-2">
                     <button class="btn" ng-click="showOptionsPanel = false;"><</button>
                 </div>
             </div>
         </div>
+       
         <div class="row">
             <div class="col-md-11">
                 <div class="list-group">
+                    <div class="list-group-item selectedListItem">
+                        <div class="row">
+                            <div class="col-md-8">Select Measue</div>
+                            <div class="col-md-3">
+                                Select X axis
+                            </div>
+                        </div>
+                    </div>
                     <div class="list-group-item"
                          style="word-wrap: break-word;"
                          ng-class="{ 'selectedListItem' :measureSelected[x] }"
