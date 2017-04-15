@@ -4,15 +4,13 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Welcome to Pokhi</title>
-    <link rel="stylesheet" href="{{ url_for('static', filename='Css/bootstrap.css') }}" />
-    <link rel="stylesheet" href="{{ url_for('static', filename='Css/animations.css') }}" />
-    <link rel="stylesheet" href="{{ url_for('static', filename='Css/site.css') }}" />
-    <link rel="stylesheet" href="{{ url_for('static', filename='Css/inputs.css') }}" />
+    
 
     <script src="{{ url_for('static', filename='Js/vendor/jquery-2.2.0.min.js') }}"></script>
     <script src="{{ url_for('static', filename='Js/vendor/angular.min.js') }}"></script>
     <script src="{{ url_for('static', filename='Js/vendor/angularjs-ui-router.js') }}"></script>
     <script src="{{ url_for('static', filename='Js/vendor/angular-route.js') }}"></script>
+    <script src="{{ url_for('static', filename='Js/vendor/angular-animate.js') }}"></script>
     <script src="{{ url_for('static', filename='Js/vendor/easeljs-0.8.2.min.js') }}"></script>
     <script src="{{ url_for('static', filename='Js/vendor/tweenjs-0.6.2.min.js') }}"></script>
     <script src="{{ url_for('static', filename='Js/vendor/soundjs-0.6.2.min.js') }}"></script>
@@ -50,6 +48,12 @@
     <script src="{{ url_for('static', filename='Js/Services/visualizationService.js') }}"></script>
 
     
+
+    <link rel="stylesheet" href="{{ url_for('static', filename='Css/bootstrap.css') }}" />
+    <link rel="stylesheet" href="{{ url_for('static', filename='Css/animations.css') }}" />
+    <link rel="stylesheet" href="{{ url_for('static', filename='Css/site.css') }}" />
+    <link rel="stylesheet" href="{{ url_for('static', filename='Css/inputs.css') }}" />
+    <link rel="stylesheet" href="{{ url_for('static', filename='Css/ng-animation.css') }}" />
 </head>
 
 <body ng-controller="LandingController">

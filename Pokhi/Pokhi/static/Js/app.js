@@ -1,5 +1,5 @@
 ﻿
-var app = angular.module('Pokhi', ['ui.router', 'ngLoadScript']);
+var app = angular.module('Pokhi', ['ui.router', 'ngLoadScript' , 'ngAnimate']);
 
     app.config(function ($stateProvider) {
         $stateProvider

@@ -129,6 +129,7 @@
     <Content Include="static\Css\bootstrap.min.css.map" />
     <Content Include="static\Css\index.css" />
     <Content Include="static\Css\inputs.css" />
+    <Content Include="static\Css\ng-animation.css" />
     <Content Include="static\Css\site.css" />
     <Content Include="static\Css\style.css" />
     <Content Include="static\Data\abc.docx" />
@@ -159,6 +160,8 @@
     <Content Include="static\Js\Services\loginService.js" />
     <Content Include="static\Js\Services\soundService.js" />
     <Content Include="static\Js\Services\visualizationService.js" />
+    <Content Include="static\Js\vendor\angular-animate.js" />
+    <Content Include="static\Js\vendor\angular-animate.min.js" />
     <Content Include="static\Js\vendor\angular-route.js" />
     <Content Include="static\Js\vendor\angular.min.js" />
     <Content Include="static\Js\vendor\angularjs-ui-router.js" />

@@ -132,9 +132,11 @@ html[xmlns] .clearfix {
 }
 
 
-.box-one.ng-hide-remove {
-  -webkit-animation:0.3s show;
-  animation:0.3s show;
+
+.animate-slide-left.ng-hide {
+  left: -100%;
+  opacity:0;
+  padding:0 10px;
 }
 
 @keyframes show {
