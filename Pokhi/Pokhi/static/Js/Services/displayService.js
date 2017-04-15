@@ -3,7 +3,7 @@
     var showingLoader = false;
     var navItems = {};
     navItems["Home"] = {};
-    navItems["Home"]["Main"] = [//['Research', 'glyphicon glyphicon-stats', 'Views/Partials/Research.html']
+    navItems["Home"]["Main"] = [['Research', 'glyphicon glyphicon-stats', 'Views/Partials/Research.html']
                                 , ['GraphsAPI', 'glyphicon glyphicon-stats', 'Views/Partials/SelfServiceGraphs.html']
                                 , ['Music', 'glyphicon glyphicon-headphones', 'Views/Partials/Music.html']
                                 //, ['Geek', 'glyphicon glyphicon-qrcode', 'Views/Partials/Geek.html']
