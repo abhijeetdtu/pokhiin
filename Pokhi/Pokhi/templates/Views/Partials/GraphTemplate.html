@@ -1,4 +1,4 @@
-﻿<div  ng-class="{ 'col-md-1' : !showOptionsPanel , 'col-md-4': showOptionsPanel }" ng-init="showOptionsPanel = true" >
+﻿<div  ng-class="{ 'col-md-1' : !showOptionsPanel , 'col-md-4': showOptionsPanel }" ng-init="showOptionsPanel = true" class="graphOptions">
     
     <div class="animate slide-left"  ng-show="showOptionsPanel == true">
         <div class="list-group-item selectedListItem">
@@ -51,6 +51,6 @@
 
 </div>
 
-<div ng-class="{ 'col-md-8' : showOptionsPanel , 'col-md-11': !showOptionsPanel }">
+<div ng-class="{ 'col-md-8' : showOptionsPanel , 'col-md-11': !showOptionsPanel }" style="height:500px;">
     <div id="[[graphId]]" class="graphHolder"></div>
 </div> 
