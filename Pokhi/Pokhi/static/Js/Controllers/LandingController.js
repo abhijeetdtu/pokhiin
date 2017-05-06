@@ -100,5 +100,7 @@
                 $scope.$apply();
         });    
     }
+     
+    $scope.canvasResize = displayService.canvasResize;
    // $scope.PlayMusic();
 }])

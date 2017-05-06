@@ -32,6 +32,7 @@
     <script src="{{ url_for('static', filename='Js/Directives/LoadingSymbolDirective.js') }}"></script>
     <script src="{{ url_for('static', filename='Js/Directives/SequencerWidgetDirective.js') }}"></script>
     <script src="{{ url_for('static', filename='Js/Directives/GraphDirective.js') }}"></script>
+    <script src="{{ url_for('static', filename='Js/Directives/ScrollShowDirective.js') }}"></script>
 
     <script src="{{ url_for('static', filename='Js/Controllers/HomeController.js') }}"></script>
     <script src="{{ url_for('static', filename='Js/Controllers/LandingController.js') }}"></script>
@@ -70,45 +71,62 @@
 
    <div ng-show="showLoader == false">
        <input type="hidden" id="isLoggedIn" ng-model="isLoggedIn" value="{{current_user.is_authenticated}}" />
-       
-           <div class="container">
-
-               <div class="clearfix">
-                   <div class="col-sm-12 col-xs-12 col-md-3">
-                       <img id="logo" src="{{ url_for('static', filename='Images/Logo_pokhi.png') }}" style="opacity:0;" height="50" width="100">
-                       <!--<div class="heading"><b>pOKHI</b></div>-->
-                   </div>
-                   <di ng-show="isLoggedIn == null">
-
-                       <form class="form-group" name="loginForm">
-                               <div class="col-xs-12 col-md-offset-3 col-md-2 form-group">
-                                   <input class="form-control" name="username" placeholder="username" ng-model="username" required/>
-                               </div>
-                               <div class="col-xs-8 col-md-2 form-group">
-                                   <input class="form-control" name="password" placeholder="password" ng-model="password" type="password"  required/>
-                               </div>
-
-                               <div class="col-xs-4 col-md-2 form-group">
-                                   <button class="btn btn-default form-control" ng-disabled="!loginForm.username.$valid || !loginForm.password.$valid"ng-click="login()">login</button>
-                               </div>
-                            
-                       </form>
-                       <modal key="LoginMessageModal" title="[[ ModalType ]]" msg="[[ ModalMsg ]]" />
-                   </di>
-                   <div class="col-sm-12 col-xs-12 col-md-offset-7 col-md-2" ng-show="isLoggedIn != null">
-                       <div class="form-group">
-                           <button class="btn btn-default" ng-click="logout()">Logout</button>
-                       </div>
-                   </div>
-               </div>
-               <hr>
+      
+           <div class="top-bar">
                <div class="row-fluid">
-                   <div ui-view>
+                   <div id="canvasHolder" class="col-sm-12 col-md-12">
+                       <canvas height="25" id="viewport" ng-init="canvasResize()"></canvas>
                    </div>
                </div>
+               <div class="clearfix">
+                   <div class="landing-login-form">
+                       <div class="row-fluid">
+                           <div class="top-bar-brand">
+                               <img id="logo" src="{{ url_for('static', filename='Images/Logo_pokhi.png') }}" style="opacity:0;" height="50" width="100">
+                               <!--<div class="heading"><b>pOKHI</b></div>-->
+                           </div>
+                           <div ng-show="isLoggedIn == null">
+                               <form class="form-group landing-login-form" name="loginForm">
+                                   <div>
+                                       <div class="col-xs-12 col-md-4">
+                                           <input class="form-control" name="username" placeholder="username" ng-model="username" required />
+                                       </div>
+                                       <div class="col-xs-8 col-md-4">
+                                           <input class="form-control" name="password" placeholder="password" ng-model="password" type="password" required />
+                                       </div>
 
-               </div>
+                                       <div class="col-xs-4 col-md-2">
+                                           <button class="btn btn-default form-control" ng-disabled="!loginForm.username.$valid || !loginForm.password.$valid" ng-click="login()">login</button>
+                                       </div>
+                                   </div>
+
+                               </form>
+                               
+                           </div>
+
+                           <div class="col-sm-12 col-xs-12 col-md-offset-7 col-md-4" ng-show="isLoggedIn != null">
+                               You logged in you {{ current_user.username }}!
+                               <div class="form-group">
+                                   <button class="btn btn-default" ng-click="logout()">Logout</button>
+                               </div>
+                           </div>
+                    </div>
+                   </div>
+                  
+                  
+                   </div>
+                   <hr>
+                 
        </div>
+       <div class="view-box">
+           <div class="row-fluid">
+               <div ui-view>
+               </div>
+           </div>
+       </div>
+           
+        <modal key="LoginMessageModal" title="[[ ModalType ]]" msg="[[ ModalMsg ]]" />
+   </div>
         
 
 

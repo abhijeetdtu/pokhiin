@@ -153,6 +153,7 @@
     <Content Include="static\Js\Directives\lazyLoadJavascript.js" />
     <Content Include="static\Js\Directives\LoadingSymbolDirective.js" />
     <Content Include="static\Js\Directives\ModalDirective.js" />
+    <Content Include="static\Js\Directives\ScrollShowDirective.js" />
     <Content Include="static\Js\Directives\SequencerWidgetDirective.js" />
     <Content Include="static\Js\Directives\ValidFileDirective.js" />
     <Content Include="static\Js\Services\displayService.js" />

@@ -7,3 +7,5 @@ C:\Ruby23\bin\rhc port-forward -a python
 
 
 pip --no-cache-dir --disable-pip-version-check install django-flat-theme
+
+C:\Python27\python27.exe C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\wsgi.py

@@ -68,4 +68,8 @@ class PlotLy:
 
     @staticmethod
     def GetAllPlotLyGraphs():
-        return [ {"name" : x["name"] , "url" : x["url"] , "_id" : str(x["_id"])} for x in mongo.db.plotly.find({}) ]
+        try:
+            return [ {"name" : x["name"] , "url" : x["url"] , "_id" : str(x["_id"])} for x in mongo.db.plotly.find({}) ]
+        except Exception as e:
+            Logger.Log("DBAccess:Error" , "Failed to Get PlotLy")
+            return []

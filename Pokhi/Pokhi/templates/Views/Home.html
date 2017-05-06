@@ -1,27 +1,45 @@
-﻿    
-<div class="row-fluid">
-    <div id="canvasHolder" class="col-sm-12 col-md-12">
-        <canvas height="50" id="viewport" ng-init="canvasResize()"></canvas>
-    </div>
-</div>
-<hr>
-    <div class="row-fluid">
-
-        <ul class="nav nav-pills">
-            <li  ng-class="{active : $index == 0}" ng-repeat="x in MainNavItems" >
-                 <a  data-toggle="tab"  href="#[[ x[0] ]]">
-                     <span class="[[ x[1] ]]"></span>
-                        [[ x[0] ]]
-                 </a>
-            </li>
-        </ul>
-    </div>
-    <hr>
+﻿   
+<div class="view" class="row-fluid">
+   
+    <div scroll-show 
+         ng-class="{'col-md-1 col-sm-1' : selectedThumbnail !=null}"
+         >
     
-    <div class="row-fluid">
+        <div >
+            <div ng-class="{'col-md-6 col-sm-12' : selectedThumbnail == null}" ng-repeat="x in MainNavItems">
+                <div class="thumbnail"
+                     ng-class="{'selectedListItem' : $parent.selectedThumbnail == x[0], 'thumbnail-contracted' : $parent.selectedThumbnail != null }"
+                     ng-click="$parent.selectedThumbnail = x[0]">
+                    <img src="[[ x[1] ]]">
+                    <div class="caption">
+                        <h3>[[ x[0] ]]</h3>
+                    </div>
+
+                    <div class="nav-list animate slide-down" ng-show="$parent.selectedThumbnail == x[0]">
+                        <hr />
+                        <div class="list-group">
+                            <div class="list-group-item"
+                                 ng-repeat="y in NavItems[ x[0] ]"
+                                 ng-class="{'selectedListItem' : $parent.$parent.selectedNavItem ==  x[0]+'_'+y[0]}"
+                                 ng-click="$parent.$parent.selectedNavItem = x[0]+'_'+y[0]"
+                                 data-toggle="tab" href="#[[ y[0] ]]">
+                                [[ y[0] ]]
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>    
+    </div>
+    <div ng-class="{'col-md-1 col-sm-1' : selectedThumbnail == null , 'col-md-11 col-sm-12' : selectedThumbnail != null}"
+         ng-show=" selectedThumbnail != null">
         <div class="tab-content">
-            <div class="tab-pane fade" ng-class="{ in : $index == 0 , active : $index == 0}" ng-repeat="x in MainNavItems" id="[[ x[0] ]]" ng-include=" x[2] " >
+                    <div class="tab-pane fade"
+                         ng-repeat="item in TotalNavItems" id="[[ item[0] ]]"
+                         ng-class="{'active' : $index == 0 , 'in' : $index == 0}"
+                         ng-include=" item[2] ">
+                    </div>
             </div>
         </div>
     </div>
-
+</div>
