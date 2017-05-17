@@ -1,8 +1,16 @@
-from dbConnect import mongo
+from __future__ import absolute_import
+
+from Pokhi.Pokhi.Rest.dbConnect import mongo
+from Pokhi.Pokhi.Rest.logger import Logger
+
 from bson.json_util import dumps
 from bson.objectid import ObjectId
-from logger import Logger
+
 import os
+
+def GetDataItemWithId(mongoItem):
+    mongoItem["_id"] = str(mongoItem["_id"])
+    return mongoItem
 
 #files
 class Files:
@@ -73,3 +81,28 @@ class PlotLy:
         except Exception as e:
             Logger.Log("DBAccess:Error" , "Failed to Get PlotLy")
             return []
+
+class WikipediaFeed:
+
+    @staticmethod
+    def AddPageToDB(page):
+        try:
+            mongo.db.wikipediaFeed.insert(page)
+        except Exception as e:
+            print(e)
+            Logger.Log("DBAccess:Error - WikipediaFeed.AddPageToDB" , "Failed to insert page")
+            
+    @staticmethod
+    def GetPages(lastId):
+        try:
+            if(lastId == 0):
+                pages = mongo.db.wikipediaFeed.find().limit(WikipediaFeed.PageSize)
+                return [GetDataItemWithId(p) for p in pages]
+            else:
+                pages = mongo.db.wikipediaFeed.find({"_id" : {"$gt" :   ObjectId(lastId) }}).limit(WikipediaFeed.PageSize)
+                return [GetDataItemWithId(p) for p in pages]
+        except Exception as e:
+            print(e)
+            Logger.Log("DBAccess:Error - WikipediaFeed.GetPages" , "Failed to insert page")
+
+WikipediaFeed.PageSize = 10

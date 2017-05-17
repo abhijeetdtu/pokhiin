@@ -16,12 +16,13 @@
     navItems["Labs"] = {};
     navItems["Labs"]["Main"] = [
                                 ['Research', 'glyphicon glyphicon-stats', 'Views/Partials/Research.html']
-                                , ['Graphs', 'static/Images/LabsBanner2.jpg', 'Views/Partials/SelfServiceGraphs.html']
+                                ,['Graphs', 'static/Images/LabsBanner2.jpg', 'Views/Partials/SelfServiceGraphs.html']
                                 ]
 
     navItems["Showcase"] = {};
     navItems["Showcase"]["Main"] = [
-                                 ['Music', 'glyphicon glyphicon-headphones', 'Views/Partials/Music.html']
+                                    ['WikiFeed', 'glyphicon glyphicon-headphones', 'Views/Partials/WikipediaFeed.html']
+                                 ,['Music', 'glyphicon glyphicon-headphones', 'Views/Partials/Music.html']
                                 , ['Pong', 'glyphicon glyphicon-qrcode', 'Apps/Pong/index.html']
                                 ]
 
@@ -75,14 +76,13 @@
     $(window).on("resize", canvasResize);
     $timeout(function () { canvasResize() }, 50);
 
-
     return {
-        showLoading: function (scope,elem) {
+       showLoading: function (scope,elem) {
             scope.showLoader = true;
             var isGlobal = elem ? false : true;
-            var loader = $compile("<loader show='true'/>")(scope);
+            var loader = $compile("<loader show='true' is-global="+isGlobal+"/>")(scope);
             if (elem)
-                elem.append(loader);
+                $(elem).append(loader);
             else
                 $("body").append(loader);
         },
@@ -128,7 +128,9 @@
                 callback(data);
             })
         }
-        ,canvasResize : canvasResize
+        , canvasResize: canvasResize
+      
+
 
     }
 }])

@@ -1,10 +1,15 @@
 from flask import Flask , render_template
+
+
 from Pokhi.Pokhi.Rest.dbConnect import mongo , login_manager
 from Pokhi.Pokhi.Rest.starAPI import starAPI
 from Pokhi.Pokhi.Rest.loginAPI import loginAPI
 from Pokhi.Pokhi.Rest.fileAPI import fileAPI
 from Pokhi.Pokhi.Rest.researchAPI import researchAPI
+from Pokhi.Pokhi.Rest.wikipediaAPI import wikipediaAPI
 from Pokhi.Pokhi.Rest.authAPI import AuthHelpers
+
+from Pokhi.Pokhi.WebScrap.WikiScrap import WikiScrapper
 
 import os
 
@@ -22,6 +27,7 @@ app.register_blueprint(starAPI)
 app.register_blueprint(loginAPI)
 app.register_blueprint(fileAPI)
 app.register_blueprint(researchAPI)
+app.register_blueprint(wikipediaAPI)
 app.secret_key = AuthHelpers.getEncryptedPassword('super secret key')
 
 

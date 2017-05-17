@@ -6,7 +6,7 @@
             offset : '='
         },
         link: function (scope, elem, attrs, ctrl) {
-            console.log($document[0].body.scrollTop)
+            //console.log($document[0].body.scrollTop)
             var newScroll;
             scope.scrollTop = $document[0].body.scrollTop;
             
@@ -14,7 +14,7 @@
                 newScroll = $document[0].body.scrollTop;
                
                 elem.css("top", newScroll);
-                console.log(newScroll , scope.scrollTop)
+                //console.log(newScroll , scope.scrollTop)
                 if (newScroll - scope.scrollTop < 0) 
                     elem.show();
                 else if (this.pageYOffset > scope.offset)

@@ -32,6 +32,8 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="DocToHtml\" />
+    <Folder Include="WebScrap\" />
+    <Folder Include="NLP\" />
     <Folder Include="static\Apps\" />
     <Folder Include="static\Apps\Pong\" />
     <Folder Include="static\Apps\Pong\assets\" />
@@ -62,6 +64,27 @@
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="DocToHtml\__init__.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Rest\wikipediaAPI.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="WebScrap\TwitterAPI.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="WebScrap\WikiScrap.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="WebScrap\__init__.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="NLP\Helpers.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="NLP\Runner.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="NLP\__init__.py">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="Rest\authAPI.py">
@@ -149,10 +172,12 @@
     <Content Include="static\Js\Controllers\ResearchController.js" />
     <Content Include="static\Js\Controllers\SelfServiceGraphsController.js" />
     <Content Include="static\Js\Controllers\UploadFileController.js" />
+    <Content Include="static\Js\Controllers\WikipediaFeedController.js" />
     <Content Include="static\Js\Directives\GraphDirective.js" />
     <Content Include="static\Js\Directives\lazyLoadJavascript.js" />
     <Content Include="static\Js\Directives\LoadingSymbolDirective.js" />
     <Content Include="static\Js\Directives\ModalDirective.js" />
+    <Content Include="static\Js\Directives\ScrollLoadDirective.js" />
     <Content Include="static\Js\Directives\ScrollShowDirective.js" />
     <Content Include="static\Js\Directives\SequencerWidgetDirective.js" />
     <Content Include="static\Js\Directives\ValidFileDirective.js" />
@@ -161,6 +186,7 @@
     <Content Include="static\Js\Services\loginService.js" />
     <Content Include="static\Js\Services\soundService.js" />
     <Content Include="static\Js\Services\visualizationService.js" />
+    <Content Include="static\Js\Services\wikipediaService.js" />
     <Content Include="static\Js\vendor\angular-animate.js" />
     <Content Include="static\Js\vendor\angular-animate.min.js" />
     <Content Include="static\Js\vendor\angular-route.js" />
@@ -203,6 +229,7 @@
     <Content Include="templates\Views\Partials\Sequencer.html" />
     <Content Include="templates\Views\Partials\SequencerT.html" />
     <Content Include="templates\Views\Partials\UploadFile.html" />
+    <Content Include="templates\Views\Partials\WikipediaFeed.html" />
   </ItemGroup>
   <ItemGroup>
     <Interpreter Include="venv\">

@@ -1,0 +1,40 @@
+﻿<div ng-controller="WikipediaFeedController">
+
+    <div class="list-group">
+        <div class="list-group-item" ng-repeat="page in pageList track by $index">
+            <div class="media"
+                 ng-click="MediaBodyClicked($index, $event)">
+                <div class="media-left">
+                    <img src="[[ page.images[0] ]]" class="media-object" style="width:60px">
+                </div>
+                <div class="media-body">
+                    <h4 class="media-heading">[[ page.title ]]</h4>
+                    <hr>
+                    <div class="limited-content"
+                         ng-show="page.summary.length > 120 && $parent.showFullSummary[$index] != true"
+                        >
+                        [[ page.summary.substr(0,360).concat("...") ]]
+                        <h3>....</h3>
+                    </div>
+                    <div ng-show="page.summary.length <= 120 || $parent.showFullSummary[$index] == true">
+                        <div class="col-md-4">
+                            <div class="wiki-feed-col col col-md-4 col-sm-4" ng-repeat="i in [1,2,3]">
+                                <div class="wiki-feed-gallery" ng-repeat="image in  page.images.slice(i*3,i*3+3) ">
+                                    <img data-original="[[ image ]]" alt="loading..." ng-init="LazyLoadInstance.update();">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-8">
+                            <div class="limited-content ">
+                                [[ page.content]]
+                                <hr>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <scroll-load on-bottom-reached="onBottomReached"></scroll-load>
+    </div>
+    
+</div>

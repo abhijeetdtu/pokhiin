@@ -8,4 +8,7 @@
             $scope.graphItems = [];
     });
     
+    $scope.LazyLoadInstance = new LazyLoad({
+        elements_selector : "iframe"
+    })
 }])

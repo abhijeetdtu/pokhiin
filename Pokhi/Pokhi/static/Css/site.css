@@ -58,8 +58,18 @@ iframe, object, embed {
     animation: spin 2s linear infinite;
 }
 
-.loaderHolder {
+.loaderHolder-global {
     position:absolute;
+    top:0%;
+    left:0%;
+    height:100%;
+    width:100%;
+    background-color:white;
+    z-index:9999;
+}
+
+.loaderHolder-local {
+    position:relative;
     top:0%;
     left:0%;
     height:100%;
@@ -188,6 +198,24 @@ html[xmlns] .clearfix {
     
 }
 
+div.wiki-feed-gallery {
+    border: 1px solid #ccc;
+    float: left;
+}
+
+div.wiki-feed-gallery:hover {
+    border: 1px solid #777;
+}
+
+div.wiki-feed-gallery img {
+    width: 100%;
+    height: auto;
+}
+
+.wiki-feed-col {
+    padding-left:0px;
+    padding-right:0px;
+}
 
 @keyframes rollup {
   0% {
