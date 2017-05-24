@@ -217,6 +217,57 @@ div.wiki-feed-gallery img {
     padding-right:0px;
 }
 
+.keypoints-list-item  a:hover{
+    text-decoration : inherit;
+}
+
+.keypoints-list-item  a:after{
+    text-decoration : inherit;
+}
+
+.keywords-list-group {
+    display:inline;
+}
+
+.keywords-list-item.even {
+    font-size:larger;
+}
+
+.keywords-separtor {
+    font-size:larger;
+    color:grey;
+}
+
+.limited-content {
+    text-justify:inter-word;
+}
+
+
+.media-box-heading {
+    background-color:rgb(255,255,255);
+    opacity:1;
+}
+
+
+.media-box-summary {
+    background-color:rgb(255,255,255);
+    opacity:1;
+}
+
+
+.media-box-heading {
+    font-size:x-large;
+    font-weight:bold;
+    margin-bottom:20px;
+}
+
+.media-box-image {
+    border-radius:25px;
+    width:100%;
+    /*height:200px;
+    background-size:100% 100%;
+    background-repeat:no-repeat;*/
+}
 @keyframes rollup {
   0% {
     transform: scale(1);

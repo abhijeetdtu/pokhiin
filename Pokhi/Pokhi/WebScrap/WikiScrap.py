@@ -2,15 +2,19 @@
 import time
 import datetime
 import wikipedia
+import re
+
 from pymongo import MongoClient
 
 from Pokhi.Pokhi.Rest.logger import Logger
 from Pokhi.Pokhi.Rest.dbAccess import WikipediaFeed as WikiFeed
 from Pokhi.Pokhi.WebScrap.TwitterAPI import TwitterAPI
 
+if __name__ == '__main__':
+    from Pokhi.Pokhi.NLP.FeedChef import FeedChef
+
 class WikiScrapper:
-
-
+    
     @staticmethod
     def GetPage(topic):
         try:
@@ -30,7 +34,7 @@ class WikiScrapper:
             print(e)
             Logger.Log("Error WikiScrapper.GetFeed" , e.message)
             return [{"topic" : topic , "title":"LoremIpsem" , "images": [""] ,"content" : "No content" , "summary": "No page retrieved" }]
-        return feed
+        return {"feed" : feed , "lastId" : feed[-1]["createddatetime"]}
 
     @staticmethod
     def PrepareFeed(table):
@@ -47,10 +51,16 @@ class WikiScrapper:
                     print(e)
                     Logger.Log("Error WikiScrapper.PrepareFeed Inner Loop" , e.message)
                     continue
+            chef = FeedChef()
+            chef.ProcessRecords()
         except Exception as e:
             print(e)
             Logger.Log("Error WikiScrapper.PrepareFeed" , e.message)
-
+    
+    @staticmethod
+    def ScrubImageArray(array):
+        return [x for x in array if re.match("logo|edit\-clear|icon|padlock\-silver" ,x , re.IGNORECASE) == False]
+      
     @staticmethod
     def GetTopics():
         return  TwitterAPI.GetTrends()
@@ -64,6 +74,7 @@ def AddPageToDB(table ,page):
         Logger.Log("Error WikiScrapper.PrepareFeed Inner Loop" , e.message)
 
 if __name__ == '__main__':
+
     client = MongoClient('mongodb://admin:DJ7FltP4ZWLY@localhost:27017/python')
     db = client.python
     table = db.wikipediaFeed

@@ -32,6 +32,7 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="DocToHtml\" />
+    <Folder Include="RawDBAccess\" />
     <Folder Include="WebScrap\" />
     <Folder Include="NLP\" />
     <Folder Include="static\Apps\" />
@@ -64,6 +65,15 @@
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="DocToHtml\__init__.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="NLP\FeedChef.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="RawDBAccess\RawDBAccess.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="RawDBAccess\__init__.py">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="Rest\wikipediaAPI.py">
@@ -134,6 +144,7 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="NLP\StopWordList.txt" />
     <Content Include="static\Apps\Pong\assets\images\saw-blade.png" />
     <Content Include="static\Apps\Pong\assets\scripts\bot.js" />
     <Content Include="static\Apps\Pong\assets\scripts\mainLogic.js" />
@@ -176,13 +187,16 @@
     <Content Include="static\Js\Directives\GraphDirective.js" />
     <Content Include="static\Js\Directives\lazyLoadJavascript.js" />
     <Content Include="static\Js\Directives\LoadingSymbolDirective.js" />
+    <Content Include="static\Js\Directives\MediaBoxDirective.js" />
     <Content Include="static\Js\Directives\ModalDirective.js" />
+    <Content Include="static\Js\Directives\RandomTextColorDirective.js" />
     <Content Include="static\Js\Directives\ScrollLoadDirective.js" />
     <Content Include="static\Js\Directives\ScrollShowDirective.js" />
     <Content Include="static\Js\Directives\SequencerWidgetDirective.js" />
     <Content Include="static\Js\Directives\ValidFileDirective.js" />
     <Content Include="static\Js\Services\displayService.js" />
     <Content Include="static\Js\Services\fileService.js" />
+    <Content Include="static\Js\Services\googleService.js" />
     <Content Include="static\Js\Services\loginService.js" />
     <Content Include="static\Js\Services\soundService.js" />
     <Content Include="static\Js\Services\visualizationService.js" />
@@ -222,6 +236,7 @@
     <Content Include="templates\Views\Index.html" />
     <Content Include="templates\Views\Partials\Geek.html" />
     <Content Include="templates\Views\Partials\GraphTemplate.html" />
+    <Content Include="templates\Views\Partials\MediaBox.html" />
     <Content Include="templates\Views\Partials\Modal.html" />
     <Content Include="templates\Views\Partials\Music.html" />
     <Content Include="templates\Views\Partials\Research.html" />

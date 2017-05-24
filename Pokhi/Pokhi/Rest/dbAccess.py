@@ -6,7 +6,10 @@ from Pokhi.Pokhi.Rest.logger import Logger
 from bson.json_util import dumps
 from bson.objectid import ObjectId
 
+import pymongo
 import os
+
+from datetime import datetime
 
 def GetDataItemWithId(mongoItem):
     mongoItem["_id"] = str(mongoItem["_id"])
@@ -96,10 +99,10 @@ class WikipediaFeed:
     def GetPages(lastId):
         try:
             if(lastId == 0):
-                pages = mongo.db.wikipediaFeed.find().limit(WikipediaFeed.PageSize)
+                pages = mongo.db.wikipediaFeed.find().sort([("createddatetime" , pymongo.DESCENDING)]).limit(WikipediaFeed.PageSize)
                 return [GetDataItemWithId(p) for p in pages]
             else:
-                pages = mongo.db.wikipediaFeed.find({"_id" : {"$gt" :   ObjectId(lastId) }}).limit(WikipediaFeed.PageSize)
+                pages = mongo.db.wikipediaFeed.find({"createddatetime" : {"$lt" :   lastId }}).sort([("createddatetime" , pymongo.DESCENDING)]).limit(WikipediaFeed.PageSize)
                 return [GetDataItemWithId(p) for p in pages]
         except Exception as e:
             print(e)

@@ -42,17 +42,15 @@
                          data: { "count": count , "lastId" : _lastPageId },
                          method : 'POST'
                       })
-                      .success(function (data) {
-                          var data = data.data;
-                          if (data.length > 0) {
-                              _lastPageId = data[data.length - 1]["_id"];
-                          }
-                          else {
-                              data = _getEndStubData();
+                      .success(function (response) {
+                          var feed = response.data.feed;
+                          _lastPageId = response.data.lastId;
+                          if (feed.length === 0) {
+                              feed = _getEndStubData();
                               _feedEnded = true;
                           }
                           if (callback)
-                              callback(data);
+                              callback(feed);
                           
                       })
             

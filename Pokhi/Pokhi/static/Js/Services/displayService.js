@@ -1,4 +1,4 @@
-﻿app.factory("displayService", ['$compile' ,"$http",'$timeout',function ($compile , $http , $timeout) {
+﻿app.factory("displayService", ['$compile' ,"$http",'$timeout',"$sce",function ($compile , $http , $timeout , $sce) {
 
     var showingLoader = false;
     var navItems = {};
@@ -100,6 +100,14 @@
             scope.ModalMsg = msg;
             $("#"+modalId).modal('show');
         },
+
+        ShowModalWithURL: function (scope, modalId, src) {
+            var url = $sce.trustAsResourceUrl(src)
+            var iframe = "<iframe height='500' frameborder='0' scrolling='no' src='"+url+"'></iframe>";
+            $("#" + modalId).find(".modal-content").html(iframe);
+            $("#" + modalId).modal('show');
+        },
+
         getNavItems: function (viewName, navId) {
             return navItems[viewName][navId];
             switch (viewName) {
