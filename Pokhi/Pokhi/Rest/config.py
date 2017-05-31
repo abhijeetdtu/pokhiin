@@ -12,5 +12,7 @@ class Config:
     print(ENV["DATA_DIR"])
     print(ENV["UPLOAD_FOLDER"])
 
+    ENV["OPEN_CV_HOME"] = "C:\\Users\\Abhijeet\\Downloads\\OpenCv\\opencv\\sources\\data"
+
     if(os.path.exists(ENV["UPLOAD_FOLDER"]) == False):
         os.mkdir(ENV["UPLOAD_FOLDER"])

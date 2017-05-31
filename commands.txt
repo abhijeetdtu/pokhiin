@@ -16,3 +16,18 @@ C:\Python27\python27.exe "C:\Users\Abhijeet\Documents\Visual Studio 2015\Project
 cd C:\Users\Abhijeet\Documents\Visual Studio 2015\Projects\CloneRepoPokhi\p3\
 
 python27 
+
+mongo localhost:27017/python -u admin -p DJ7FltP4ZWLY
+
+db.wikipediaFeed.update({} , {
+	"$pull" : {
+		"images" : {
+			"$regex" : "logo|edit\-clear|icon|padlock\-silver|blue_pencil|ambox_important|portal\-puzzle|symbol|lock\-green|p_vip",
+			"$options" : "i"
+		}
+         }
+	},
+	{
+	"multi" : true
+	}
+)

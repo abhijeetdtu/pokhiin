@@ -12,6 +12,7 @@
                 return scope.getRandomColor();
             });
 
+            $(element[0]).css("word-spacing","normal");
             $(element[0]).css("font-weight","bold");
         }
     }

@@ -3,10 +3,9 @@
     <div class="list-group">
         <div class="list-group-item" ng-repeat="page in pageList track by $index" >      
             <media-box index="[[ $index ]]" title="page.title" summary="page.summary" content="page.content" keywords="page.keywords" keypoints="page.keypoints" images="page.images"></media-box>
-            </div>
         </div>
-        <scroll-load on-bottom-reached="onBottomReached"></scroll-load>
-        <modal key="GoogleModal"></modal>
     </div>
-    
+    <scroll-load on-bottom-reached="onBottomReached"></scroll-load>
+    <modal key="GoogleModal"></modal>
 </div>
+   

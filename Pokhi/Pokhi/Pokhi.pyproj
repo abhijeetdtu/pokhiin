@@ -70,6 +70,9 @@
     <Compile Include="NLP\FeedChef.py">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="NLP\Recommender.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="RawDBAccess\RawDBAccess.py">
       <SubType>Code</SubType>
     </Compile>
@@ -185,6 +188,7 @@
     <Content Include="static\Js\Controllers\UploadFileController.js" />
     <Content Include="static\Js\Controllers\WikipediaFeedController.js" />
     <Content Include="static\Js\Directives\GraphDirective.js" />
+    <Content Include="static\Js\Directives\HighlightTextDirective.js" />
     <Content Include="static\Js\Directives\lazyLoadJavascript.js" />
     <Content Include="static\Js\Directives\LoadingSymbolDirective.js" />
     <Content Include="static\Js\Directives\MediaBoxDirective.js" />

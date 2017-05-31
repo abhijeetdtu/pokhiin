@@ -43,7 +43,7 @@
         if (x == null || typeof x == 'undefined')
             x = Math.random() * stage.canvas.width;
         var circle = new createjs.Shape();
-        circle.graphics.beginFill(GetRandomColor()).drawCircle(x, Math.random() * window.innerHeight, 10 + 40 * Math.random());
+        circle.graphics.beginFill(GetRandomColor()).drawCircle(x, Math.random() * stage.canvas.height * 0.5, 10 + 40 * Math.random());
         stage.addChild(circle);
         createjs.Tween.get(circle, { loop: true })
              .to({ scale: 0.8 }, 500 * Math.random() + 500, createjs.Ease.getPowInOut(4))
@@ -58,7 +58,7 @@
         console.log(stage.canvas.width)
 
         CreateCircle(stage, 0);
-        for (var i = 0 ; i < 100 ; i++) {
+        for (var i = 0 ; i < 10 ; i++) {
             CreateCircle(stage);
         }
         createjs.Ticker.setFPS(60);

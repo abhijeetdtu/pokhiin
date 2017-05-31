@@ -19,7 +19,7 @@ class WikiScrapper:
     def GetPage(topic):
         try:
             page = wikipedia.page(topic)
-            return {"topic" : topic , "title":page.title.replace("\"" , "\\\"")  , "images": page.images ,"content" : page.content.replace("\"" , "\\\"") , "summary": page.summary.replace("\"" , "\\\"") ,"createddatetime" : str(datetime.datetime.now())}
+            return {"topic" : topic , "title":page.title.replace("\"" , "\\\"")  , "images": WikiScrapper.ScrubImageArray(page.images) ,"content" : page.content.replace("\"" , "\\\"") , "summary": page.summary.replace("\"" , "\\\"") ,"createddatetime" : str(datetime.datetime.now())}
         except Exception as e:
             print(e)
             Logger.Log("Error" , e.message)
@@ -59,7 +59,9 @@ class WikiScrapper:
     
     @staticmethod
     def ScrubImageArray(array):
-        return [x for x in array if re.match("logo|edit\-clear|icon|padlock\-silver" ,x , re.IGNORECASE) == False]
+        reg = "logo|edit\-clear|icon|padlock\-silver|blue_pencil|ambox_important|portal\-puzzle|symbol|lock\-green|p_vip"
+        array = [x for x in array if not re.search(reg,x , re.IGNORECASE)]
+        return array
       
     @staticmethod
     def GetTopics():

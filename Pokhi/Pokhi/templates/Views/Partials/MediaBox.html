@@ -11,7 +11,7 @@
             <div class="keywords">
                 <div class="keywords-list-group">
                     <span ng-repeat="point in keywords track by $index">
-                        <a class="keywords-list-item" href="#" ng-class="{'even' : $index % 2==0}"
+                        <a class="keywords-list-item" ng-href="# + point.replace(' ' , '_')" ng-class="{'even' : $index % 2==0}"
                           random-text-color>[[ point[0] ]]</a><span class="keywords-separtor">|</span>
                     </span>
                 </div>
@@ -33,22 +33,23 @@
                     </div>
                 </div>
                      
-                <div class="limited-content media-box-summary"
+                <div class="limited-content media-box-summary animate slide-down"
                      ng-class="{'col-md-8' : images.length > 0 ,  'col-md-12' : images.length == 0}"
                      ng-click="showFullSummary = !showFullSummary"
                      ng-show="summary.length > 120 && showFullSummary != true">
-                    [[ summary.substr(0,720).concat("...") ]]
+                    <highlight-text text="summary.substr(0,720)" highlight="keywords"></highlight-text> 
                     <h3>....</h3>
                 </div>
 
-                <div ng-show="summary.length <= 120 || showFullSummary == true"
+                <div class="animate slide-top"
+                     ng-show="summary.length <= 120 || showFullSummary == true"
                      ng-click="showFullSummary = !showFullSummary">
                     <div ng-class="{'col-md-4' : images.length > 0,  'col-md-1' : images.length == 0}" ng-show="images.length > 0">
                        
                     </div>
                     <div ng-class="{'col-md-8' : images.length > 0 ,  'col-md-12' : images.length == 0}">
                         <div class="limited-content media-box-content">
-                            [[ content]]
+                            <highlight-text text="content" highlight="keywords" create-summary="true"></highlight-text>
                             <hr>
                         </div>
                     </div>
@@ -58,10 +59,10 @@
                 <div class="keypoints">
                     <div class="keypoints-list-group list-group">
                         <div class="keypoints-list-item list-group-item" ng-repeat="point in safeSlice(keypoints , 0,3)">
-                            <span class="glyphicon glyphicon-fire">
-                                <a href="#" random-text-color>[[ point[0] ]]</a>
+                            
+                                <a href="#" random-text-color><span class="glyphicon glyphicon-fire"></span>&nbsp;[[ point[0] ]]</a>
 
-                            </span>
+
                         </div>
                         <div ng-click="showAllKeyPoints = !showAllKeyPoints"
                              ng-show="keypoints.length > 3 && showAllKeyPoints == false"

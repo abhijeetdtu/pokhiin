@@ -20,11 +20,10 @@
             }
             
             scope.safeSlice = function (arr, from, to) {
-
-                if (from > arr.length)
+                if (arr === undefined || arr.length == 0)
                     return [];
 
-                if (arr.length == 0)
+                if (from > arr.length)
                     return [];
 
                 var len = to - from + 1;
@@ -34,7 +33,9 @@
                 return arr.slice(from, to);
             }
 
-           
+            scope.onKeywordClick = function () {
+
+            }
             
 
         }
