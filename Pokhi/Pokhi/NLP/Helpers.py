@@ -2,13 +2,14 @@ from __future__ import absolute_import
 
 import RAKE
 import re 
+import os
 
 class Helpers:
 
     @staticmethod
     def ExtractKeywords(data,k=10):
         data = re.sub(r"[\r\n=]" , " ", data)
-        Rake = RAKE.Rake("Pokhi\Pokhi\NLP\StopWordList.txt");
+        Rake = RAKE.Rake(os.path.join(os.path.abspath(__file__),"StopWordList.txt"))
         extract = Rake.run(data)
         keypoints = [x for x in extract if len(x[0].split(" ")) > 4][:k]
         keywords = [x for x in extract if len(x[0].split(" ")) <= 3][:k]
