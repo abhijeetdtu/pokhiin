@@ -7,7 +7,7 @@ from Pokhi.Pokhi.RawDBAccess.RawDBAccess import RawDBAccess
 
 
 import numpy as np
-import cv2
+#import cv2
 import os
 import urllib
 from collections import defaultdict
