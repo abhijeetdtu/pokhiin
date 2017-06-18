@@ -7,15 +7,18 @@ from Pokhi.Pokhi.RawDBAccess.RawDBAccess import RawDBAccess
 
 class FeedCreateJob(Daemon):
         def run(self):
+            print("Running....")
             try:
                 db = RawDBAccess.GetMongoDB()
                 table = db.wikipediaFeed
                 print("Starting ")
                 while True:
-                
+                    print("PrepareFeed....")
                     WikiScrapper.PrepareFeed(table)
+                    print("Process Feed....")
                     chef = FeedChef()
                     chef.ProcessRecords()
+                    print("Sleep....")
                     time.sleep(10*60)
             except Exception as e:
                 print(e)
