@@ -198,6 +198,13 @@ html[xmlns] .clearfix {
     
 }
 
+@media only screen and (max-width : 500px){
+    .thumbnail-nav-bar {
+
+    }
+}
+
+
 div.wiki-feed-gallery {
     border: 1px solid #ccc;
     float: left;

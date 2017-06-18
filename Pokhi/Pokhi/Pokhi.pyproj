@@ -32,6 +32,7 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="DocToHtml\" />
+    <Folder Include="OPS\" />
     <Folder Include="RawDBAccess\" />
     <Folder Include="WebScrap\" />
     <Folder Include="NLP\" />
@@ -71,6 +72,15 @@
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="NLP\Recommender.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="OPS\Daemon.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="OPS\FeedCreateJob.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="OPS\__init__.py">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="RawDBAccess\RawDBAccess.py">

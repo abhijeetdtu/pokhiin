@@ -1,8 +1,8 @@
 from __future__ import absolute_import
 from Pokhi.Pokhi.Rest.logger import Logger
-from Pokhi.Pokhi.NLP.Helpers import Helpers
 from Pokhi.Pokhi.Rest.config import Config
-from Pokhi.Pokhi.WebScrap.WikiScrap import WikiScrapper
+
+from Pokhi.Pokhi.NLP.Helpers import Helpers
 from Pokhi.Pokhi.RawDBAccess.RawDBAccess import RawDBAccess
 
 
