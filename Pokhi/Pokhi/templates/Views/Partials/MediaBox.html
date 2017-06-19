@@ -43,7 +43,7 @@
 
                 <div class="animate slide-top"
                      ng-show="summary.length <= 120 || showFullSummary == true"
-                     ng-click="showFullSummary = !showFullSummary">
+                     ng-click="showFullSummary = !showFullSummary; scrollToTop();">
                     <div ng-class="{'col-md-4' : images.length > 0,  'col-md-1' : images.length == 0}" ng-show="images.length > 0">
                        
                     </div>
@@ -89,10 +89,6 @@
             </div>
 
         </div>
-
-    </div>
-
-    <div class="row">
 
     </div>
 

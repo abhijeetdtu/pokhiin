@@ -18,7 +18,7 @@ class FeedCreateJob():
                     print("Process Feed....")
                     chef = FeedChef()
                     chef.ProcessRecords()
-                    print("Sleep....")
+                    print("Sleep....10 mins starting now.." +  str(time.time))
                     time.sleep(10*60)
             except Exception as e:
                 print(e)

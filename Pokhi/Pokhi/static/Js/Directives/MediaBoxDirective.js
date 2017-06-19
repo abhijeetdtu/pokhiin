@@ -1,4 +1,4 @@
-﻿app.directive("mediaBox", [function () {
+﻿app.directive("mediaBox", ['$window' , function ($window) {
 
     return {
         restrict:'E',
@@ -9,9 +9,9 @@
             images: '=',
             keywords: '=',
             keypoints: '=',
-            index: '&'
+            index: '&',
         },
-        template:'<div ng-include="\'Views/Partials/MediaBox.html\'" onload="init();"></div>',
+        template:'<div ng-include="\'Views/Partials/MediaBox.html\'""></div>',
         //templateUrl : 'Views/Partials/MediaBox.html',
         link: function (scope, elem, attrs, ctrl) {
             scope.LazyLoadInstance = new LazyLoad();
@@ -32,9 +32,9 @@
 
                 return arr.slice(from, to);
             }
-
-            scope.onKeywordClick = function () {
-
+            scope.scrollToTop = function (ev) {
+                console.log($(elem)[0].offsetParent.offsetTop)
+                $window.scrollTo(0, $(elem)[0].offsetParent.offsetTop);
             }
             
 
