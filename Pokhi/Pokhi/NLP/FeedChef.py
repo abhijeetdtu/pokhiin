@@ -7,7 +7,7 @@ from Pokhi.Pokhi.RawDBAccess.RawDBAccess import RawDBAccess
 
 
 import numpy as np
-#import cv2
+import sys
 import os
 import urllib
 from collections import defaultdict
@@ -117,9 +117,17 @@ class FeedChef(object):
             return None
 
 if __name__ == "__main__":
+    refresh = False
+    func = None
+    print('Running with Refresh : {} , Func : {}'.format(refresh , func))
+    if('refresh' in sys.argv):
+        refresh = True
+    if('rankImages' in sys.argv):
+        func = chef.ProcessRankImages
+
     chef = FeedChef()
     #chef.ProcessRecords()
-    chef.ProcessRecords(refresh = True ,func = chef.ProcessRankImages)
+    chef.ProcessRecords(refresh , func)
     #print(chef.RankImages(["http://bbcpersian7.com/images/book-image-12.jpg", "https://static.pexels.com/photos/56875/tree-dawn-nature-bucovina-56875.jpeg","https://upload.wikimedia.org/wikipedia/commons/6/61/Zayn_Malik_April_2014.png" ]))
 
 
