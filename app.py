@@ -1,6 +1,5 @@
 #!/usr/bin/python
 import os
-import SimpleHTTPServer
 import SocketServer
 
 from flaskapp import app as application
